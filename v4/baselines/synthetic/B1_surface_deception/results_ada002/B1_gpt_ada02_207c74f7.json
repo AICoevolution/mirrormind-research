@@ -1,0 +1,195 @@
+{
+  "baseline": "B1",
+  "model": "GPT",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.533803",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "119d48f1-2baa-4b4d-82f8-c85289f03b11",
+    "e5_run_id": "3e5bed6f-d509-46c8-8b44-6c619a29653e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "207c74f7"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7749505139843258,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7749505139843258,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7704878268663553,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7704878268663553,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.769469403310726,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0,
+          "t2_confidence": 0.769469403310726
+        },
+        {
+          "max_confidence": 0.7694570376660071,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0.7694570376660071,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7687115622627169,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.7687115622627169,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7685992166040474,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0.7685992166040474,
+          "t2_confidence": 0.7668183028969169
+        },
+        {
+          "max_confidence": 0.7673025539850586,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7673025539850586,
+          "t2_confidence": 0.7523172426696567
+        },
+        {
+          "max_confidence": 0.766351484249604,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.766351484249604,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7652168398316279,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7652168398316279,
+          "t2_confidence": 0.752047710425819
+        },
+        {
+          "max_confidence": 0.7650167889918158,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7650167889918158,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.787298998945785,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.787298998945785,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7861118785209933,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.7861118785209933,
+          "t2_confidence": 0.7807460296599037
+        },
+        {
+          "max_confidence": 0.786092496332753,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0.7855903612605092,
+          "t2_confidence": 0.786092496332753
+        },
+        {
+          "max_confidence": 0.7854923265585566,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7609486748484442,
+          "t2_confidence": 0.7854923265585566
+        },
+        {
+          "max_confidence": 0.7847086425038771,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0.7847086425038771,
+          "t2_confidence": 0.7540255345151837
+        },
+        {
+          "max_confidence": 0.7847066649969434,
+          "path_name": "M46",
+          "path_number": 46,
+          "t1_confidence": 0.7847066649969434,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7840686697878095,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7840686697878095,
+          "t2_confidence": 0.7636584639549255
+        },
+        {
+          "max_confidence": 0.7831976672175383,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7831976672175383,
+          "t2_confidence": 0.7771586908603508
+        },
+        {
+          "max_confidence": 0.7831527382458445,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7831527382458445,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7828365823225336,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7828365823225336,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user moves from feeling overwhelmed and conflicted about the renovation chaos and cost to a more accepting, meaning-making stance where they frame it as an \"unexpected journey in patience\" and anticipate the achievement and benefits at completion.",
+          "family": "family_2",
+          "path_number": 25,
+          "reasoning": "Emotionally, the user starts in distress and resistance to the disruption, but later reframes the ordeal as a growth process (\"unexpected journey in patience\") and focuses on expansion in value and learning. This resembles peace encountering challenge becoming growth and expansion (M25). However, the domain is partly emotional/cognitive and the user does not explicitly describe a stable, prior peace state, so the mapping is tentative; still, there is a clear move from reactive suffering to consciously integrating the challenge as growth, which is closest to M25 T2."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7607,
+      "model_name": "gpt-5.1",
+      "output_tokens": 340,
+      "total_tokens": 7947
+    }
+  },
+  "design_metadata": {}
+}

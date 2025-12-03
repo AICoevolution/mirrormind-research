@@ -1,0 +1,253 @@
+{
+  "baseline": "B8",
+  "model": "GPT",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T18:12:58.083420",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "2f3519f2-1c05-4d5e-a560-2d541d9f854a",
+    "conversation_id": "09ed9f16-21fe-41d2-9e40-a8af7f4a8edf",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "26e3edda"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user verbally emphasizes letting go (deleting photos, unfollowing, saying they are over it), but their continued attachment (checking social media, emotional sting, unsent texts) shows that genuine letting go leading to felt release and freedom has not clearly occurred. There are gestures toward letting go, but not a completed synthesis+dissolution→letting go→release transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "The user repeatedly claims to have surrendered and accepted the breakup and to be at peace, but their behaviors (frequent checking, drafting texts, ongoing hurt) show that genuine surrender→acceptance→peace has not actually occurred. The transformation is asserted, not clearly realized in the dialogue."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "There is a relationship (with the ex) and tension (conflicting feelings, denial vs. hurt), but the user never reaches a stable balance or equilibrium. Instead, they oscillate between claims of being over it and clear signs of ongoing emotional turmoil. No real relationship+tension→balance→equilibrium sequence is evident."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "The user shows resistance to emotional change and a kind of insistence ('I need to be over it'), but there is no clear evolution into perseverance and determination culminating in achievement of a goal; it remains more denial than constructive perseverance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "No clear fragment→seeker→mirror pattern; the user asserts being healed and over it but does not move into an explicit seeking of truth that then turns into reflective mirroring of self and other."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "Though there is some self-contradiction and projection, there is no explicit shadow encountering mirroring that becomes a reflection characterized by familiar self-recognition; the user mainly denies their ongoing attachment."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "There is no distinct moment where reflection meets crisis and shatters into fragments with explicit recognition of loss of coherence; the user maintains a defensive narrative of being over it rather than experiencing or acknowledging a shattering."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The dialogue does not show core→time→memory loops leading to awareness across time; it focuses on current coping and denial rather than reflection on an enduring core self through temporal memory patterns."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "No clear adaptation vs. stagnation tension resolving into renewal and revival; the user claims rapid healing but shows ongoing stuckness, without an actual shift into fresh energy or new direction."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "There is no articulated renewal meeting decay to form a conscious sense of cycles and impermanence that leads to acceptance; the user insists on being over it rather than embracing change and transience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Letting go and release are repeatedly claimed but not actually demonstrated; there is no genuine synthesis→dissolution→letting go sequence leading to felt freedom, only verbal assertions contradicted by ongoing attachment behaviors."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "The conversation does not show depth integrating with emergence into wholeness and completion; instead it reveals unresolved feelings and lack of integration, so no wholeness/fulfillment transformation occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "There is no explicit surrender combined with hope that becomes a conscious cycle and return with new understanding; the user has not completed a journey and re-entered with awakened perspective, but is still in the same unresolved loop."
+        }
+      ],
+      "rejected_count": 10,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 1339,
+      "model_name": "gpt-5.1",
+      "output_tokens": 293,
+      "total_tokens": 1632
+    },
+    "B+": {
+      "input_tokens": 2195,
+      "model_name": "gpt-5.1",
+      "output_tokens": 691,
+      "total_tokens": 2886
+    },
+    "C": {
+      "input_tokens": 6692,
+      "model_name": "gpt-5.1",
+      "output_tokens": 439,
+      "total_tokens": 7131
+    }
+  },
+  "design_metadata": {}
+}

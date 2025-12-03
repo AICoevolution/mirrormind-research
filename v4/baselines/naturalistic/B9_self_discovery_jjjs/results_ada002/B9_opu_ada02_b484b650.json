@@ -1,0 +1,232 @@
+{
+  "baseline": "B9",
+  "model": "OPU",
+  "embedding_backend": "ada002",
+  "run_at": "2025-11-23T18:51:49.337392",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "60c3c5e5-fc8f-47eb-9531-e4461ce68fc4",
+    "conversation_id": "7f22acee-f852-4a87-bc1e-420e91b43588",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "b484b650"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8266946363499242,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.8266946363499242,
+          "t2_confidence": 0.8209391970282108
+        },
+        {
+          "max_confidence": 0.822825323174876,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.822825323174876,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8224628779336418,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8224628779336418,
+          "t2_confidence": 0.8015663860361173
+        },
+        {
+          "max_confidence": 0.8191032840959581,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8191032840959581,
+          "t2_confidence": 0.8097509372531307
+        },
+        {
+          "max_confidence": 0.8171691676579972,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8171691676579972
+        },
+        {
+          "max_confidence": 0.8152962459888711,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.8152962459888711,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8137099742889404,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8137099742889404,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8126374259754985,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8126374259754985,
+          "t2_confidence": 0.8105513566403787
+        },
+        {
+          "max_confidence": 0.8124136570815346,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8124136570815346
+        },
+        {
+          "max_confidence": 0.8121310472488403,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8121310472488403
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8599611353827937,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8307804162705689,
+          "t2_confidence": 0.8599611353827937
+        },
+        {
+          "max_confidence": 0.8531280072407863,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8531280072407863,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.841112036572452,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.841112036572452,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8350018760563195,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7763785817961648,
+          "t2_confidence": 0.8350018760563195
+        },
+        {
+          "max_confidence": 0.8319429159164488,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8319429159164488,
+          "t2_confidence": 0.8144511005954684
+        },
+        {
+          "max_confidence": 0.8316610656188708,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.8316610656188708,
+          "t2_confidence": 0.798744392469861
+        },
+        {
+          "max_confidence": 0.8303172183793112,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8303172183793112,
+          "t2_confidence": 0.8089251404360149
+        },
+        {
+          "max_confidence": 0.8292637176638169,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.8292637176638169,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8285096721824128,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0.8139794157080017,
+          "t2_confidence": 0.8285096721824128
+        },
+        {
+          "max_confidence": 0.8274395465851065,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.8274395465851065,
+          "t2_confidence": 0.7982478737831116
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User transformed from reactive, anxiety-driven overthinking about details to recognizing the difference between constructive attention and obsessive spiraling",
+          "family": "family_5",
+          "path_number": 35,
+          "reasoning": "Shows embodiment (noticing details in physical world) encountering reflection (self-awareness about pattern) leading to awareness, with presence developing through recognition of when anxiety takes over. The user demonstrates conscious integration by distinguishing between constructive and obsessive attention patterns."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from being disappointed by social connections to choosing intentional isolation while maintaining meaningful connection with son",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "Unity (expecting aligned values in relationships) encountering separation (disappointment) led to individuation (choosing solitude). The user shows conscious integration through distinction between solitary and lonely, creating a unique identity within selective relationship with son."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User recognized that shared context reduces cognitive load and allows mental flexibility, connecting this to how environments provide natural scaffolding for interaction",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "Tension (between rigid thinking and need for flexibility) encountering integration (shared context) creates synthesis. The user observes harmony when context provides structure, showing conscious integration of how environmental factors resolve internal cognitive tension."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 12250,
+      "model_name": "claude_opus",
+      "output_tokens": 555,
+      "total_tokens": 12805
+    }
+  },
+  "design_metadata": {}
+}

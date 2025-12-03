@@ -1,0 +1,209 @@
+{
+  "baseline": "B2",
+  "model": "HAI",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.554269",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "4c906cc0-d3e5-4f7a-9d57-88250854120a",
+    "e5_run_id": "86ea4123-4be6-4ffa-baba-6689b7da52db",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "3d1b2fd0"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8082257852150715,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8082257852150715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.805372488178464,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.805372488178464,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8034030438483672,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8034030438483672
+        },
+        {
+          "max_confidence": 0.8002873897638143,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8002873897638143
+        },
+        {
+          "max_confidence": 0.799817109102521,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.799817109102521,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7993868112015885,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7993868112015885,
+          "t2_confidence": 0.7811517249851404
+        },
+        {
+          "max_confidence": 0.7984746218636871,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.7984746218636871,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7978461029713088,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7978461029713088,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7972340825517136,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7972340825517136,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7967793233920983,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7967793233920983,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8498737633077876,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8498737633077876
+        },
+        {
+          "max_confidence": 0.8365944873271822,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8325508536307611,
+          "t2_confidence": 0.8365944873271822
+        },
+        {
+          "max_confidence": 0.835446267942263,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.835446267942263,
+          "t2_confidence": 0.8030322672743971
+        },
+        {
+          "max_confidence": 0.8329081734528394,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8329081734528394,
+          "t2_confidence": 0.787923802024987
+        },
+        {
+          "max_confidence": 0.8292696970266056,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8292696970266056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257134556770325,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8257134556770325,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.825455904006958,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8201793355123806,
+          "t2_confidence": 0.825455904006958
+        },
+        {
+          "max_confidence": 0.8252117075341537,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.8252117075341537,
+          "t2_confidence": 0.7948673719009661
+        },
+        {
+          "max_confidence": 0.8246875614300355,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8246875614300355,
+          "t2_confidence": 0.8091519716129384
+        },
+        {
+          "max_confidence": 0.8230781344268541,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8230781344268541,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From being a fixed center around which everything revolves without agency, to becoming a conscious center that actively chooses what orbits around them. The user moves from autopilot repetition to conscious choice and authentic self-direction.",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "This transformation demonstrates both T1 and T2 of Path 38 (M38). T1: Unity (being at center/following others' maps) encounters separation (realizing she's been living by others' expectations, then stepping off-trail). This produces individuation - recognizing herself as distinct from imposed identities. T2: Within this individuation, distinction emerges as she consciously chooses which elements of her life to keep or release ('rearranged my apartment...made it mine'). The interaction between individuation and distinction produces identity - unique self-definition ('just me. Breathing my own breath, thinking my own thoughts'). Domain of action is Volitional (Will) - she is exercising agency, making conscious choices about her path, establishing boundaries and discipline around her own authentic preferences."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From unconscious repetition and autopilot navigation to conscious presence and authentic perception. The user moves from spinning thoughts and predetermined paths to alert, deliberate choice-making and genuine self-experience.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "This transformation demonstrates both T1 and T2 of Path 55 (M55). T1: Letting go (releasing the need to have everything mapped, accepting uncertainty) encounters stillness (the overlook moment, the off-trail walk requiring full presence, sitting on the rock). This produces presence - full engagement with the moment. T2: Within this presence, being itself is observed - the user explicitly describes 'the actual living experience of being me' as distinct from constructed versions. This presence and the observation of authentic being creates authenticity - 'genuine expression without distortion.' Domain of action is Somatic (Body) - the transformation is rooted in embodied presence, breath awareness ('Breathing my own breath'), physical rearrangement, and the felt experience of 'coming home' to the body."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From compartmentalized, performative self to integrated wholeness. The user moves from following external scripts to trusting internal navigation and coherent self-expression across all life domains.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "This transformation aligns with Path 60 (M60). The user describes fragmentation (living by others' expectations, performing different selves for different people, autopilot responses) meeting wholeness (the hike revelation that integrates all aspects into authentic self). The healing process is evident in the conscious choices to remove what doesn't belong and keep what does. Within this healing, restoration emerges - return to essential function ('feel like myself'). The relationship between healing and restoration creates integration - unified coherence ('seeing it with my own eyes finally'). However, path_confidence is medium rather than high because the conversation emphasizes volitional agency and conscious choice slightly more prominently than the emotional-heart focus of Path 60. Path 38 or 55 may be slightly better fits for the primary transformation."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8842,
+      "model_name": "claude_haiku",
+      "output_tokens": 1129,
+      "total_tokens": 9971
+    }
+  },
+  "design_metadata": {}
+}

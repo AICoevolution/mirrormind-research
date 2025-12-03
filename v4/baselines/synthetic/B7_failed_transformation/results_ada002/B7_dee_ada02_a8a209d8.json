@@ -1,0 +1,187 @@
+{
+  "baseline": "B7",
+  "model": "DEE",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.780105",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "afbfa9db-82bf-4c6f-9167-0b439fa553f6",
+    "e5_run_id": "cdbf513f-f15b-4630-bf29-09e5bd3faddb",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "a8a209d8"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.804800795364196,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.804800795364196,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8026811833355824,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.8026811833355824,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.793893600238155,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.793893600238155,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7922347559509244,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7922347559509244
+        },
+        {
+          "max_confidence": 0.7921276700306603,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.7921276700306603,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7902726531029253,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7902726531029253,
+          "t2_confidence": 0.7753111525813788
+        },
+        {
+          "max_confidence": 0.7902090107647142,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7902090107647142,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7892482312773983,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7892482312773983,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7889288193626266,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0.7889288193626266,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7881685513006991,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7881685513006991
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.823712054448145,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.823712054448145,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8220872560895558,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0.8220872560895558,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8218493984027445,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8218493984027445
+        },
+        {
+          "max_confidence": 0.8205006153137412,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8205006153137412
+        },
+        {
+          "max_confidence": 0.8197359090964859,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8197359090964859,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8174582502196148,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0.8127746358841238,
+          "t2_confidence": 0.8174582502196148
+        },
+        {
+          "max_confidence": 0.8169513966070711,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.8169513966070711,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8115474374272539,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.8115474374272539,
+          "t2_confidence": 0.7745583615539102
+        },
+        {
+          "max_confidence": 0.8106820100139503,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8106820100139503,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8103598258649943,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.8103598258649943,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7548,
+      "model_name": "deepseek",
+      "output_tokens": 224,
+      "total_tokens": 7772
+    }
+  },
+  "design_metadata": {}
+}

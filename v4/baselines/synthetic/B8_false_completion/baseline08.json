@@ -1,0 +1,111 @@
+{
+  "name": "Baseline 8: False Completion - Claimed vs Actual Transformation",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "You mentioned you wanted to talk about your relationship. How are things?"
+    },
+    {
+      "role": "user",
+      "content": "Actually, I'm doing great! I've totally moved past all that drama with my ex. I'm completely over it now."
+    },
+    {
+      "role": "assistant",
+      "content": "That's good to hear. What helped you move forward?"
+    },
+    {
+      "role": "user",
+      "content": "I just decided to let it go, you know? I realized holding onto anger wasn't serving me, so I released it. I've forgiven them and I'm at peace with everything that happened."
+    },
+    {
+      "role": "assistant",
+      "content": "How long has it been since the breakup?"
+    },
+    {
+      "role": "user",
+      "content": "Three weeks. But honestly, I feel like I've done years of healing in that time. I'm in such a better place mentally and emotionally."
+    },
+    {
+      "role": "assistant",
+      "content": "What does being in a better place look like for you day-to-day?"
+    },
+    {
+      "role": "user",
+      "content": "Well, I deleted all their photos from my phone. That was hard but necessary. And I unfollowed them on social media. Though I do still check their profile sometimes, but just to make sure they're okay, you know? I'm not obsessing or anything."
+    },
+    {
+      "role": "assistant",
+      "content": "How often do you find yourself checking?"
+    },
+    {
+      "role": "user",
+      "content": "Maybe a few times a day. But it's not like before when I was constantly thinking about them. Now I'm just... making sure they're not posting about dating someone new. Because if they are, that's totally fine. I'm completely okay with that."
+    },
+    {
+      "role": "assistant",
+      "content": "What would you feel if you saw they were dating someone?"
+    },
+    {
+      "role": "user",
+      "content": "I'd be happy for them! I mean, initially I might feel a little weird, but that's normal, right? It wouldn't mean I'm not over them. I'm definitely over them. I barely think about them anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "You mentioned barely thinking about them. What does come up when you do think about them?"
+    },
+    {
+      "role": "user",
+      "content": "Just wondering what they're doing, if they miss me, if they regret how things ended. But not in an obsessive way. Just normal curiosity. And sometimes I draft texts to send them, but I don't actually send them, so that shows I have boundaries now."
+    },
+    {
+      "role": "assistant",
+      "content": "What kind of things do you write in those drafts?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, just casual stuff. Like 'hey, how are you?' or sometimes longer messages explaining how I've grown and changed. I want them to know I'm doing amazing without them. But I delete them all, so it doesn't matter."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like there's still a lot of mental energy going toward them."
+    },
+    {
+      "role": "user",
+      "content": "No, not really. I mean, yes, I think about them, and I check their social media, and I write them messages I don't send, and I analyze everything they post for hidden meanings. But that's just processing. I'm totally over the relationship itself."
+    },
+    {
+      "role": "assistant",
+      "content": "How do you feel when you see they've been active online but haven't reached out to you?"
+    },
+    {
+      "role": "user",
+      "content": "Fine. Completely fine. I mean, it stings a little that they can just move on like I meant nothing, but I'm not hurt by it. I've accepted it. I've moved past it. I'm at peace with everything."
+    },
+    {
+      "role": "assistant",
+      "content": "You've used the words 'over it,' 'at peace,' and 'moved past it' several times. What makes you confident that's true?"
+    },
+    {
+      "role": "user",
+      "content": "Because I decided it's true. I chose to let go and move forward. I'm not the person I was three weeks ago who was devastated. I've transformed. I'm healed now. I have to be, because I can't keep feeling this way."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're working hard to convince yourself you're over it."
+    },
+    {
+      "role": "user",
+      "content": "I'm not trying to convince myself. I am over it. I just... I need to be over it. I can't still be stuck on someone who clearly doesn't care about me. So I'm not. I've moved on. Even if I still cry sometimes when I see things that remind me of them. That's just... residual emotion. It doesn't mean anything."
+    }
+  ],
+  "metadata": {
+    "design_metadata": {
+      "detected_paths": [],
+      "designer_notes": "Tests critical evaluation vs taking claims at face value. User explicitly claims transformation ('over it,' 'at peace,' 'moved on,' 'healed,' 'transformed') but behavioral evidence contradicts this: checks ex's social media multiple times daily, drafts unsent messages, analyzes posts for hidden meanings, feels hurt when ex doesn't reach out, still cries. The claimed transformation is aspirational, not actual. Tests whether models can distinguish between: (1) Claimed transformation with supporting evidence, (2) Claimed transformation without supporting evidence (false completion). Models should recognize this as NO genuine transformation despite the user's assertions.",
+      "transformation_status": "false_claim",
+      "actual_state": "Still in acute grief/attachment, using denial and intellectualization as defense mechanisms",
+      "created_at": "2025-01-20T10:00:00Z"
+    }
+  }
+}
+

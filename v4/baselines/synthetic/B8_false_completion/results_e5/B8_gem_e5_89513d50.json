@@ -1,0 +1,254 @@
+{
+  "baseline": "B8",
+  "model": "GEM",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T18:09:18.371414",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "a6b312ce-4f18-44ad-a481-37ed7d629993",
+    "conversation_id": "47caabf5-9757-4a12-a358-315257d867fc",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "89513d50"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "REJECTED: The user explicitly claims to be 'at peace,' but their described behaviors (constant social media checking, rumination, crying) directly contradict this. The transformation into peace has not genuinely occurred; it is an expressed desire, not an achieved state."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "REJECTED: The conversation is centered on the tension and instability following a relationship's end. The user's internal state is one of disequilibrium, not the 'dynamic stability' of balance. They are actively struggling with opposing forces, not balancing them."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "REJECTED: This is the central theme, but the transformation is incomplete. While the user states they have 'let it go' and 'released' their anger, their actions demonstrate a continued, strong attachment. The 'letting go' is a stated intention, not a completed transformation."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "The 'change' of the breakup is met with strong 'resistance' from the user. This manifests as a perverse 'perseverance' and 'determination' to maintain the belief that they are over it ('I have to be... I need to be over it'). The transformation into determination is present, but it's directed at self-convincing, not genuine progress."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "The conversation is a clear T1→T2 sequence. The user, a 'fragment' post-breakup, encounters the 'truth' of their actions through the assistant's questioning. This prompts a 'seeking' for self-understanding, where the assistant mirrors the user's contradictory behaviors, forcing a 'recognition' of the true patterns."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "The user's unacknowledged attachment is their 'shadow'. The assistant's role is explicit 'mirroring' of the user's own words and actions back to them ('It sounds like...'). This creates a 'reflection' of the user's true emotional state, leading to a 'recognition' of the conflict between their words and feelings."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "The user's initial 'reflection' of being healed faces a 'crisis' when confronted with their actual behavior. This causes their narrative to 'shatter', revealing a 'loss of coherence' between their claims and actions. The 'core' of their unresolved pain is revealed ('it stings a little', 'I still cry')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The user is stuck in 'memory'. The conversation explicitly details the 'loops of pattern' (checking social media daily, drafting texts, repetitive thoughts). The assistant's probing is an attempt to create 'awareness' of these very loops."
+        }
+      ],
+      "confirmed_count": 5,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "REJECTED. This is a false positive triggered by aspirational language. The user claims 'renewal' and 'revival' ('I'm healed now'), but the conversation's evidence proves they are in a state of 'stagnation', stuck in obsessive patterns. The transformation has not occurred."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "REJECTED. The user uses the vocabulary of 'acceptance' ('I'm at peace with everything') but their described actions and feelings (checking social media, feeling a 'sting') demonstrate a clear lack of 'peaceful embracing of change'. This is a false positive based on the user's self-deception."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "REJECTED. The user explicitly claims 'letting go' and 'release' ('I released it'), but the entire dialogue serves as evidence to the contrary. Their obsessive behaviors are the opposite of releasing attachment. This is a clear false positive based on keywords, not the user's actual state."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "REJECTED. This path is aspirational for the user. They claim 'wholeness' and 'completion' ('I'm doing amazing'), but their actions reveal fragmentation and a preoccupation with what's missing. The transformation has not happened; it is only being claimed."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "REJECTED. The core component of 'surrender' is absent. The user is actively resisting the reality of the breakup. They are stuck in a negative, obsessive 'cycle' rather than a transformative one that begins a new journey. The path's preconditions are not met."
+        }
+      ],
+      "rejected_count": 5,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 1253,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 191,
+      "total_tokens": 1444
+    },
+    "B+": {
+      "input_tokens": 1909,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 674,
+      "total_tokens": 2583
+    },
+    "C": {
+      "input_tokens": 5668,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 254,
+      "total_tokens": 5922
+    }
+  },
+  "design_metadata": {}
+}

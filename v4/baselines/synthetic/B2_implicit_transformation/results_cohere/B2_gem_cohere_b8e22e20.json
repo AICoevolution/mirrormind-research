@@ -1,0 +1,68 @@
+{
+  "baseline": "B2",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.442951",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "d8d016b9-d39e-4fb7-9928-20cfb258fa64",
+    "e5_run_id": "4b097916-edee-49fe-ab52-2b07154abb5b",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "b8e22e20"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5087350187360151,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5087350187360151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5029233516720012,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5029233516720012,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user realized they were living according to others' expectations ('someone else's map') and, through the physical act of choosing their own path, began to embody this insight. This led to conscious changes in their daily life and a feeling of authentic selfhood for the first time.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user's journey perfectly maps to Path 34. The transformation began with a clear cognitive `insight` ('navigating with someone else's map'). This insight was immediately put into `action` (literally going off-trail, then choosing the main trail), which led to a new state of `embodiment` ('walking as myself for the first time'). The user then consciously observed the `manifestation` of this change in their life back home (rearranging their apartment, pausing before answering), which produced the new `experience` of authentic selfhood. Both T1 and T2 stages are clearly evidenced and integrated."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6631,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 284,
+      "total_tokens": 6915
+    }
+  },
+  "design_metadata": {}
+}

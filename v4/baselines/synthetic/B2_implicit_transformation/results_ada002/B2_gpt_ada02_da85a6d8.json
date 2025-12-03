@@ -1,0 +1,209 @@
+{
+  "baseline": "B2",
+  "model": "GPT",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.574381",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "4c906cc0-d3e5-4f7a-9d57-88250854120a",
+    "e5_run_id": "8af018b9-d41a-4815-937b-447f5f1958b0",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "da85a6d8"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8082257852150715,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8082257852150715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.805372488178464,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.805372488178464,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8034030438483672,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8034030438483672
+        },
+        {
+          "max_confidence": 0.8002873897638143,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8002873897638143
+        },
+        {
+          "max_confidence": 0.799817109102521,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.799817109102521,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7993868112015885,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7993868112015885,
+          "t2_confidence": 0.7811517249851404
+        },
+        {
+          "max_confidence": 0.7984746218636871,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.7984746218636871,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7978461029713088,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7978461029713088,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7972340825517136,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7972340825517136,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7967793233920983,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7967793233920983,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8498737633077876,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8498737633077876
+        },
+        {
+          "max_confidence": 0.8365944873271822,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8325508536307611,
+          "t2_confidence": 0.8365944873271822
+        },
+        {
+          "max_confidence": 0.835446267942263,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.835446267942263,
+          "t2_confidence": 0.8030322672743971
+        },
+        {
+          "max_confidence": 0.8329081734528394,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8329081734528394,
+          "t2_confidence": 0.787923802024987
+        },
+        {
+          "max_confidence": 0.8292696970266056,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8292696970266056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257134556770325,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8257134556770325,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.825455904006958,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8201793355123806,
+          "t2_confidence": 0.825455904006958
+        },
+        {
+          "max_confidence": 0.8252117075341537,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.8252117075341537,
+          "t2_confidence": 0.7948673719009661
+        },
+        {
+          "max_confidence": 0.8246875614300355,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8246875614300355,
+          "t2_confidence": 0.8091519716129384
+        },
+        {
+          "max_confidence": 0.8230781344268541,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8230781344268541,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from feeling like a stuck, passive center following others’ maps to becoming an active, conscious chooser of their own path and identity.",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "The user starts from a kind of undifferentiated, imposed unity with others’ expectations (no clear self/other boundary: living by parents’, ex’s, boss’s maps). Through the hike and going off-trail, they discover clear self-definition and boundaries: choosing their own path, choosing what orbits them, rearranging their space to reflect what matters to them, and explicitly naming themselves as ‘walking as myself for the first time.’ This fits M38’s movement from unity to individuation and distinction, culminating in identity. The change is fully conscious and integrated (ongoing behavioral shifts like pausing before answering and curating their environment), so it is T2 rather than a reactive T1-only pattern."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Releasing the need for a complete predetermined life map and trusting only the next step, moving from rigid planning to a simpler, lived authenticity.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "The user describes a clear inner release of control (letting go of the ‘whole route’) and arriving in a simple, immediate way of being (“just walking,” “just... being myself”). This resembles M55’s movement from letting go through stillness into presence and authentic being. However, the conversation does not explicitly mention stillness as a focal experience in the moment of this particular shift, and the domain could also be read as cognitive/emotional. Because of this ambiguity, M55 is chosen with low confidence: the semantic core of letting go → presence → authenticity is present, but the mapping is not unequivocal."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Experiencing a perceptual shift from repetitive mental spinning to a new, clarified way of seeing themselves and their life map.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "The user moves from noisy, repetitive thought loops to a sudden, clarifying insight about ‘someone else’s map.’ The metaphor of focus adjusting and everything becoming sharp aligns with M33’s elegance meeting obscurity to yield insight and revelation—seeing beneath surface confusion. However, the conversation doesn’t explicitly establish the prior state as ‘elegance’ or name the outcome as wisdom; it is more clearly a single powerful insight. Because the cognitive domain and structure (confusion → sharp seeing/insight) align but some formal elements of the path are not explicit, confidence is low."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7857,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1118,
+      "total_tokens": 8975
+    }
+  },
+  "design_metadata": {}
+}

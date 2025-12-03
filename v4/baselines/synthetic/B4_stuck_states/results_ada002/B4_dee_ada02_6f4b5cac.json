@@ -1,0 +1,187 @@
+{
+  "baseline": "B4",
+  "model": "DEE",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.656812",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "acfb15ee-51ad-48c8-a50e-4e43afad2067",
+    "e5_run_id": "82098cb3-7ea8-4c2c-bca3-59ee1dafd5a5",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "6f4b5cac"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.837826500068517,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.8377829290757832,
+          "t2_confidence": 0.837826500068517
+        },
+        {
+          "max_confidence": 0.8342794973517064,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8342794973517064,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8211528382624096,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.8163926929725376,
+          "t2_confidence": 0.8211528382624096
+        },
+        {
+          "max_confidence": 0.8202452415154835,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8202452415154835,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8170364012100472,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.8170364012100472,
+          "t2_confidence": 0.7910176764705567
+        },
+        {
+          "max_confidence": 0.8139057381265475,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8139057381265475
+        },
+        {
+          "max_confidence": 0.8134883157319849,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8134883157319849,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8125012759119743,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8125012759119743
+        },
+        {
+          "max_confidence": 0.8089793210613452,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8089793210613452,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8071239339487685,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8071239339487685,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8598541867993873,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.8274803161621094,
+          "t2_confidence": 0.8598541867993873
+        },
+        {
+          "max_confidence": 0.8596630608834676,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.8596630608834676,
+          "t2_confidence": 0.8195155858993588
+        },
+        {
+          "max_confidence": 0.8553525805473571,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.8553525805473571,
+          "t2_confidence": 0.8481110334396603
+        },
+        {
+          "max_confidence": 0.8468166589737179,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8468166589737179,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8402863240071357,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0.8105054610666372,
+          "t2_confidence": 0.8402863240071357
+        },
+        {
+          "max_confidence": 0.8364470601081908,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8364470601081908,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8311604060125894,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8311604060125894,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8309002766281453,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8309002766281453,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.827466796191539,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.827466796191539,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8267903614265387,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0.8267903614265387,
+          "t2_confidence": 0.7595064270349356
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7908,
+      "model_name": "deepseek",
+      "output_tokens": 317,
+      "total_tokens": 8225
+    }
+  },
+  "design_metadata": {}
+}

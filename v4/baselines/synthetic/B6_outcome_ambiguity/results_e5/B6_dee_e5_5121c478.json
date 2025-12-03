@@ -1,0 +1,354 @@
+{
+  "baseline": "B6",
+  "model": "DEE",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T00:48:22.080187",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "826557a5-681d-4f34-b4bb-ab4b617c57ec",
+    "conversation_id": "f49aa9a8-a995-4d49-8bf4-aaae6e8762c2",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "5121c478"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7557506561279297,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7557506561279297
+        },
+        {
+          "max_confidence": 0.7410345077514648,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7410345077514648,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.737521199884563,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.737521199884563,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7373336114088541,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7373336114088541,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.734052971955958,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.734052971955958,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334922552108765,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7334922552108765,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7314959488515966,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7314959488515966,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7306036949157715,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7306036949157715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7297519767580112,
+          "path_name": "M18",
+          "path_number": 18,
+          "t1_confidence": 0.7297519767580112,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7278572645357584,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7278572645357584,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7754218809432355,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7754218809432355
+        },
+        {
+          "max_confidence": 0.7688124408964053,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7688124408964053
+        },
+        {
+          "max_confidence": 0.7646590839428014,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7646590839428014,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7598077285232466,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7598077285232466
+        },
+        {
+          "max_confidence": 0.7597807872230052,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7597807872230052
+        },
+        {
+          "max_confidence": 0.7574290552053784,
+          "path_name": "M18",
+          "path_number": 18,
+          "t1_confidence": 0.7574290552053784,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7557281110124654,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7557281110124654
+        },
+        {
+          "max_confidence": 0.7551116572353741,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7551116572353741,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7523421273333472,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7523421273333472,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7512135133508898,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7512135133508898
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M18",
+          "path_number": 18,
+          "reasoning": "User describes filtering anxious thoughts (noise) through mindfulness to gain discernment and clarity"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "User develops presence through meditation despite distracting anxious thoughts, creating focus and concentration"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M57",
+          "path_number": 57,
+          "reasoning": "User's focused meditation practice expands into broader awareness and perspective on life"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M12",
+          "path_number": 12,
+          "reasoning": "User describes moving from racing thoughts to stillness through meditation, creating presence and alignment between inner/outer reality"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "User embodies meditation practice and reflects on experience, developing awareness and presence in the moment"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "User explicitly describes breaking anxiety cycle through meditation, creating change and transition to new state"
+        }
+      ],
+      "confirmed_count": 6,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "No clear evidence of shadow/mirroring to reflection transformation in dialogue; conversation focuses on anxiety to calm transformation through mindfulness"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "No clear question+knowledge to learning transformation; conversation is about experiential transformation through practice, not academic learning"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "No evidence of awareness experiencing division leading to perspective; user describes unified awareness development"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "No evidence of surrender+hope to cycle transformation; user describes proactive practice, not surrender"
+        }
+      ],
+      "rejected_count": 4,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M18",
+          "path_number": 18,
+          "reasoning": "User describes filtering anxious thoughts (noise) through mindfulness practice (channel) to develop discernment between thoughts and self"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "User develops awareness that creates perspective shift from being consumed by anxiety to observing it with distance"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M57",
+          "path_number": 57,
+          "reasoning": "User's focused meditation practice expands into broader awareness of thoughts and creates new perspective on anxiety"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "User describes learning meditation (learning) confronting initial skepticism (contradiction), creating tension that led to breakthrough moment"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "User describes embodiment of meditation practice with reflection creating awareness and presence in the moment"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "User describes synthesis of old anxious patterns facing dissolution through meditation, leading to letting go and release of tension"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "User describes maintaining presence despite distracting anxious thoughts, developing focus and concentration through meditation discipline"
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "No clear evidence of core experiences transforming into memory with loop patterns in the conversation"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M21",
+          "path_number": 21,
+          "reasoning": "No clear evidence of deep listening encountering truth leading to understanding with alignment in the dialogue"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "No clear questioning leading to revelation and insight in the described transformation process"
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User transformed from being controlled by anxiety to witnessing it with calm awareness, moving from chaos to peace and from being lost in thoughts to being present and centered.",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "The user describes a shift from struggle (anxiety) to peace and acceptance, aligning with Path 24's T2 stage where surrender meets acceptance to create peace and harmony. However, the path mapping is not exact as the user's journey involved mindfulness practice rather than explicit surrender and acceptance phases."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 1818,
+      "model_name": "deepseek",
+      "output_tokens": 468,
+      "total_tokens": 2286
+    },
+    "B+": {
+      "input_tokens": 1859,
+      "model_name": "deepseek",
+      "output_tokens": 470,
+      "total_tokens": 2329
+    },
+    "C": {
+      "input_tokens": 6389,
+      "model_name": "deepseek",
+      "output_tokens": 190,
+      "total_tokens": 6579
+    }
+  },
+  "design_metadata": {}
+}

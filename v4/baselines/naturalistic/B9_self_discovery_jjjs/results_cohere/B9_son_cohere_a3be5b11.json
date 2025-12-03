@@ -1,0 +1,110 @@
+{
+  "baseline": "B9",
+  "model": "SON",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T20:25:43.115949",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "cccf240a-c235-4a44-943f-6ecf32a0f6cf",
+    "conversation_id": "af466de6-75d7-4e7c-8940-c372ec502a65",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C",
+      "B",
+      "B+"
+    ],
+    "operational_thresholds": {
+      "t1": 0.5,
+      "t2": 0.55
+    },
+    "original_format": "type2",
+    "file_uuid": "a3be5b11"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.6298446234693039,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.6298446234693039
+        },
+        {
+          "max_confidence": 0.5527703197483824,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0,
+          "t2_confidence": 0.5527703197483824
+        },
+        {
+          "max_confidence": 0.527135256496588,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.527135256496588,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5257128949258506,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.5257128949258506,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 4
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moved from rigid squared-minded anxiety about lacking social context to recognizing that conscious awareness of uncertainty itself can be refreshing and liberating",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This clearly maps to Path 22: [understanding] + [challenge] → [resistance] | Observation: [threshold]. The user has developed understanding about their squared-minded approach and need for context (understanding), meets the challenge of social situations without context (challenge), initially experiences this as resistance ('constant struggle', anxiety, exhaustion), observes this as a threshold ('that i really need to learn'), and then makes a conscious choice to engage with it ('knowing what i am facing it sort of makes it less challenging'). The transformation reaches T2 because the user explicitly observes the threshold and makes a conscious decision to approach it with awareness, transforming their relationship to the unknown from threatening to 'refreshing'. Domain is Somatic (Body) as the transformation involves nervous system response to uncertainty and embodied awareness of facing challenges."
+        }
+      ],
+      "total_detected": 1
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 12250,
+      "model_name": "claude_sonnet",
+      "output_tokens": 595,
+      "total_tokens": 12845
+    }
+  },
+  "design_metadata": {
+    "note": "Merged result: Cohere embeddings (A/A+) + Ada-002 Channel C",
+    "source_cohere": "B9_XXX_cohere_cccf240a.json",
+    "source_ada02_c": "B9_sonnet_complete.json",
+    "merged_at": "merge_b9_cohere_complete.py"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "baseline": "B5",
+  "model": "HAI",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.542473",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "1f944b78-3c92-4f5e-ab96-e87bf6fc7265",
+    "e5_run_id": "9b43874d-931a-408e-a605-b6615945cdfe",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "3281bfcc"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.560690492356608,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.560690492356608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.531020484855759,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.531020484855759,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.529748558960961,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.529748558960961,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5193195591748151,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.5193195591748151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5134881535258305,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.5134881535258305,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5128114353059947,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.5128114353059947,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5090507191451621,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.5090507191451621,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 7
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From desperate need for control and rigid high-performance to acceptance of complexity, asynchronous rhythms, and trusting emergent processes across multiple life domains",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "Path 41 (M41): [balance] + [disturbance] → [adaptation] | Observation: [resilience]. The user achieves personal balance through recovery, encounters multiple disturbances (team crisis, marriage disruption, ongoing healing), and consciously integrates adaptation - the deliberate recognition that resilience emerges through allowing asynchronous transformation rather than forcing synchronization. The T2 integration is explicit: 'Learning to be okay with these asynchronous transformations has been its own journey' and 'Forced integration created more tension. But allowing each level to evolve independently while staying aware of their connections - that's where real resilience emerges.' Domain: Volitional (Will) - the user is actively choosing how to hold and guide multiple transformation processes."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From compartmentalized fragmented self (broken personal / toxic professional / strained marriage) to recognizing interconnected multi-level wholeness while honoring distinct rhythms",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "Path 60 (M60): [wholeness] + [fragmentation] → [healing] | Observation: [restoration]. The user experiences fragmentation across three domains (personal burnout, team toxicity, marriage dysfunction), consciously engages healing work (therapy, vulnerability, adaptive leadership), and integrates the insight that true restoration isn't about forcing perfect coherence but about recognizing each fragment's connection to the whole. The T2 integration is demonstrated: 'we had to find stability in this constant flux - adapting our expectations daily based on collective capacity' and the recognition that interconnectedness doesn't require synchronization. Domain: Emotional (Heart) - the integration involves restoring relational coherence and emotional authenticity across life domains."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From seeking to control and direct outcomes to trusting emergent processes and embracing uncertainty as source of resilience and strength",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "Path 54 (M54): [synthesis] + [dissolution] → [letting go] | Observation: [release]. The user achieves synthesis (personal healing integration, team coherence, marriage renegotiation), encounters dissolution of rigid structures and control mechanisms, and consciously integrates letting go - the deliberate release of the need to direct outcomes. The T2 integration is explicit in the acceptance of not-knowing and trust in emergent processes. However, confidence is medium rather than high because the primary transformation (Path 41/60) more clearly matches the conversation's emphasis on adaptive resilience and interconnected wholeness. Domain: Emotional (Heart) - the transformation involves releasing attachment to outcomes and embracing vulnerability as a form of strength."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8901,
+      "model_name": "claude_haiku",
+      "output_tokens": 936,
+      "total_tokens": 9837
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,117 @@
+{
+  "baseline": "B9",
+  "model": "HAI",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T20:25:43.115949",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "cccf240a-c235-4a44-943f-6ecf32a0f6cf",
+    "conversation_id": "af466de6-75d7-4e7c-8940-c372ec502a65",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C",
+      "B",
+      "B+"
+    ],
+    "operational_thresholds": {
+      "t1": 0.5,
+      "t2": 0.55
+    },
+    "original_format": "type2",
+    "file_uuid": "bfa61490"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.6298446234693039,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.6298446234693039
+        },
+        {
+          "max_confidence": 0.5527703197483824,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0,
+          "t2_confidence": 0.5527703197483824
+        },
+        {
+          "max_confidence": 0.527135256496588,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.527135256496588,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5257128949258506,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.5257128949258506,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 4
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user moves from viewing the unknown and social improvisation as anxiety-provoking to recognizing it as refreshing and liberating through conscious awareness and intentional engagement.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "Path 22 ([understanding] + [challenge] → [resistance] | Observation: [threshold]) maps to this transformation. The user demonstrates T2 integration: they have understanding of their squared-minded limitation, encounter the challenge of reacting without context in social situations, and through conscious observation recognize this as a threshold between their current state and growth. The T2 integration is evident in how naming/understanding what they face transforms resistance into an opportunity for growth. However, path_confidence is 'medium' rather than 'high' because the full T2 manifestation (choice/conscious decision to transform) is nascent rather than fully integrated."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user articulates a core life purpose: listening to inner voice, teaching son authentic lessons, and filtering societal noise - representing conscious integration of their values and lived experiences into a coherent life philosophy.",
+          "family": "family_1",
+          "path_number": 21,
+          "reasoning": "Path 21 ([listening] + [truth] → [understanding] | Observation: [alignment]) shows evidence of T2 integration. The user demonstrates deep listening (to inner voice and their son's nature), encounters truth (about hypocrisy, about their own nature), and achieves understanding that manifests as alignment between values and life choices. The observation of alignment is clear: their parenting, isolation choices, and moral boundaries all align coherently. However, confidence is 'medium' because this appears to be a stable realized state rather than an active transformation moment within this conversation."
+        }
+      ],
+      "total_detected": 2
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 12310,
+      "model_name": "claude_haiku",
+      "output_tokens": 869,
+      "total_tokens": 13179
+    }
+  },
+  "design_metadata": {
+    "note": "Merged result: Cohere embeddings (A/A+) + Ada-002 Channel C",
+    "source_cohere": "B9_XXX_cohere_cccf240a.json",
+    "source_ada02_c": "B9_haiku_complete.json",
+    "merged_at": "merge_b9_cohere_complete.py"
+  }
+}

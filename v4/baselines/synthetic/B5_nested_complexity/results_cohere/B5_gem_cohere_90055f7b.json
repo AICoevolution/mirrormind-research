@@ -1,0 +1,117 @@
+{
+  "baseline": "B5",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.562839",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "1f944b78-3c92-4f5e-ab96-e87bf6fc7265",
+    "e5_run_id": "3bff8f9c-7c5a-44b2-aa5a-42407da5c835",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "90055f7b"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.560690492356608,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.560690492356608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.531020484855759,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.531020484855759,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.529748558960961,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.529748558960961,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5193195591748151,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.5193195591748151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5134881535258305,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.5134881535258305,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5128114353059947,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.5128114353059947,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5090507191451621,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.5090507191451621,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 7
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user's personal healing from burnout led to a new state of internal synthesis and harmony, which in turn allowed them to see the discord in their work environment.",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "The user describes moving from the 'tension' of burnout and undertaking a process of 'integration' (therapy, meditation) which resulted in 'synthesis'. The T2 integration is clear when they observe the 'harmony' this created internally. This directly maps to the structure of Path 16 (Tension + Integration → Synthesis | Observation: Harmony). The Cognitive domain fits the resulting clarity and new understanding."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user shifted from trying to force their personal, team, and marital healing processes to align, to instead adapting to their asynchronous rhythms, which created a more robust and 'real' resilience.",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "The user's initial state of personal healing ('balance') was met with the 'disturbance' from other life areas. This forced a process of 'adaptation'. The key T2 insight was realizing that a specific kind of adaptation—letting go of control—led to 'resilience'. The user explicitly states, 'that's where real resilience emerges,' perfectly matching the components of Path 41. The Volitional domain reflects the active, skillful management of these complex, changing systems."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user underwent a fundamental shift from needing to control everything to surrendering to and trusting the natural, uncertain process of growth after their burnout 'broke the illusion of control'.",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "The user's need for control was a form of 'resistance'. The burnout acted as an involuntary 'release' from this pattern, leading to 'surrender'. This is the T1 pattern of Path 23. The conscious T2 integration is their recognition of finding 'something better'—a new strength and peace—in this surrender, which maps to the observation of 'grace'. The Emotional (Heart) domain fits the themes of trust, acceptance, and letting go."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6680,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 574,
+      "total_tokens": 7254
+    }
+  },
+  "design_metadata": {}
+}

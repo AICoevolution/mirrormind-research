@@ -1,0 +1,67 @@
+{
+  "baseline": "B1",
+  "model": "HAI",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.369254",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "62dbf73c-b5a9-41d7-91e8-fef65bf9eb9c",
+    "e5_run_id": "4e1f8a02-efe2-47c0-8487-ce61b4362314",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "7e82e8da"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moves from experiencing fragmentation (hope + conflict → fragments) to recognizing patterns in the renovation problems, positioning themselves as a seeker of solutions",
+          "family": "family_3",
+          "path_number": 1,
+          "reasoning": "This shows T1 reactive change from Path 1 (hope + conflict → fragment). The user experienced hope for renovation, encountered conflict with contractors/timeline, and became fragmented. They then observe the pattern of recurring problems. However, there is no clear T2 integration where they consciously integrate this pattern into a deeper seeking or transformation. The recognition remains surface-level problem-solving (finding a plumber) rather than meaningful psychological integration."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User acknowledges a paradox between investment and chaos, demonstrating cognitive awareness of contradictory truths",
+          "family": "family_1",
+          "path_number": 6,
+          "reasoning": "The user articulates paradox (voice + doubt → paradox) but does not show the T2 integration of Path 6 where the paradox creates a split in understanding leading to fusion of opposites. The paradox is stated intellectually but not integrated into a transformation of perspective. This remains at the level of recognizing contradiction without working through it."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User experiences multiple sources of discomfort (noise, shadow, fatigue, financial drain, loss of presence) but shows developing acceptance and perspective shift toward completion and achievement",
+          "family": "family_2",
+          "path_number": 45,
+          "reasoning": "This shows evidence of Path 45 (change + resistance → perseverance). The user faces ongoing change/disruption (renovation complications), experiences resistance and tension throughout, and demonstrates perseverance by continuing despite difficulty. The T2 integration is visible in their growing determination to reach completion and their recognition of learning: 'Never knew there were so many types of insulation... This whole experience has been an unexpected journey in patience.' They show determination toward achievement despite obstacles, which is the T2 result of perseverance generating determination."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8578,
+      "model_name": "claude_haiku",
+      "output_tokens": 705,
+      "total_tokens": 9283
+    }
+  },
+  "design_metadata": {}
+}

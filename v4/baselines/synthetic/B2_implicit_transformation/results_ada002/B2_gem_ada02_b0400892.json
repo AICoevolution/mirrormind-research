@@ -1,0 +1,195 @@
+{
+  "baseline": "B2",
+  "model": "GEM",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.564327",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "4c906cc0-d3e5-4f7a-9d57-88250854120a",
+    "e5_run_id": "4b097916-edee-49fe-ab52-2b07154abb5b",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "b0400892"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8082257852150715,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8082257852150715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.805372488178464,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.805372488178464,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8034030438483672,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8034030438483672
+        },
+        {
+          "max_confidence": 0.8002873897638143,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8002873897638143
+        },
+        {
+          "max_confidence": 0.799817109102521,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.799817109102521,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7993868112015885,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7993868112015885,
+          "t2_confidence": 0.7811517249851404
+        },
+        {
+          "max_confidence": 0.7984746218636871,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.7984746218636871,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7978461029713088,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7978461029713088,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7972340825517136,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7972340825517136,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7967793233920983,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7967793233920983,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8498737633077876,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8498737633077876
+        },
+        {
+          "max_confidence": 0.8365944873271822,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8325508536307611,
+          "t2_confidence": 0.8365944873271822
+        },
+        {
+          "max_confidence": 0.835446267942263,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.835446267942263,
+          "t2_confidence": 0.8030322672743971
+        },
+        {
+          "max_confidence": 0.8329081734528394,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8329081734528394,
+          "t2_confidence": 0.787923802024987
+        },
+        {
+          "max_confidence": 0.8292696970266056,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8292696970266056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257134556770325,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8257134556770325,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.825455904006958,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8201793355123806,
+          "t2_confidence": 0.825455904006958
+        },
+        {
+          "max_confidence": 0.8252117075341537,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.8252117075341537,
+          "t2_confidence": 0.7948673719009661
+        },
+        {
+          "max_confidence": 0.8246875614300355,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8246875614300355,
+          "t2_confidence": 0.8091519716129384
+        },
+        {
+          "max_confidence": 0.8230781344268541,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8230781344268541,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user realized they were living according to others' expectations ('someone else's map') and, through the physical act of choosing their own path, began to embody this insight. This led to conscious changes in their daily life and a feeling of authentic selfhood for the first time.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user's journey perfectly maps to Path 34. The transformation began with a clear cognitive `insight` ('navigating with someone else's map'). This insight was immediately put into `action` (literally going off-trail, then choosing the main trail), which led to a new state of `embodiment` ('walking as myself for the first time'). The user then consciously observed the `manifestation` of this change in their life back home (rearranging their apartment, pausing before answering), which produced the new `experience` of authentic selfhood. Both T1 and T2 stages are clearly evidenced and integrated."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6631,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 284,
+      "total_tokens": 6915
+    }
+  },
+  "design_metadata": {}
+}

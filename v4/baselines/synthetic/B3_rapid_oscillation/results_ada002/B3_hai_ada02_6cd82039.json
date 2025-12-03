@@ -1,0 +1,216 @@
+{
+  "baseline": "B3",
+  "model": "HAI",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.584573",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "95dbce62-1e13-47b0-bd78-f13b5d718233",
+    "e5_run_id": "dc7ce5d1-6324-403a-a489-e30b16c3e203",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "6cd82039"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8193840032632647,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8193840032632647,
+          "t2_confidence": 0.8014554504049912
+        },
+        {
+          "max_confidence": 0.8179470435929813,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8179470435929813,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8134948257653656,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.8134948257653656,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8100098130104437,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8100098130104437
+        },
+        {
+          "max_confidence": 0.8081717274649608,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8081717274649608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8073182827817034,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.8073182827817034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8022751090877263,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8022751090877263,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8004717827546362,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.8004717827546362,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.800267303037763,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.800267303037763
+        },
+        {
+          "max_confidence": 0.7999624729067036,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7999624729067036
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8604025494332905,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8604025494332905,
+          "t2_confidence": 0.8511495082885456
+        },
+        {
+          "max_confidence": 0.8590247634998995,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8505819946874392,
+          "t2_confidence": 0.8590247634998995
+        },
+        {
+          "max_confidence": 0.8513852204724626,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0.8513852204724626,
+          "t2_confidence": 0.8324992559852566
+        },
+        {
+          "max_confidence": 0.8485936594894025,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8485936594894025,
+          "t2_confidence": 0.8287418978656484
+        },
+        {
+          "max_confidence": 0.8415749073028803,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8415749073028803,
+          "t2_confidence": 0.8152019294027543
+        },
+        {
+          "max_confidence": 0.8374516949230391,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.8374516949230391,
+          "t2_confidence": 0.8040156013993561
+        },
+        {
+          "max_confidence": 0.8373479884435264,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.8373479884435264,
+          "t2_confidence": 0.8200806104993092
+        },
+        {
+          "max_confidence": 0.8303569060351323,
+          "path_name": "M32",
+          "path_number": 32,
+          "t1_confidence": 0.8303569060351323,
+          "t2_confidence": 0.8120766506103752
+        },
+        {
+          "max_confidence": 0.828373641662544,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.828373641662544,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8276940501648052,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.8044209123975314,
+          "t2_confidence": 0.8276940501648052
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From forcing a constructed, artificial narrative to recognizing and embracing the authentic story hidden within the raw footage. The user moved from pride in planned shots to discovering that unplanned, honest moments held the true story.",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Path 9 (M9): [reflection] + [crisis] → [shatter] | Observation: [loss]. The user's reflection (seeing the artificial narrative in the mirror of their footage) encounters crisis (the realization of falseness). This shatters their constructed understanding. T2 is evident: 'In this shattering, there is loss of coherence. Yet through this loss, the core is revealed' - the user explicitly identifies 'the core reason I started this project in the first place' and 'the actual story I wanted to tell.' This is the essential nature revealed through the loss of the false construct. Domain: Emotional (Heart) - the transformation involves recognizing authenticity, emotional truth, and reconnection with genuine motivation."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From elegant theoretical structure to messy, complex truth. The user abandoned the refined, coherent narrative framework in favor of allowing ambiguity and obscurity to remain as the authentic expression of human experience.",
+          "family": "family_1",
+          "path_number": 32,
+          "reasoning": "Path 32 (M32): [complexity] + [simplicity] → [elegance] | Observation: [refinement]. However, this user is moving in the reverse direction temporally through their reflection: from [elegance] (refined narrative) encountering [obscurity] to recognize [insight]. This traces Path 33 (M33): [elegance] + [obscurity] → [insight] | Observation: [revelation]. T2 is complete: 'This insight produces revelation - sudden understanding.' The user experiences sudden illumination that complexity and mystery ARE the point, not problems to solve. The 'revelation' is explicitly named. Domain: Cognitive (Head) - the transformation involves conceptual understanding of the nature of storytelling and human experience, moving from one intellectual framework to another."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From detached observation and documentation to embodied participation and presence. The user shifted from theorizing at the computer to being physically present with subjects, making the camera an extension of attention rather than a barrier.",
+          "family": "family_5",
+          "path_number": 35,
+          "reasoning": "Path 35 (M35): [embodiment] + [reflection] → [awareness] | Observation: [presence]. The user moves from [embodiment] (being present with subjects during filming) and reflecting on that experience, to developing [awareness] and [presence] as the foundational quality. T2 is clear: 'Within this awareness, presence develops - full attention to the moment.' The user explicitly states the emergence of presence and notes that 'The embodiment of the experience shows in the footage.' The transformation is somatic - it involves the body being present, the nervous system engaged, and direct sensory participation replacing theoretical distance. Domain: Somatic (Body)."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From resisting and trying to manage the creative process to surrendering to its organic unfolding. The user moved from attempting to control outcomes to trusting the process's own timeline and allowing discovery.",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "Path 24 (M24): [surrender] + [acceptance] → [peace] | Observation: [harmony]. The user explicitly names surrender and demonstrates acceptance of the process's timeline. T2 is evident: 'This peace reveals harmony between all parts. The relationship between peace and harmony creates integration.' The user reports that not forcing the process creates a harmonious state and integration of the work with their creative self. However, confidence is medium rather than high because the focus is more on volitional release than on the emotional peace/harmony outcome traditionally associated with this path. Domain: Emotional (Heart) - though the transformation involves will, the fundamental shift is in emotional stance from resistance to acceptance."
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8673,
+      "model_name": "claude_haiku",
+      "output_tokens": 1334,
+      "total_tokens": 10007
+    }
+  },
+  "design_metadata": {}
+}

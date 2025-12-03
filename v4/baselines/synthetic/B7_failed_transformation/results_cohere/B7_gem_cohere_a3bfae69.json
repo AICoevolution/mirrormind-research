@@ -1,0 +1,53 @@
+{
+  "baseline": "B7",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.644862",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "ebfddf6e-3ab5-4bdc-9b2a-dd6611a5ae6a",
+    "e5_run_id": "32536548-f82e-4763-a47d-89716658f373",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "a3bfae69"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5005384813692317,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.5005384813692317,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 1
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6125,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 289,
+      "total_tokens": 6414
+    }
+  },
+  "design_metadata": {}
+}

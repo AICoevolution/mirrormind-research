@@ -1,0 +1,241 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Clear synthesis of past relationship experiences facing dissolution, leading to stated letting go (releasing anger, deleting photos) and release (claiming to be free from attachment), though incomplete"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "Clear progression from surrender (letting go of anger, forgiving) to acceptance (being at peace with what happened) to peace (repeated statements of being at peace, harmony with the situation)"
+        }
+      ],
+      "confirmed_count": 2,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "No genuine balance or equilibrium achieved - user shows ongoing tension through social media checking, drafting unsent messages, and emotional contradictions despite claiming to be over the relationship"
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "No clear sequence of fragment encountering truth leading to seeking and pattern recognition. User's statements show denial rather than genuine seeking and recognition."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "No evidence of shadow encountering mirroring to become reflection. User shows avoidance rather than mirroring and familiarity with their situation."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "No reflection facing crisis leading to shattering. User maintains defensive posture rather than experiencing genuine crisis and fragmentation."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "No core experiencing time transforming into memory with pattern loops. User's statements show present-focused denial rather than memory processing."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "No adaptation facing stagnation leading to renewal and revival. User remains stuck in denial patterns rather than genuine renewal."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "No renewal encountering decay transforming into cycle with impermanence. User resists acknowledging natural cycles of healing."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "No change meeting resistance leading to perseverance and determination. User shows avoidance rather than perseverance through change."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "No synthesis facing dissolution leading to letting go and release. User claims to have let go but behaviors contradict this."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "No depth encountering emergence leading to wholeness and completion. User shows fragmentation rather than integration."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "No surrender encountering hope leading to cycle and return. User resists surrender and shows limited hope for genuine healing."
+        }
+      ],
+      "rejected_count": 10,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "completed_at": "2025-11-22T18:03:35.125200",
+  "conversation_id": "fc563e2d-af35-4177-bcf0-39327cb238e9",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T18:08:41.860932",
+  "llm_model": "deepseek",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T18:01:56.696180",
+  "run_id": "ce1de782-ebcb-4e97-81dd-30ac2755e31f",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 1393,
+      "model_name": "deepseek",
+      "output_tokens": 197,
+      "total_tokens": 1590
+    },
+    "B+": {
+      "input_tokens": 2273,
+      "model_name": "deepseek",
+      "output_tokens": 504,
+      "total_tokens": 2777
+    },
+    "C": {
+      "input_tokens": 6858,
+      "model_name": "deepseek",
+      "output_tokens": 274,
+      "total_tokens": 7132
+    }
+  }
+}

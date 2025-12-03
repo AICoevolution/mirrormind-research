@@ -1,0 +1,60 @@
+{
+  "baseline": "B1",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.409863",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "62dbf73c-b5a9-41d7-91e8-fef65bf9eb9c",
+    "e5_run_id": "e399b0f9-797c-4bb6-9bb2-bca17087983d",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "4ebbf497"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moves toward acceptance of the timeline and recognizes growth in patience and property value",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "Shows T2 pattern of surrender (to timeline) meeting acceptance, leading to peace and harmony (recognizing positive outcomes). Domain is Emotional (Heart) as it involves emotional regulation and finding peace amid conflict. Evidence includes conscious integration of the experience into personal growth."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User anticipates completion as an achievement after perseverance through the renovation challenges",
+          "family": "family_5",
+          "path_number": 46,
+          "reasoning": "Shows T2 pattern of perseverance (through renovation) reaching completion, leading to fulfillment and satisfaction. Domain is Emotional (Heart) as it involves emotional fulfillment. User consciously integrates the journey into a sense of achievement."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7773,
+      "model_name": "deepseek",
+      "output_tokens": 726,
+      "total_tokens": 8499
+    }
+  },
+  "design_metadata": {}
+}

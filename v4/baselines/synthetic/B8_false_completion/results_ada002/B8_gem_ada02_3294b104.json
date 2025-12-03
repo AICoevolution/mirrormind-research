@@ -1,0 +1,187 @@
+{
+  "baseline": "B8",
+  "model": "GEM",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.811078",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "5ff1f37e-5500-4456-95cb-6fd8aea2e214",
+    "e5_run_id": "a3d688f3-a152-457e-bfb6-b7bf21747337",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "3294b104"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7771235970111594,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7771235970111594,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7676729054158546,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7630030967595053,
+          "t2_confidence": 0.7676729054158546
+        },
+        {
+          "max_confidence": 0.763832702408284,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.763832702408284,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7636557763301997,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7636557763301997,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7599865937241084,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7599865937241084,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7548277085814129,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.7548277085814129,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7525233107081039,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.7525233107081039,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7497284859257047,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7497284859257047,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7495808526249014,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7495808526249014,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7495657949863319,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0.7495657949863319,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8132851254896936,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7991217851115351,
+          "t2_confidence": 0.8132851254896936
+        },
+        {
+          "max_confidence": 0.808882331583448,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.808882331583448,
+          "t2_confidence": 0.7647232553527922
+        },
+        {
+          "max_confidence": 0.8078646888894443,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8078646888894443,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8061928019063945,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.8061928019063945,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8057719584839498,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.8057719584839498,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7999598026323611,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7999598026323611,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7983907578936901,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.7983907578936901,
+          "t2_confidence": 0.7892272221120861
+        },
+        {
+          "max_confidence": 0.7942245970562835,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0.7806268930435236,
+          "t2_confidence": 0.7942245970562835
+        },
+        {
+          "max_confidence": 0.7927693107036696,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7927693107036696,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.787909413825349,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.787909413825349
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6260,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 269,
+      "total_tokens": 6529
+    }
+  },
+  "design_metadata": {}
+}

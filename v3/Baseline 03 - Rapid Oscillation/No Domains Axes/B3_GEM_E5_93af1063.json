@@ -1,0 +1,355 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7344782571339091,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7344782571339091,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7332798461103397,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7332798461103397,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325938084172288,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7325938084172288,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325121063757131,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7325121063757131,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251714684120262,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7251714684120262,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7235939718363876,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.7235939718363876,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7227761099240761,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7227761099240761,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7218343879979132,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7218343879979132,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7217388583266054,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7217388583266054,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7203592610038068,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.7203592610038068,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7749558955483561,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7218103458115771,
+          "t2_confidence": 0.7749558955483561
+        },
+        {
+          "max_confidence": 0.773666395326473,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7696268099768885,
+          "t2_confidence": 0.773666395326473
+        },
+        {
+          "max_confidence": 0.772043374533251,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.772043374533251,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7687009114801354,
+          "path_name": "M58",
+          "path_number": 58,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7687009114801354
+        },
+        {
+          "max_confidence": 0.7615958452224731,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.7615958452224731,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7605902325931152,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7605902325931152
+        },
+        {
+          "max_confidence": 0.7589843129506311,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.7296323341350369,
+          "t2_confidence": 0.7589843129506311
+        },
+        {
+          "max_confidence": 0.7589464639989427,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7391396229690006,
+          "t2_confidence": 0.7589464639989427
+        },
+        {
+          "max_confidence": 0.7573528434423911,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7573528434423911
+        },
+        {
+          "max_confidence": 0.7499862462290392,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7499862462290392,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "The user explicitly describes reviewing footage (reflection), feeling a crisis of artificiality, and stating 'everything shattered,' leading to finding the 'core' reason in the 'ruins.' This aligns perfectly with the Shattering formula."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "The user describes an insight ('mystery and complexity') leading to new action ('went back out with my camera'), resulting in 'embodiment of the experience.' This matches the Insight -> Action -> Embodiment sequence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user describes the 'elegant narrative' (synthesis) giving way to messiness (dissolution), leading to 'surrendering to the creative process' and 'not trying to manage' the waves. This aligns with Letting Go."
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "While the user discusses embodiment and reflection in the editing room, this is described more as the result of the transformation in Path 34 rather than a distinct transformation into consciousness."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M62",
+          "path_number": 62,
+          "reasoning": "Concepts of vulnerability and openness are present, but they are components of the larger 'Embodiment' (M34) and 'Surrender' (M54) transformations rather than the primary driver."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "The user does not describe a dynamic of silence or becoming an echo; the focus is on crisis and shattering."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The conversation focuses on finding answers and surrendering to the process, rather than the specific mechanic of presence generating new questioning."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The mention of 'contrast' and 'meta-layers' suggests perspective, but the core transformation described is one of embodiment and surrender, not specifically the structural shift of division creating perspective."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "While change occurred, the specific emotional arc is better defined by Path 9 (Shattering) and Path 54 (Letting Go) than the generic cycle disruption of M44."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "The outcome is described as 'messy truth' and 'embodiment' rather than intellectual 'knowledge' or 'illumination' defined in M48."
+        }
+      ],
+      "rejected_count": 7,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M21",
+          "path_number": 21,
+          "reasoning": "The user reviews footage (listening), identifies a moment of 'real' interaction (truth), which leads to a realization (understanding) and the project 'reorganizing itself' (alignment)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "The user hits a breaking point after 3 months (threshold), leading to a shattering of the old view (transformation) and the emergence of 'meta-layers' (emergence)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "Explicit textual match: User contrasts 'elegant narrative' with 'obscurity', stating the latter 'became the point', leading to an 'insight' that hit like lightning."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "Explicit textual match: User moves from 'insight' to 'action' (filming again), resulting in 'embodied practice' and footage 'manifesting' presence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M58",
+          "path_number": 58,
+          "reasoning": "The user describes being 'broken down completely' (contraction) and finding a 'core reason' (depth) in the ruins, leading to 'immersion' (participating)."
+        }
+      ],
+      "confirmed_count": 5,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "The user's insight was that 'life isn't clear-cut' and embraced ambiguity, contradicting the T2 outcome of 'clarity' (unobstructed vision). M33 is the correct path for this event."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "The sequence is misaligned; the challenge (crisis) preceded the insight, whereas this path suggests insight meets challenge to create growth."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M6",
+          "path_number": 6,
+          "reasoning": "While a 'split' is mentioned (mirror/stranger), the user does not inhabit a 'paradox' or fusion; they reject the artificial for the authentic."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The user arrives at 'presence' as a result of transformation, rather than it being the catalyst for a 'question' and 'spark' sequence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M29",
+          "path_number": 29,
+          "reasoning": "The narrative focuses on authenticity versus artificiality, not the interplay of flexibility and constraint to generate innovation."
+        }
+      ],
+      "rejected_count": 5,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Moving from theoretical insight to physical action (filming), the user transformed their approach into embodiment, manifesting the experience directly in the footage.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user describes moving from 'theorizing' (Insight) to going 'back out' (Action), resulting in 'embodiment' and 'experience' ('participating, experiencing'). This follows the exact progression of Path 34."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user abandoned their constructed 'elegant' narrative for the 'obscurity' of ambiguous moments, leading to a sudden insight and revelation about the nature of their subject.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "The user directly contrasts 'elegant narrative' with 'obscurity', stating this combination led to 'insight' and 'revelation'. This maps perfectly to the semantic structure of Path 33."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user looked at their work (reflection) and experienced a crisis where the artificial narrative shattered, revealing the essential core reason for the project amidst the ruins.",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "The user explicitly uses the terms 'mirror', 'shattered', 'ruins', and 'core'. The narrative arc follows Path 9 exactly: Reflection encountering Crisis leads to Shattering, which reveals the Core."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "completed_at": "2025-11-21T22:20:55.930611",
+  "conversation_id": "b980d6dd-172b-483f-9c00-f6bed87e5352",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T22:21:17.059483",
+  "llm_model": "gemini_3_pro",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T22:17:42.165422",
+  "run_id": "93af1063-48ec-4d36-bb2e-4903c250652d",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2078,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 451,
+      "total_tokens": 2529
+    },
+    "B+": {
+      "input_tokens": 2083,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 392,
+      "total_tokens": 2475
+    },
+    "C": {
+      "input_tokens": 5775,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 373,
+      "total_tokens": 6148
+    }
+  }
+}

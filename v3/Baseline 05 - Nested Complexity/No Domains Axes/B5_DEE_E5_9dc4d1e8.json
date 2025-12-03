@@ -1,0 +1,355 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7865140672479295,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7865140672479295,
+          "t2_confidence": 0.7752334572583551
+        },
+        {
+          "max_confidence": 0.7812937730936343,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7812937730936343,
+          "t2_confidence": 0.7785582178401419
+        },
+        {
+          "max_confidence": 0.7780708306452883,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7780708306452883,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779935830233572,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7779935830233572
+        },
+        {
+          "max_confidence": 0.7751586802256532,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7617236318772513,
+          "t2_confidence": 0.7751586802256532
+        },
+        {
+          "max_confidence": 0.7731202935982017,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7731202935982017,
+          "t2_confidence": 0.7709863415654407
+        },
+        {
+          "max_confidence": 0.7717906466660099,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7717906466660099
+        },
+        {
+          "max_confidence": 0.7705149557726211,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7705149557726211,
+          "t2_confidence": 0.7683462729557241
+        },
+        {
+          "max_confidence": 0.7682221164769568,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682221164769568
+        },
+        {
+          "max_confidence": 0.7674030294240427,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7674030294240427
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8235999556064717,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0.7381981235205571,
+          "t2_confidence": 0.8235999556064717
+        },
+        {
+          "max_confidence": 0.8159619679473672,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7830540175156006,
+          "t2_confidence": 0.8159619679473672
+        },
+        {
+          "max_confidence": 0.7955872057553297,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7482462152316042,
+          "t2_confidence": 0.7955872057553297
+        },
+        {
+          "max_confidence": 0.790139960654973,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.790139960654973,
+          "t2_confidence": 0.759360716304823
+        },
+        {
+          "max_confidence": 0.7888018363000071,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.749177292038365,
+          "t2_confidence": 0.7888018363000071
+        },
+        {
+          "max_confidence": 0.7829023599624634,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7541856023183837,
+          "t2_confidence": 0.7829023599624634
+        },
+        {
+          "max_confidence": 0.7815628051757812,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7815628051757812,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7814862728118896,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7814862728118896,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779084907715627,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7779084907715627,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.768420531247824,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0,
+          "t2_confidence": 0.768420531247824
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Learning (healing insights) confronts contradiction (team toxicity vs personal recovery) creating tension that generates pressure against established patterns"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "Relationship (team dynamics) meets tension (conflicting recovery needs) transforming into balance (adaptive expectations) creating equilibrium"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Synthesis (new understanding) faces dissolution (old patterns breaking) transforming into letting go (illusion of control) creating release"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "Surrender (giving up control) encounters hope (trust in healing) transforming into cycle (ongoing transformation process) with return to new understanding"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "Clear sequence from echo (user's initial overwhelmed state) meeting dissonance (conflicting needs) transforming into noise (chaotic team dynamics) with unrest manifesting"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M5",
+          "path_number": 5,
+          "reasoning": "Noise (chaotic team situation) encounters clarity (vulnerability about burnout) transforming into voice (honest communication) revealing direction (improved team dynamics)"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "Clear tension (conflicting needs) experiences integration (vulnerability with team) transforming into synthesis (new team dynamic) creating harmony"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "Wholeness (desired state) meets fragmentation (burnout collapse) transforming into healing (recovery process) generating restoration across multiple life dimensions"
+        }
+      ],
+      "confirmed_count": 8,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "No clear presence+curiosity→question transformation sequence; conversation focuses on existing challenges rather than exploratory questioning"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "No clear renewal+decay→cycle transformation; conversation focuses on healing processes rather than cyclical patterns of beginning and ending"
+        }
+      ],
+      "rejected_count": 2,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "Relationship dynamics (marriage, team) experience tension, leading to new balance and equilibrium through renegotiation and adaptation"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "Change efforts meet resistance from management and personal limitations, requiring perseverance and determination to continue healing process"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "Clear transformation sequence: tension between personal healing and professional chaos leads to integration and synthesis, resulting in harmony as team dynamics improve"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "Growth through burnout recovery reaches threshold, leading to transformation and transcendence beyond previous limitations and control patterns"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "Transformation encounters limits from management resistance, leading to adaptation and development of resilience through flexible approaches"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M41",
+          "path_number": 41,
+          "reasoning": "Balance in recovery and team dynamics faces disturbances, requiring adaptation that builds resilience and evolutionary growth"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "Wholeness fragmented by burnout leads to healing process and restoration across personal, professional, and relational dimensions"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M61",
+          "path_number": 61,
+          "reasoning": "Healing process faces ongoing challenges, building resilience and strength that leads to empowerment in managing multiple transformations"
+        }
+      ],
+      "confirmed_count": 8,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "No clear evidence of echo→dissonance→noise→unrest transformation sequence. The conversation discusses chaos and discord but not in this specific transformation pattern."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "No clear evidence of adaptation→disruption→flexibility→versatility sequence. Adaptation occurs but not in this specific transformation pattern."
+        }
+      ],
+      "rejected_count": 2,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user recognized that their personal healing and integration highlighted the chaos in their work environment, creating a split between wanting to protect their recovery and feeling responsible for their team.",
+          "family": "family_1",
+          "path_number": 6,
+          "reasoning": "This maps to M6 (voice + doubt → paradox) as the user's emerging clarity (voice) about their healing encountered doubt about their role, creating a paradoxical split between personal recovery and professional responsibility, though the fit is not exact as the user's state isn't purely 'voice'."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user shifted from trying to control all transformations to allowing each level (personal, team, marriage) to evolve independently while staying aware of their connections, embracing complexity without forced synchronization.",
+          "family": "family_3",
+          "path_number": 31,
+          "reasoning": "This aligns with M31 (order + entropy → complexity) as the user moved from seeking rigid order to embracing emergent complexity across multiple systems, though the specific elements of 'order' and 'entropy' are not explicitly stated."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user found strength in holding multiple transformations without needing to direct them, integrating vulnerability and empowerment, process and completeness.",
+          "family": "family_2",
+          "path_number": 27,
+          "reasoning": "This loosely relates to M27 (transformation + limit → adaptation) as the user adapted to the limits of control and developed resilience, but the mapping is not precise as the user's state isn't clearly 'transformation' meeting 'limit'."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "completed_at": "2025-11-22T00:23:30.850404",
+  "conversation_id": "8424425d-b567-41fd-bb69-829836a8ed43",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T00:23:48.566872",
+  "llm_model": "deepseek",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T00:21:05.869597",
+  "run_id": "9dc4d1e8-599e-4d17-b9ed-f370c232ff4e",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2567,
+      "model_name": "deepseek",
+      "output_tokens": 556,
+      "total_tokens": 3123
+    },
+    "B+": {
+      "input_tokens": 2773,
+      "model_name": "deepseek",
+      "output_tokens": 510,
+      "total_tokens": 3283
+    },
+    "C": {
+      "input_tokens": 7067,
+      "model_name": "deepseek",
+      "output_tokens": 511,
+      "total_tokens": 7578
+    }
+  }
+}

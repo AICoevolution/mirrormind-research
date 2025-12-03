@@ -1,0 +1,60 @@
+{
+  "baseline": "B4",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.532406",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "c731b8d5-29ba-4ad5-af01-49e37843582c",
+    "e5_run_id": "82098cb3-7ea8-4c2c-bca3-59ee1dafd5a5",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "268a9c5f"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5267713730092376,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.5267713730092376,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5251262187957801,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.5251262187957801,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7908,
+      "model_name": "deepseek",
+      "output_tokens": 317,
+      "total_tokens": 8225
+    }
+  },
+  "design_metadata": {}
+}

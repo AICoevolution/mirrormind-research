@@ -1,0 +1,218 @@
+{
+  "baseline": "B9",
+  "model": "GEM",
+  "embedding_backend": "ada002",
+  "run_at": "2025-11-23T18:57:04.384481",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "22d2193c-efdc-4062-a266-11d6de5c3e06",
+    "conversation_id": "b5df46d7-e3ff-4d7b-a214-e7d33bdc5e81",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "746af909"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8266946363499242,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.8266946363499242,
+          "t2_confidence": 0.8209391970282108
+        },
+        {
+          "max_confidence": 0.822825323174876,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.822825323174876,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8224628779336418,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8224628779336418,
+          "t2_confidence": 0.8015663860361173
+        },
+        {
+          "max_confidence": 0.8191032840959581,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8191032840959581,
+          "t2_confidence": 0.8097509372531307
+        },
+        {
+          "max_confidence": 0.8171691676579972,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8171691676579972
+        },
+        {
+          "max_confidence": 0.8152962459888711,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.8152962459888711,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8137099742889404,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8137099742889404,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8126374259754985,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8126374259754985,
+          "t2_confidence": 0.8105513566403787
+        },
+        {
+          "max_confidence": 0.8124136570815346,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8124136570815346
+        },
+        {
+          "max_confidence": 0.8121310472488403,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8121310472488403
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8599611353827937,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8307804162705689,
+          "t2_confidence": 0.8599611353827937
+        },
+        {
+          "max_confidence": 0.8531280072407863,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8531280072407863,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.841112036572452,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.841112036572452,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8350018760563195,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7763785817961648,
+          "t2_confidence": 0.8350018760563195
+        },
+        {
+          "max_confidence": 0.8319429159164488,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8319429159164488,
+          "t2_confidence": 0.8144511005954684
+        },
+        {
+          "max_confidence": 0.8316100587961242,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.8316100587961242,
+          "t2_confidence": 0.798744392469861
+        },
+        {
+          "max_confidence": 0.8303172183793112,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8303172183793112,
+          "t2_confidence": 0.8089251404360149
+        },
+        {
+          "max_confidence": 0.8292637176638169,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.8292637176638169,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8285096721824128,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0.8139794157080017,
+          "t2_confidence": 0.8285096721824128
+        },
+        {
+          "max_confidence": 0.8274176695648574,
+          "path_name": "M19",
+          "path_number": 19,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8274176695648574
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user shifts from experiencing their rigid, 'squared-minded' approach as a constant struggle leading to anxiety, to a new perspective where consciously facing the unknown without context is a 'refreshing' challenge they can choose to engage with.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "The user clearly demonstrates the full Path 22. T1 (Reactive Change): The user has an `understanding` of their 'squared-minded approach'. When this encounters a `challenge` (social situations without context), it produces `resistance` in the form of anxiety and an energy-draining struggle. T2 (Conscious Integration): The user's reflection leads them to see a `threshold` for growth ('I really need to learn...'). Recognizing this threshold transforms their relationship to the unknown, moving from anxiety to a feeling of it being 'refreshing'. This is the emergence of `choice`—the conscious decision to transform rather than remain in the old pattern. The Somatic domain fits the user's description of anxiety and energy."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 10298,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 330,
+      "total_tokens": 10628
+    }
+  },
+  "design_metadata": {}
+}

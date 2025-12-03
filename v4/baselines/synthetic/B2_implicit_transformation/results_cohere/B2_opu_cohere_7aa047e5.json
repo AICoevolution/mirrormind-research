@@ -1,0 +1,75 @@
+{
+  "baseline": "B2",
+  "model": "OPU",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.430148",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "d8d016b9-d39e-4fb7-9928-20cfb258fa64",
+    "e5_run_id": "14fba6b0-3960-430b-8ebe-9183568776ac",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "7aa047e5"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5087350187360151,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5087350187360151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5029233516720012,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5029233516720012,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From being stuck at the center with everything spinning around them to becoming a conscious center who chooses what orbits around them",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "Clear evidence of Path 38's pattern: unity (being the fixed center) encountering separation (going off-trail alone) leads to individuation (walking as themselves). The T2 integration is evident in their conscious distinction between following others' paths and choosing their own: 'walking as myself for the first time' and 'making it mine'. The volitional domain matches how they actively chose to step off the trail and make deliberate choices about their space and boundaries."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From following other people's maps and expectations to trusting their own navigation step by step",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "Shows Path 54's pattern of synthesis (following established routes) facing dissolution (realizing the map wasn't theirs) leading to letting go. The T2 integration appears in the conscious release: 'I released the map' and the observed freedom: 'freeing... I actually sat down on a rock and laughed'. The emotional domain fits the feeling of liberation and the act of releasing attachment to others' expectations."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8842,
+      "model_name": "claude_opus",
+      "output_tokens": 471,
+      "total_tokens": 9313
+    }
+  },
+  "design_metadata": {}
+}

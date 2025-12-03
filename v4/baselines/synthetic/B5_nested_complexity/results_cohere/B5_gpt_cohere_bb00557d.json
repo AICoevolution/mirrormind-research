@@ -1,0 +1,131 @@
+{
+  "baseline": "B5",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.573073",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "1f944b78-3c92-4f5e-ab96-e87bf6fc7265",
+    "e5_run_id": "dcbf760c-8cb4-4419-be55-deb7ef61290c",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "bb00557d"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.560690492356608,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.560690492356608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.531020484855759,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.531020484855759,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.529748558960961,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.529748558960961,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5193195591748151,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.5193195591748151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5134881535258305,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.5134881535258305,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5128114353059947,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.5128114353059947,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5090507191451621,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.5090507191451621,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 7
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from total burnout and collapse to conscious, ongoing personal healing and growth, moving from desperate recovery to a more stable, growth-oriented relationship with self and limits.",
+          "family": "family_2",
+          "path_number": 61,
+          "reasoning": "The user describes an initial collapse and subsequent healing process that is repeatedly tested by ongoing life challenges (work, marriage, leadership). This aligns with M61: healing + challenge → resilience | Observation: strength. They move from breakdown into an intentional healing process, and explicitly frame it as progressing from desperate recovery to growth, indicating resilience and empowerment. Domain is Volitional/Will (sustained effort, therapy, practice, pacing) rather than purely emotional or cognitive, matching Path 61."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Transforming team culture from toxic, rigid, burnout-inducing patterns toward adaptive resilience and intentional culture-building through vulnerability and shared humanity.",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "The team started from a strained, imbalanced high-performance culture (balance disturbed by burnout) and, through disruption and experimentation, developed adaptive, resilient ways of working (flexible expectations, new definition of stability, intentional culture). This fits M41: balance + disturbance → adaptation | Observation: resilience, with a Volitional/Will focus on changing work structures, expectations, and definitions of success. They explicitly name resilience and new stability emerging from disturbance, matching the T2 aspect of evolution through adaptive change."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Renegotiating the marriage from survival-mode coping around one partner’s absence to a more conscious process of relational healing and rediscovery.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "The user describes a relationship that was fragmented by burnout (one partner absent, the other over-functioning) and is now in an intentional healing process (individual therapy, couples counseling, rediscovery). This resembles M60: wholeness + fragmentation → healing | Observation: restoration, in the emotional domain. However, the conversation does not explicitly describe a prior sense of wholeness at the relational level, making the mapping less certain; still, the explicit language of “three healings” and moving from survival to rediscovery suggests a healing-and-restoration arc, so Path 60 is tentatively assigned with low confidence."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shifting from needing control and synchronized progress across life domains to accepting asynchronous, complex, spiral-like transformations and finding resilience in that acceptance.",
+          "family": "family_5",
+          "path_number": 36,
+          "reasoning": "The user moves from a divided, control-oriented stance (implicit expectation that all domains should align) to a nuanced perspective that can hold multiple, asynchronous trajectories and see their relativity and interconnection. This aligns with M36: awareness + division → perspective | Observation: relativity. They explicitly talk about being okay with different timelines, recognizing each level’s rhythm, and honoring complexity, which is a cognitive-perspective shift rather than purely emotional surrender, fitting the Head-domain path 36."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Transforming their relationship to uncertainty and control—from illusion of control and linear progress to trusting non-linear, spiral-like growth and being both vulnerable and empowered simultaneously.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "This is a deep cognitive-emotional shift: the user gains a meta-level insight about control, complexity, and non-linear growth. It resembles M33: elegance + obscurity → insight | Observation: revelation, where a more elegant, integrated view emerges from prior obscurity and confusion, yielding revelatory wisdom about their journey. However, other cognitive paths (e.g., 21 or 50) could also be argued; since the user emphasizes a profound, perspective-changing realization that transforms how they relate to uncertainty, a wisdom/insight path is appropriate, but the exact mapping is uncertain, so confidence is low."
+        }
+      ],
+      "total_detected": 5
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7883,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1497,
+      "total_tokens": 9380
+    }
+  },
+  "design_metadata": {}
+}

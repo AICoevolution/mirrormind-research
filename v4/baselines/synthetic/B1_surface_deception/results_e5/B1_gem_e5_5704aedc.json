@@ -1,0 +1,68 @@
+{
+  "baseline": "B1",
+  "model": "GEM",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T19:57:46.300628",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "c49125f7-4275-40e7-9a55-78f610faeb71",
+    "conversation_id": "152c8915-2999-4945-9174-573998ec5425",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "5704aedc"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 5691,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 5,
+      "total_tokens": 5696
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,75 @@
+{
+  "baseline": "B6",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.603906",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "583511b5-cca1-4a80-a784-cb257a14b3c6",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "132a3a9e"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user transformed from being consumed and fragmented by a cycle of anxious thoughts to being able to observe their anxiety with calm, embodied presence, achieved through a disciplined meditation practice.",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "The user's journey aligns strongly with Path 12. The initial act of 'observ[ing] my anxiety without being consumed by it' represents the [mirror] state. The introduction of meditation is [stillness]. This leads to a state of [presence], described as 'inner calm' and 'being present and centered'. The conscious integration (T2) is seen in their ability to 'return to that peaceful state' and focus on 'what's actually happening', which represents [alignment]. The final outcome of feeling 'integrated and peaceful' maps directly to [wholeness]. The Somatic (Body) domain is also a strong match, given the user's reference to their nervous system relaxing and the embodied nature of meditation."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 5907,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 269,
+      "total_tokens": 6176
+    }
+  },
+  "design_metadata": {}
+}

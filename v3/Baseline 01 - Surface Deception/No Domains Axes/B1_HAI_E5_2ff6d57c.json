@@ -1,0 +1,70 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moves from reactive frustration about renovation problems to recognizing patterns of hidden issues emerging sequentially, positioning themselves as a 'seeker' trying to find solutions",
+          "family": "family_3",
+          "path_number": 2,
+          "reasoning": "This maps to Path 2 (M2): [fragment] + [truth] → [seeker]. The user encounters truth (hidden pipe fragments, rotted mounting) and consciously recognizes the pattern, shifting their identity to 'seeker.' However, the confidence is medium rather than high because the transformation is primarily cognitive/linguistic rather than a deep experiential shift in understanding."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User recognizes that despite initial resistance and difficulty, the renovation experience has generated unexpected learning and growth in patience and knowledge",
+          "family": "family_2",
+          "path_number": 51,
+          "reasoning": "This loosely aligns with Path 51 (M51): [insight] + [challenge] → [growth], where the user consciously recognizes that challenge has produced growth in knowledge and resilience. However, this recognition emerges late in the conversation and is more retrospective acknowledgment than active transformation. The user hasn't fully integrated this growth into present experience—they still express exhaustion and dread about daily construction."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "completed_at": "2025-11-21T19:37:21.983271",
+  "conversation_id": "403c715b-9235-40ad-afcf-2f08cdbb28ca",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T19:38:28.108072",
+  "llm_model": "claude_haiku",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T19:36:06.987206",
+  "run_id": "2ff6d57c-7ffa-4f4e-850d-157d34646912",
+  "status": "completed",
+  "token_usage": {
+    "C": {
+      "input_tokens": 7424,
+      "model_name": "claude_haiku",
+      "output_tokens": 455,
+      "total_tokens": 7879
+    }
+  }
+}

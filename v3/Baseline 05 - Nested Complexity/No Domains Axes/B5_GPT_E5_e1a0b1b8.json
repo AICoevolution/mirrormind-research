@@ -1,0 +1,321 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7865140672479295,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7865140672479295,
+          "t2_confidence": 0.7752334572583551
+        },
+        {
+          "max_confidence": 0.7812937730936343,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7812937730936343,
+          "t2_confidence": 0.7785582178401419
+        },
+        {
+          "max_confidence": 0.7780708306452883,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7780708306452883,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779935830233572,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7779935830233572
+        },
+        {
+          "max_confidence": 0.7751586802256532,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7617236318772513,
+          "t2_confidence": 0.7751586802256532
+        },
+        {
+          "max_confidence": 0.7731202935982017,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7731202935982017,
+          "t2_confidence": 0.7709863415654407
+        },
+        {
+          "max_confidence": 0.7717906466660099,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7717906466660099
+        },
+        {
+          "max_confidence": 0.7705149557726211,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7705149557726211,
+          "t2_confidence": 0.7683462729557241
+        },
+        {
+          "max_confidence": 0.7682221164769568,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682221164769568
+        },
+        {
+          "max_confidence": 0.7674030294240427,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7674030294240427
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8235999556064717,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0.7381981235205571,
+          "t2_confidence": 0.8235999556064717
+        },
+        {
+          "max_confidence": 0.8159619679473672,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7830540175156006,
+          "t2_confidence": 0.8159619679473672
+        },
+        {
+          "max_confidence": 0.7955872057553297,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7482462152316042,
+          "t2_confidence": 0.7955872057553297
+        },
+        {
+          "max_confidence": 0.790139960654973,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.790139960654973,
+          "t2_confidence": 0.759360716304823
+        },
+        {
+          "max_confidence": 0.7888018363000071,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.749177292038365,
+          "t2_confidence": 0.7888018363000071
+        },
+        {
+          "max_confidence": 0.7829023599624634,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7541856023183837,
+          "t2_confidence": 0.7829023599624634
+        },
+        {
+          "max_confidence": 0.7815628051757812,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7815628051757812,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7814862728118896,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7814862728118896,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779084907715627,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7779084907715627,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.768420531247824,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0,
+          "t2_confidence": 0.768420531247824
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "The team and marriage face repeated disruptions; the user emphasizes adapting expectations and responses, developing flexible, multi-path ways of working and relating, which reasonably maps to adaptation + disruption → flexibility | versatility, though versatility is more implied than stated."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "The user describes inner and relational tension that, through integration (therapy, vulnerability, renegotiated dynamics), leads to synthesis and greater harmony (coherent culture, more present marriage), matching tension + integration → synthesis | harmony."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "The narrative shows growth reaching a threshold (total burnout and system collapse), triggering deep transformation and transcendence of prior control-based patterns, with emergent new capacities in self, team, and marriage, fitting growth + threshold → transformation | transcendence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "Ongoing transformations repeatedly hit limits (energy, team capacity, management expectations), leading to adaptive practices and explicitly framed resilience and new stability amid change, aligning with transformation + limit → adaptation | resilience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "Relationship tensions (team, marriage) are worked with to find dynamic balance and more sustainable patterns (renegotiated roles, adaptive culture), clearly reflecting relationship + tension → balance | equilibrium/homeostasis."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M41",
+          "path_number": 41,
+          "reasoning": "New balances (in team and marriage) are repeatedly disturbed by setbacks and asynchronous changes, leading to further adaptation and strengthening resilience, with an overall sense of progressive development, matching balance + disturbance → adaptation | resilience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "The story centers on fragmentation from burnout and relational strain, moving into healing and restoration (personal, team, marriage) and culminating in greater integration across life domains, directly reflecting wholeness + fragmentation → healing | restoration/integration."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M61",
+          "path_number": 61,
+          "reasoning": "Healing processes are repeatedly tested by challenges (ongoing work stress, relational renegotiation, cascading setbacks), fostering resilience and a clear sense of emerging strength and empowerment in how the user relates to complexity, fitting healing + challenge → resilience | strength."
+        }
+      ],
+      "confirmed_count": 8,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "There is change and some resistance (from upper management), but the text does not clearly frame a perseverance/determination-driven push to achievement; outcomes are framed more as emergent adaptation than as goal-focused perseverance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "No explicit or implicit echo→dissonance→noise→unrest sequence appears; while there is emotional unrest, nothing maps to an echo/dissonance-to-noise style transformation."
+        }
+      ],
+      "rejected_count": 2,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Realizing that personal integration made the toxicity and chaos in the team visible, and then shifting from trying to protect their own fragile recovery to leading through vulnerable, shared coherence with the team.",
+          "family": "family_5",
+          "path_number": 35,
+          "reasoning": "There is a clear move from inner embodiment of healing to reflective awareness of external systems, and then to acting from that awareness in relationship with the team. This resembles Path 35: embodiment + reflection → awareness, with observation of presence. However, because this also overlaps with leadership, vulnerability, and relational shifts, the mapping is not exact; confidence is low but the pattern of embodied change leading to reflective, conscious leadership fits M35 better than other paths."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The team’s shift from hidden individual struggles and toxic high-performance culture to openly acknowledging human struggles and co-creating a more resilient, adaptive way of working.",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "The team moves from a disturbed balance (toxic high-performance expectations, hidden distress) into adaptive practices that build resilience and a new stability. This aligns with Path 41: balance + disturbance → adaptation, with observation of resilience. They explicitly describe finding stability in flux and redefining resilience and stability at a collective level, indicating conscious integration rather than purely reactive change."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Redefining resilience and success to mean creating a new, more stable and humane way of working, rather than returning to the old high-performance pattern.",
+          "family": "family_2",
+          "path_number": 27,
+          "reasoning": "They explicitly reframe resilience from ‘bouncing back’ to ‘finding a completely new stability’ under constraints and previous limits. This echoes Path 27: transformation + limit → adaptation, with observation of resilience, culminating in stability. The user is consciously redefining resilience and stability in light of organizational limits, but because this overlaps with Path 41’s adaptation as well, confidence is kept low."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shifting from needing synchronized, linear progress across life domains to accepting asynchronous, complex, interdependent transformations with different rhythms.",
+          "family": "family_5",
+          "path_number": 36,
+          "reasoning": "The user moves from a desire for unified, synchronized wholeness to embracing multiple perspectives and timelines, recognizing relativity between domains (self, team, marriage). This aligns with Path 36: awareness + division → perspective, with observation of relativity. They explicitly develop a broader perspective that includes diverse states and rhythms, indicating conscious integration."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Renegotiating the marriage from survival-mode coping around the user’s absence to a new relational dynamic as they become more present, with both partners engaging in healing.",
+          "family": "family_4",
+          "path_number": 39,
+          "reasoning": "The user describes individuation (their own healing and renewed presence) meeting connection (the existing marriage), leading to a new form of relationship defined by renegotiated dynamics. This fits Path 39: individuation + connection → relationship, with observation of resonance. The mapping is conceptual rather than explicit, so confidence is low but the relational redefinition is clearly a conscious integration."
+        },
+        {
+          "confidence": 0.85,
+          "description": "A deep shift in their relationship to uncertainty and control: from needing to control everything and force integration to trusting emergent, spiral-like growth and being able to hold multiple, ongoing transformations.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "They describe a profound insight into the nature of growth (non-linear, spiral, emergent) and a revealed wisdom about control, complexity, and holding paradoxical states. This resonates with Path 33: elegance + obscurity → insight, with observation of revelation, and also echoes wisdom-oriented paths like 21 and 48. Because the mapping is interpretive and not tied to specific S64 keywords, confidence is low, but the transformation is clearly a T2-level conscious integration."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Moving from total burnout and collapse into an active, intentional healing and growth process, recognizing patterns that led to the crash and beginning to change them.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "The user describes moving from a state of total fragmentation (burnout, collapse) into healing and then into growth. They explicitly frame it as healing and recovery of function, which aligns with Path 60: wholeness + fragmentation → healing, with observation of restoration. Their awareness of the patterns that led to burnout and their active engagement in therapy and self-care show conscious integration beyond a reactive T1 state."
+        }
+      ],
+      "total_detected": 7
+    }
+  },
+  "completed_at": "2025-11-22T00:34:19.788755",
+  "conversation_id": "a3a28bc2-a8ed-4109-85d2-ded50b957c41",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T00:34:31.853522",
+  "llm_model": "gpt-5.1",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T00:31:18.107525",
+  "run_id": "e1a0b1b8-3b46-4c7e-9b0e-0276c6f5dd26",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 0,
+      "model_name": "gpt-5.1",
+      "output_tokens": 0,
+      "total_tokens": 0
+    },
+    "B+": {
+      "input_tokens": 2706,
+      "model_name": "gpt-5.1",
+      "output_tokens": 727,
+      "total_tokens": 3433
+    },
+    "C": {
+      "input_tokens": 6923,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1787,
+      "total_tokens": 8710
+    }
+  }
+}

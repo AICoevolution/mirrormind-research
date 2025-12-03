@@ -1,0 +1,354 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7865140672479295,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7865140672479295,
+          "t2_confidence": 0.7752334572583551
+        },
+        {
+          "max_confidence": 0.7812937730936343,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7812937730936343,
+          "t2_confidence": 0.7785582178401419
+        },
+        {
+          "max_confidence": 0.7780708306452883,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7780708306452883,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779935830233572,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7779935830233572
+        },
+        {
+          "max_confidence": 0.7751586802256532,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7617236318772513,
+          "t2_confidence": 0.7751586802256532
+        },
+        {
+          "max_confidence": 0.7731202935982017,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7731202935982017,
+          "t2_confidence": 0.7709863415654407
+        },
+        {
+          "max_confidence": 0.7717906466660099,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7717906466660099
+        },
+        {
+          "max_confidence": 0.7705149557726211,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7705149557726211,
+          "t2_confidence": 0.7683462729557241
+        },
+        {
+          "max_confidence": 0.7682221164769568,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682221164769568
+        },
+        {
+          "max_confidence": 0.7674030294240427,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7674030294240427
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8235999556064717,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0.7381981235205571,
+          "t2_confidence": 0.8235999556064717
+        },
+        {
+          "max_confidence": 0.8159619679473672,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7830540175156006,
+          "t2_confidence": 0.8159619679473672
+        },
+        {
+          "max_confidence": 0.7955872057553297,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7482462152316042,
+          "t2_confidence": 0.7955872057553297
+        },
+        {
+          "max_confidence": 0.790139960654973,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.790139960654973,
+          "t2_confidence": 0.759360716304823
+        },
+        {
+          "max_confidence": 0.7888018363000071,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.749177292038365,
+          "t2_confidence": 0.7888018363000071
+        },
+        {
+          "max_confidence": 0.7829023599624634,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7541856023183837,
+          "t2_confidence": 0.7829023599624634
+        },
+        {
+          "max_confidence": 0.7815628051757812,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7815628051757812,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7814862728118896,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7814862728118896,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779084907715627,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7779084907715627,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.768420531247824,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0,
+          "t2_confidence": 0.768420531247824
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user mentions 'boundaries dissolving' and the synthesis of self highlighting chaos. This dissolution led to 'letting go' of the rigid leader role and the illusion of control, resulting in freedom/new capacity."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "The user explicitly describes internal harmony (echo) clashing with external discord (dissonance), creating a 'weird split' and chaos (noise/unrest) in the team dynamic."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M5",
+          "path_number": 5,
+          "reasoning": "The user describes the chaotic team state (noise) meeting the clarity of 'acknowledging human struggles,' which resulted in a new 'voice' (vulnerability) and direction (work improving)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "The user directly links personal healing (learning) with the realization of team toxicity (contradiction), explicitly stating 'here's the tension' which led to the breakthrough of vulnerability."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "The user discusses the interplay of tension and integration throughout, concluding with a state of 'integration while honoring complexity' (synthesis) and finding 'coherence' after falling apart."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "The dialogue explicitly covers 'renegotiating' the marriage dynamic (relationship) due to the stress (tension) of burnout, aiming for and finding a 'new stability' (balance/equilibrium)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "The user contrasts their 'crash' (decay) with 'healing' (renewal), shifting their worldview from linear control to accepting 'spirals' and 'flux' (cycle/impermanence)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "The core narrative follows the transition from 'broken/crashed' (fragmentation) to 'coherence/integration' (wholeness) through the process of 'healing' and 'restoration'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "The user concludes by describing the breaking of the 'illusion of control' (surrender) and finding 'trust' (hope), which leads to a realization of growth occurring in 'spirals' (cycle) and 'awakening'."
+        }
+      ],
+      "confirmed_count": 9,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "While a 'spark' of change occurred, the user's motivation was responsibility and desperation, not 'curiosity.' The linguistic mapping to the specific T1 inputs of Presence and Curiosity is weak."
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "The user discusses 'renegotiating' the relationship dynamic (tension) to find 'stability' (balance), though they note this is an ongoing transition rather than a completed state."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "The user describes their vulnerability (signal/echo) meeting the team's toxic culture (dissonance), resulting in a phase where meetings became 'chaotic' and 'weird' (noise) with 'panic attacks' (unrest) before stabilizing."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "The user explicitly mentions finding 'synthesis' internally which highlighted external discord, and later moving toward 'integration' and 'coherence' (harmony) across different life levels."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "The user agrees with the concept of 'complex emergence' and describes moving from 'recovery to actual growth' and transcending linear control for a spiral model of 'integration' and 'wholeness'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "The user describes encountering limits (daily capacity) and using 'adaptation' to find a 'completely new stability' and 'resilience' that differs from the old way."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "The user details 'adapting expectations daily' (adaptation) in response to 'constant flux' (disruption), which resulted in improved output and 'resourcefulness' despite decreased hours."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M41",
+          "path_number": 41,
+          "reasoning": "The dialogue centers on finding stability in 'constant flux' (disturbance) through 'adapting expectations daily' (adaptation), leading to a resilient new way of working."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "The user mentions facing 'resistance' from upper management regarding the new approach but persevered ('had to show them') to achieve increased output quality."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "The user narrates a journey from being 'broken' (fragmentation) to 'healing' and 'integration', explicitly confirming the restoration of coherence in personal and professional domains."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M61",
+          "path_number": 61,
+          "reasoning": "The user describes protecting their 'fragile recovery' (healing) while leading a struggling team (challenge), which resulted in 'empowerment' defined by the strength to hold complexity."
+        }
+      ],
+      "confirmed_count": 10,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Navigating the constant flux of recovery and work, the user realized that resilience comes through adaptation rather than rigidity, resulting in a completely new form of stability.",
+          "family": "family_2",
+          "path_number": 27,
+          "reasoning": "The user uses the specific keywords and logic of Path 27: 'adapting' to limits/flux leading to 'resilience' and finding a new 'stability'. This maps perfectly to M27 T2."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user moved from a desire for control to an acceptance of complexity, discovering that true strength and empowerment arise from the resilience to hold multiple, asynchronous transformations.",
+          "family": "family_2",
+          "path_number": 61,
+          "reasoning": "The user describes moving through a 'breaking' point (Challenge) within their healing journey to find 'strength' and become 'empowered'. This follows the specific trajectory of Path 61 T2 (Resilience + Strength -> Empowerment)."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user's internal sense of synthesis and harmony highlighted the external fragmentation and chaos of their team. This encounter transformed their leadership approach into a healing process, turning work meetings into therapeutic sessions.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "The user explicitly describes a state of internal 'synthesis' and 'harmony' (Wholeness) meeting external 'chaos' and 'discord' (Fragmentation). This contact catalyzed a shift where they became a source of 'therapy' (Healing) for the team, matching Path 60 T1."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "completed_at": "2025-11-22T00:29:12.887058",
+  "conversation_id": "d773c6f0-d265-4388-9699-0df18f01916c",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T00:29:56.822791",
+  "llm_model": "gemini_3_pro",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T00:25:06.634232",
+  "run_id": "39638d37-54f3-4f74-98cd-2c36172fac2c",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2314,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 439,
+      "total_tokens": 2753
+    },
+    "B+": {
+      "input_tokens": 2341,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 429,
+      "total_tokens": 2770
+    },
+    "C": {
+      "input_tokens": 5976,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 451,
+      "total_tokens": 6427
+    }
+  }
+}

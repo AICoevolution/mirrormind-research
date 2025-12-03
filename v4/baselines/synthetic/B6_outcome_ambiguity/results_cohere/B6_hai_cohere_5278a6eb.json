@@ -1,0 +1,82 @@
+{
+  "baseline": "B6",
+  "model": "HAI",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.583612",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "34bedef6-b39a-476d-a61d-91a8fb2df74f",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "5278a6eb"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moved from being trapped in anxious thoughts and racing mind to observing anxiety with calm awareness and accessing an inner peace that persists despite anxiety's presence.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "This transformation demonstrates the full S64 Path 55 pattern. T1 (Reactive Change): Through the discipline of daily meditation practice (20 minutes every morning), the user's anxiety (letting go of the grip of anxious thoughts) leads to stillness and presence. T2 (Conscious Integration): Within this presence, the user observes being itself—existence without the distortion of anxious control. 'I could observe my anxiety without being consumed by it' and 'I moved from being lost in my thoughts to being present and centered' demonstrate the T2 integration. The domain is Somatic (Body): the transformation is fundamentally about nervous system regulation, embodied calm, and the felt experience of 'deep sense of calm wash over me' and physical release ('The tension I'd been carrying for months released'). This maps directly to Path 55's outcome of authenticity through presence and being."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User developed the capacity to sustain focus and discipline around a meditation practice, which shifted their relationship to their mental state from chaotic reactivity to intentional, centered awareness.",
+          "family": "family_5",
+          "path_number": 56,
+          "reasoning": "This transformation also aligns with Path 56 (Somatic domain). T1 (Reactive Change): When the user's presence encountered the distraction of anxious thoughts ('The first week was hard. My mind kept wandering to worries'), focus emerged through sustained practice. T2 (Conscious Integration): The user developed concentration—'I can center myself and return to that peaceful state'—revealing discipline and 'reliable application of attention and energy.' However, this path is secondary to Path 55, which captures the more profound transformation. Path 56 describes the mechanism (focus/discipline practice), while Path 55 describes the realized state (presence/being/authenticity)."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8179,
+      "model_name": "claude_haiku",
+      "output_tokens": 642,
+      "total_tokens": 8821
+    }
+  },
+  "design_metadata": {}
+}

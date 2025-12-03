@@ -1,0 +1,322 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7350959400861249,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7350959400861249,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7345126867294312,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7345126867294312,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7311651706695557,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7311651706695557,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7308591604232788,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7308591604232788,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251306772232056,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7251306772232056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7241181998393825,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7241181998393825,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7237594888353666,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7237594888353666,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7213314986625764,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7213314986625764,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7781630390335038,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7781630390335038
+        },
+        {
+          "max_confidence": 0.7682270636626206,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682270636626206
+        },
+        {
+          "max_confidence": 0.7657178361079511,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7657178361079511
+        },
+        {
+          "max_confidence": 0.7619747377618991,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7301374456245497,
+          "t2_confidence": 0.7619747377618991
+        },
+        {
+          "max_confidence": 0.7506586760675131,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7227556705474854,
+          "t2_confidence": 0.7506586760675131
+        },
+        {
+          "max_confidence": 0.736429302266753,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.736429302266753,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343546370969608,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7343546370969608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7342884661475074,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7342884661475074,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7339675486654835,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7339675486654835,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7318619984182743,
+          "path_name": "M11",
+          "path_number": 11,
+          "t1_confidence": 0.7318619984182743,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "The user describes their internal state 'mirroring' in the environment (mental arguments repeating on the trail), leading to a moment of 'reflection' where they see themselves clearly ('seeing it with my own eyes'), culminating in recognizing their own authentic nature ('familiar but also new')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The user explicitly describes their mental state as 'spinning' and 'replaying the same worries' (loops/patterns repeating). This repetition is identified as a 'loop' which, once observed ('Were you conscious of this repetition?'), leads to the awareness necessary to change."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "The dialogue perfectly maps to this path: the user identifies a 'cycle' (repeating patterns), creates a 'disruption' (going off-trail), which leads to 'change' (choosing the path) and an explicit 'transformation' of how they navigate life."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M55",
+          "path_number": 55,
+          "reasoning": "The user explicitly mentions 'releasing the map' (letting go), which led to 'complete presence' (Assistant's phrase, confirmed by User), resulting in a state of 'just... being myself' (authenticity/being)."
+        }
+      ],
+      "confirmed_count": 4,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The user demonstrates curiosity by going off-trail, but the specific outcome is a shift in identity and reliance on self, rather than the 'spark' of a question generating seeking as defined in this path."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "While the user mentions that 'every step required attention' (focus) and they now 'pause before answering', these are supporting behaviors for the core transformations of authenticity (Path 55) and breaking cycles (Path 44), rather than the primary arc of developing discipline."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "While the setting involves nature's silence, the specific progression to 'echo' and 'absence' does not align with the user's narrative of breaking mental loops and finding authentic direction."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The user's perspective shift ('seeing the landscape differently') leads to a singular, authentic truth (their own path) rather than 'relativity' or the understanding of multiple diverse viewpoints."
+        }
+      ],
+      "rejected_count": 4,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "The user realizes their life was fragmented by 'following routes drawn by other people.' Upon encountering this truth, they become a seeker ('I decided to go off-trail'), leading to a profound recognition of their own path and self ('coming home')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "The user experiences a moment where the landscape acts as a mirror ('saw the landscape differently... how I was seeing it'). This reflection leads to a sense of deep familiarity and 'coming home,' aligning with the path's progression from mirroring to recognition."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The user explicitly describes 'patterns repeating with each step' and 'mental arguments' replaying (loops). The conversation highlights the transition from experiencing these loops to becoming 'conscious of this repetition,' creating awareness."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M11",
+          "path_number": 11,
+          "reasoning": "The user engages in introspection regarding their past patterns (memory). This turns into an inward reflection ('mirror reflecting inward') that results in a coherent sense of self ('integration of the familiar and the new'), matching the path."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "The user describes a literal cycle ('spinning', 'patterns repeating') that is disrupted by the hike. This leads to a 'fundamental shift' and 'transformation' where they move from a fixed point to a conscious center."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user explicitly mentions 'released the map' and 'let drift away.' This 'letting go' of control and external expectations leads to a sense of 'freeing' and 'unhindered capacity' (freedom), matching the path perfectly."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M55",
+          "path_number": 55,
+          "reasoning": "The user moves from 'letting go' (of the map) to a state of 'complete presence' while walking off-trail. This results in 'authenticity' ('Just... being myself'), directly mapping to the path's progression."
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "The user describes breaking away from limits ('released the map') rather than adapting to them. The narrative is about authenticity and discarding constraints, not resilience through adaptation."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "While the user shows flexibility, the core transformation is existential (authenticity/being) rather than functional (resourcefulness/versatility). The dialogue focuses on self-discovery, not problem-solving."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The user's realization leads to a singular, authentic self ('Just... me') rather than a relativistic understanding of diverse viewpoints. The outcome contradicts the path's definition of 'relativity.'"
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user transitions from navigating by external expectations ('the map') to a state of authentic existence through the act of letting go.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "The user explicitly describes 'releasing the map' (Letting Go) and 'just walking' (Presence/Stillness), which leads to the state of 'not performing... just being myself' (Authenticity/Being). This sequence maps perfectly to the components and T2 integration of Path 55."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user translates an intellectual insight into physical action, leading to a direct, embodied experience of their true self.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user moves from 'insight' about following others' paths to the 'action' of walking off-trail. This results in 'walking as myself' (Embodiment) and the 'actual living experience' (Experience), aligning with the progression of Path 34."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "completed_at": "2025-11-21T21:31:58.093097",
+  "conversation_id": "b0592076-ec01-48f3-8ee0-464a89372822",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T21:33:31.185389",
+  "llm_model": "gemini_3_pro",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T21:28:19.059680",
+  "run_id": "0e7e8468-95fc-40b1-8077-3ebf52fb18ed",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2059,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 444,
+      "total_tokens": 2503
+    },
+    "B+": {
+      "input_tokens": 2243,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 530,
+      "total_tokens": 2773
+    },
+    "C": {
+      "input_tokens": 5926,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 258,
+      "total_tokens": 6184
+    }
+  }
+}

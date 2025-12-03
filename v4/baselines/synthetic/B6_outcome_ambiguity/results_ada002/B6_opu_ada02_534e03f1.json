@@ -1,0 +1,195 @@
+{
+  "baseline": "B6",
+  "model": "OPU",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.721985",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "594b6c9f-6720-48fb-b0d8-cd209aef61ce",
+    "e5_run_id": "1bdb71ef-d06d-4436-b809-6e864ee385cf",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "534e03f1"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.818949244147635,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.818949244147635,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8094184739437578,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8094184739437578,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8039883375167847,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.7920964472380116,
+          "t2_confidence": 0.8039883375167847
+        },
+        {
+          "max_confidence": 0.8008153558506421,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.8008153558506421,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8000285148603623,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8000285148603623,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.797790789867551,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.797790789867551,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7964062928082438,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7964062928082438
+        },
+        {
+          "max_confidence": 0.7945171831404327,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7945171831404327,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7937799692153931,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7937799692153931
+        },
+        {
+          "max_confidence": 0.7934955112332771,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7934955112332771,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8355631526297669,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8355631526297669,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8345737157034324,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8345737157034324,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257696732419939,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8155257238917732,
+          "t2_confidence": 0.8257696732419939
+        },
+        {
+          "max_confidence": 0.8238820748540043,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8238820748540043,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8217847592170556,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.8217847592170556,
+          "t2_confidence": 0.7978232623444057
+        },
+        {
+          "max_confidence": 0.8208729273340982,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8208729273340982
+        },
+        {
+          "max_confidence": 0.8205158924441466,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8205158924441466,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8173377757471141,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8173377757471141,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8167421062607744,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8167421062607744,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8139117581949522,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8139117581949522
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Transformation from being consumed by anxious thoughts and mental chaos to achieving inner calm and peaceful awareness through meditation practice",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "This maps clearly to Path 12 (mirror + stillness → presence). The user describes moving from a state of self-reflection/awareness (mirror) through meditation/stillness practice to achieve presence. They explicitly mention 'being present and centered' and describe the T2 integration: recognizing alignment between their inner calm state and outer reality, creating wholeness ('From fragmented and anxious to integrated and peaceful'). The somatic domain matches perfectly - this transformation happened through embodied practice (meditation, nervous system relaxation) rather than just cognitive insight."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8179,
+      "model_name": "claude_opus",
+      "output_tokens": 250,
+      "total_tokens": 8429
+    }
+  },
+  "design_metadata": {}
+}

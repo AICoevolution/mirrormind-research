@@ -1,0 +1,76 @@
+{
+  "baseline": "B1",
+  "model": "GPT",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T20:08:25.227087",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "f5263d75-ff0b-488f-b800-2d0860f59416",
+    "conversation_id": "0e8b39a6-dc8b-4de6-80a6-4597429eeef8",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "f0899a06"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Moving from being caught in renovation chaos, stress, and resistance to recognizing it as a journey in patience and an eventual sense of achievement and growth in property value and personal learning.",
+          "family": "family_2",
+          "path_number": 25,
+          "reasoning": "The user starts from a place of strong resistance and daily struggle with the ongoing change of renovation, then later reframes the experience as a journey in patience, growth in property value, and personal learning, culminating in anticipated achievement. This reflects peace/acceptance of the situation encountering challenge and turning into growth and expansion (Path 25: peace + challenge → growth), and the user is consciously integrating the meaning of the ordeal rather than just reacting to it, which aligns with a T2-level transformation."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6647,
+      "model_name": "gpt-5.1",
+      "output_tokens": 283,
+      "total_tokens": 6930
+    }
+  },
+  "design_metadata": {}
+}

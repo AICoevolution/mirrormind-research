@@ -1,0 +1,55 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "completed_at": "2025-11-21T19:59:10.635466",
+  "conversation_id": "152c8915-2999-4945-9174-573998ec5425",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T20:07:07.559270",
+  "llm_model": "gemini_3_pro",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T19:57:46.300628",
+  "run_id": "c49125f7-4275-40e7-9a55-78f610faeb71",
+  "status": "completed",
+  "token_usage": {
+    "C": {
+      "input_tokens": 5691,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 5,
+      "total_tokens": 5696
+    }
+  }
+}

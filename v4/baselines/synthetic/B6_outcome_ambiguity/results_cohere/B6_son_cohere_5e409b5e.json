@@ -1,0 +1,75 @@
+{
+  "baseline": "B6",
+  "model": "SON",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.593801",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "e3212059-b9ca-4125-afed-ba4686876b09",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "5e409b5e"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moved from being trapped in a cycle of anxious, racing thoughts to experiencing deep calm and the ability to observe anxiety without being consumed by it through daily mindfulness meditation practice.",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "This maps clearly to Path 12 (M12): [mirror] + [stillness] → [presence] | Observation: [alignment]. The user developed a practice of introspective observation (mirror) which, through meditation/stillness, transformed into presence ('being present and centered', 'deep sense of calm'). The T2 integration is evident: they observe alignment between their inner state and outer reality ('I can center myself and return to that peaceful state'), creating wholeness ('fundamentally different', 'integrated and peaceful'). The domain is Somatic (Body) - the transformation happened through embodied practice (meditation), nervous system regulation ('my nervous system just... relaxed'), and cultivating bodily presence, not just emotional relief. The user explicitly describes moving from mental fragmentation to embodied integration through a somatic discipline."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8179,
+      "model_name": "claude_sonnet",
+      "output_tokens": 406,
+      "total_tokens": 8585
+    }
+  },
+  "design_metadata": {}
+}

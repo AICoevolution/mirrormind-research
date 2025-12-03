@@ -1,0 +1,91 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User's hope for the renovation project encounters conflict with contractors, leading to a fragmented experience with repeated problems",
+          "family": "family_3",
+          "path_number": 1,
+          "reasoning": "Matches Path 1 structure: [hope] + [conflict] → [fragment]. User explicitly mentions hope, conflict, and fragmentation, though the pattern recognition is more about practical problems than psychological awareness"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User becomes a seeker trying to find competent help amidst the fragmentation and problems",
+          "family": "family_3",
+          "path_number": 2,
+          "reasoning": "Matches Path 2 structure: [fragment] + [truth] → [seeker]. User explicitly identifies as a seeker in response to fragmented situation, though the 'truth' element is implied rather than explicit"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User experiences the renovation as a paradox - investing for future value while living in current chaos",
+          "family": "family_1",
+          "path_number": 6,
+          "reasoning": "Matches Path 6 structure: [voice] + [doubt] → [paradox]. User explicitly names the experience as a paradox arising from conflicting priorities, though the 'voice' element is less clear"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User's sense of peace and balance shatters under the pressure of the renovation experience",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Matches Path 9 structure: [reflection] + [crisis] → [shatter]. User explicitly mentions shattering of peace/balance in response to the renovation crisis, though the reflection element is implied"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moves toward acceptance of the timeline while recognizing the growth in property value and personal patience",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "Partially matches Path 24: [surrender] + [acceptance] → [peace]. User mentions acceptance and growth, but the transformation is more practical than deeply psychological, and the peace element is aspirational rather than achieved"
+        }
+      ],
+      "total_detected": 5
+    }
+  },
+  "completed_at": "2025-11-21T19:55:43.654851",
+  "conversation_id": "6eeee304-f6b5-4cd7-a44d-38be597ba65b",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T19:56:01.721320",
+  "llm_model": "deepseek",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T19:54:12.393810",
+  "run_id": "df173449-7206-4243-b1c7-116160063139",
+  "status": "completed",
+  "token_usage": {
+    "C": {
+      "input_tokens": 6786,
+      "model_name": "deepseek",
+      "output_tokens": 673,
+      "total_tokens": 7459
+    }
+  }
+}

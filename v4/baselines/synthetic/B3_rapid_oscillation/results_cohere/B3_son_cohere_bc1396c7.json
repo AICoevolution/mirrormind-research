@@ -1,0 +1,124 @@
+{
+  "baseline": "B3",
+  "model": "SON",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.471412",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "e470c6c8-7143-4eaf-b68c-976c121a46db",
+    "e5_run_id": "b2d2e9e4-15cd-49d6-9a16-50b086d98c77",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "bc1396c7"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5916647135832519,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.5916647135832519,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5803449174992196,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.5297370519179033,
+          "t2_confidence": 0.5803449174992196
+        },
+        {
+          "max_confidence": 0.5756614907192391,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5756614907192391,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5588384317810265,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5588384317810265,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5243153056433149,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.5243153056433149,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5242551605783066,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5242551605783066,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.511582137677948,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.511582137677948,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5032927301167792,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5032927301167792,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User experienced a crisis moment while reviewing footage, seeing their carefully constructed work as artificial and fake, leading to a shattering of their forced narrative approach and discovery of the authentic story beneath",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Clear M9 pattern: [reflection] (reviewing footage, seeing work as artificial like looking in a mirror) + [crisis] (considering deleting three months of work, everything looking fake) → [shatter] (narrative breaking down, 'broke me down completely'). T2 observation: [loss] of the constructed approach revealed [core] - 'the actual story I wanted to tell... the core reason I started this project'. The user explicitly describes shattering and finding what remains essential after everything falls away."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from constructing an elegant, clear-cut narrative to embracing messier, more ambiguous truth, discovering that obscurity and complexity are the point rather than obstacles",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "Clear M33 pattern: [elegance] (the elegant narrative constructed) + [obscurity] (ambiguous moments, unclear motivations, messiness) → [insight] ('suddenly became the point'). T2 observation: [revelation] - 'The insight hit me like lightning - I'd been trying to explain people instead of showing them. The revelation was that mystery and complexity ARE the human experience'. This is cognitive domain transformation about understanding the nature of truth and storytelling."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User shifted from theoretical computer-based editing to embodied filming practice, transforming the camera from a barrier into an extension of present attention",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "Clear M34 pattern: [insight] (understanding about showing vs explaining) + [action] (went back out filming, participating) → [embodiment] ('I'm participating, experiencing', 'I can feel the moments because I was really there'). T2 observation: [manifestation] - 'The embodiment of the experience shows in the footage... You can see the difference between the old disconnected shots and these new living ones.' The insight became tangible through changed filming practice, creating direct experiential knowing. This is cognitive insight moving into somatic practice (though the path itself is cognitive domain as it's about insight manifesting through action)."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8673,
+      "model_name": "claude_sonnet",
+      "output_tokens": 791,
+      "total_tokens": 9464
+    }
+  },
+  "design_metadata": {}
+}

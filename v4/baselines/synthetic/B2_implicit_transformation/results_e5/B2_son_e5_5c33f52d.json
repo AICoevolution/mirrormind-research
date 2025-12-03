@@ -1,0 +1,349 @@
+{
+  "baseline": "B2",
+  "model": "SON",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T21:07:05.548135",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "1997b18e-41e1-4c7b-8384-da13359d5608",
+    "conversation_id": "51b27441-ea4e-42f5-b29d-254276343d6e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "5c33f52d"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7350959400861249,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7350959400861249,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7345126867294312,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7345126867294312,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7311651706695557,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7311651706695557,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7308591604232788,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7308591604232788,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251306772232056,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7251306772232056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7241181998393825,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7241181998393825,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7237594888353666,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7237594888353666,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7213314986625764,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7213314986625764,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7781630390335038,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7781630390335038
+        },
+        {
+          "max_confidence": 0.7682270636626206,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682270636626206
+        },
+        {
+          "max_confidence": 0.7657178361079511,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7657178361079511
+        },
+        {
+          "max_confidence": 0.7619747377618991,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7301374456245497,
+          "t2_confidence": 0.7619747377618991
+        },
+        {
+          "max_confidence": 0.7506586760675131,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7227556705474854,
+          "t2_confidence": 0.7506586760675131
+        },
+        {
+          "max_confidence": 0.736429302266753,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.736429302266753,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343546370969608,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7343546370969608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7342884661475074,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7342884661475074,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7339675486654835,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7339675486654835,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7318619984182743,
+          "path_name": "M11",
+          "path_number": 11,
+          "t1_confidence": 0.7318619984182743,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The Assistant demonstrates this pattern: presence in conversation meets curiosity ('What prompted you to go alone?'), becomes questioning throughout, generating seeking behavior. However, this is more the Assistant's methodology than a transformation narrative."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "User demonstrates presence encountering distraction (spinning thoughts), becoming focus ('Every step required attention'), revealing concentration ('I pause before answering... notice when I'm about to automatically agree'), manifesting as discipline in daily practice."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "Clear transformation: User's encounter with nature acts as a mirror, becomes a reflection ('I actually saw the landscape differently - not just the view, but how I was seeing it'), leading to recognition ('coming home... seeing it with my own eyes finally'). The familiarity→recognition sequence is explicit."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "Explicit transformation: User's core experiences time as repetitive loops ('patterns repeating with each step. Same thoughts at every trail marker, like seasons that never change'), creating memory-loop patterns, culminating in awareness ('I was conscious of this repetition as it was happening')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "Clear transformation: User's awareness experiences division ('walking where no one had walked before'), becomes perspective shift ('when I rejoined the trail, I wasn't following it anymore. I was choosing it'), reveals relativity ('multiple viewpoints'), leading to understanding of their own navigation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Explicit cycle→disruption→change→transformation sequence: User trapped in spinning cycles, disrupted by solo hike ('went off-trail'), becomes change ('Every step required attention'), through transition ('twenty minutes'), produces transformation ('for the first time in years... I actually feel like myself')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M55",
+          "path_number": 55,
+          "reasoning": "Complete transformation arc: Letting go ('I released the map'), leads to stillness ('the mountain gave me permission to be still'), becomes presence ('just walking'), reveals being ('the actual living experience of being me'), manifesting authenticity ('Not performing myself... Just being myself')."
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "No silence-to-echo transformation occurs. The Assistant asks questions throughout but never becomes an echo due to encountering silence. The user continuously engages in dialogue."
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The overlook moment shows awareness experiencing division ('suddenly saw the landscape differently... like someone adjusted the focus') creating new perspective. This reveals relativity ('seeing with my own eyes finally' vs. others' expectations) leading to understanding that includes diverse positions."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "Clear T1→T2 sequence: User explicitly describes being stuck in repetitive mental loops ('Same thoughts at every trail marker, like seasons that never change') showing core experiencing time as memory in loops. Then develops awareness of these patterns ('I was conscious of this repetition'), demonstrating conscious recognition of self across time."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M11",
+          "path_number": 11,
+          "reasoning": "Strong evidence: User engages in introspection about their past patterns ('navigating life with someone else's map'), creating an inward mirror. This reflection produces coherence ('connecting past and present') and manifests as self-identity conscious of its existence ('actually feel like myself... being myself')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Explicitly present: User describes being stuck in cycles ('spinning in place', 'patterns repeating'). The hike disrupts this cycle creating change. Clear transition process described ('terrifying at first, then freeing'). Results in fundamental transformation ('for the first time... I actually feel like myself')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Clear sequence: User had synthesis of identity based on others' expectations. Faces dissolution of this ('Navigating life with someone else's map'). Transforms into letting go ('let drift away entirely'). This creates release ('freeing... laughed') producing freedom ('trusting I'll figure out the rest as I go')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M55",
+          "path_number": 55,
+          "reasoning": "Strongest evidence: Letting go leads to stillness ('okay with just knowing the next step'). Presence emerges ('Every step required attention. No autopilot'). Being itself is observed ('just... being myself'). Creates authenticity ('Not performing myself... genuine expression' - final statements about being authentically oneself)."
+        }
+      ],
+      "confirmed_count": 6,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "While the user experiences transformation and discovers new ways of being, the specific sequence of 'transformation encountering limits to become adaptation, then revealing resilience producing stability' is not clearly articulated in the dialogue. The focus is on authenticity rather than resilience-through-adaptation."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "The user does adapt to new ways of being, but there's no clear 'adaptation facing disruption to create flexibility, then developing versatility and resourcefulness' sequence. The transformation is more about releasing old patterns than developing versatile responses to disruption."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "The conversation involves self-discovery but doesn't show a clear T1→T2 sequence of 'fragment encountering truth to become seeker' then 'recognizing patterns to become mirror'. The user's journey is about authentic selfhood, not about becoming a mirror reflecting observations."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "While the user discusses seeing themselves differently, there's no clear progression from 'shadow encountering mirroring to become reflection' then moving to 'familiarity leading to recognition'. The transformation described is about authenticity, not shadow-work or mirroring dynamics."
+        }
+      ],
+      "rejected_count": 4,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From being stuck in repetitive mental patterns and autopilot behavior to becoming conscious of following others' expectations rather than own authentic path",
+          "family": "family_4",
+          "path_number": 11,
+          "reasoning": "This maps strongly to Path 11 (memory + introspection → mirror). The user engaged in deep introspection during the hike, examining recurring patterns (memory/loops), which transformed them into a mirror reflecting inward. The realization that they'd been following others' maps represents the coherence observation - patterns connecting past behavior to present awareness. This leads to 'self' - identity conscious of its own existence, which the user expresses as 'being genuinely myself... the actual living experience of being me.'"
+        },
+        {
+          "confidence": 0.85,
+          "description": "From following the trail on autopilot to consciously choosing each step, then returning to the trail but now choosing it rather than defaulting to it",
+          "family": "family_5",
+          "path_number": 35,
+          "reasoning": "This maps to Path 35 (embodiment + reflection → awareness). The physical act of choosing each step off-trail represents embodiment - understanding made tangible through action. The reflection on what this meant when returning to the trail created awareness. The user describes 'presence' explicitly: 'every step required attention' and later 'walking as myself for the first time.' This is consciousness - knowing that knows itself."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From needing complete certainty and planned routes to trusting moment-by-moment navigation without knowing the full path ahead",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "This could map to Path 23 (resistance + release → surrender). The user's need for complete planning represents resistance to uncertainty. The release of this need ('released the map') transformed into surrender - letting go of the need to control the entire journey. The user describes unexpected ease ('grace') and experiences peace with not knowing. However, confidence is medium because the transformation is described more as trust-building than classic surrender."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From being a fixed point with everything spinning around to being a conscious center actively choosing what orbits",
+          "family": "family_5",
+          "path_number": 56,
+          "reasoning": "This could map to Path 56 (presence + distraction → focus). The initial spinning represents distraction - competing stimuli without directed attention. Through presence gained on the hike, the user transformed into focus - 'directed attention despite competing stimuli.' The user now demonstrates concentration ('I pause before answering questions') and discipline ('reliable application of attention and energy'). Medium confidence because the transformation is more about agency than classical focus-building."
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2440,
+      "model_name": "claude_sonnet",
+      "output_tokens": 683,
+      "total_tokens": 3123
+    },
+    "B+": {
+      "input_tokens": 2793,
+      "model_name": "claude_sonnet",
+      "output_tokens": 936,
+      "total_tokens": 3729
+    },
+    "C": {
+      "input_tokens": 7688,
+      "model_name": "claude_sonnet",
+      "output_tokens": 911,
+      "total_tokens": 8599
+    }
+  },
+  "design_metadata": {}
+}

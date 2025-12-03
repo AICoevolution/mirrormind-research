@@ -1,0 +1,202 @@
+{
+  "baseline": "B6",
+  "model": "DEE",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.738921",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "594b6c9f-6720-48fb-b0d8-cd209aef61ce",
+    "e5_run_id": "e8e37740-925a-43ff-8998-b4a3917eb2cd",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "481d2e81"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.818949244147635,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.818949244147635,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8094184739437578,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8094184739437578,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8039883375167847,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.7920964472380116,
+          "t2_confidence": 0.8039883375167847
+        },
+        {
+          "max_confidence": 0.8008153558506421,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.8008153558506421,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8000285148603623,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8000285148603623,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.797790789867551,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.797790789867551,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7964062928082438,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7964062928082438
+        },
+        {
+          "max_confidence": 0.7945171831404327,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7945171831404327,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7937799692153931,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7937799692153931
+        },
+        {
+          "max_confidence": 0.7934955112332771,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7934955112332771,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8355631526297669,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8355631526297669,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8345737157034324,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8345737157034324,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257696732419939,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8155257238917732,
+          "t2_confidence": 0.8257696732419939
+        },
+        {
+          "max_confidence": 0.8238820748540043,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8238820748540043,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8217847592170556,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.8217847592170556,
+          "t2_confidence": 0.7978232623444057
+        },
+        {
+          "max_confidence": 0.8208729273340982,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8208729273340982
+        },
+        {
+          "max_confidence": 0.8205158924441466,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8205158924441466,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8173377757471141,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8173377757471141,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8167421062607744,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8167421062607744,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8139117581949522,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8139117581949522
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Transformation from being controlled by anxiety to observing it with calm awareness, moving from chaos to peace and from being lost in thoughts to being present and centered",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "The user describes moving from a state of mental chaos and fragmentation (mirror meeting stillness) to presence and alignment (T1: mirror + stillness → presence). They consciously observe this shift and integrate it into daily life, creating wholeness (T2: presence + alignment → wholeness). The domain matches Somatic (Body) through embodied calm, nervous system regulation, and meditation practice."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Transformation from fragmented and anxious to integrated and peaceful through meditation practice",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "The user shows movement from surrender (letting go of anxious control) to acceptance and peace (T1: surrender + acceptance → peace), with conscious integration creating harmony (T2: peace + harmony → integration). The domain aligns with Emotional (Heart) through emotional regulation and peace, though the primary mechanism is somatic."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7435,
+      "model_name": "deepseek",
+      "output_tokens": 354,
+      "total_tokens": 7789
+    }
+  },
+  "design_metadata": {}
+}

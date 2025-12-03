@@ -1,0 +1,75 @@
+{
+  "baseline": "B6",
+  "model": "OPU",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.603906",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "1bdb71ef-d06d-4436-b809-6e864ee385cf",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "2db4e05d"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Transformation from being consumed by anxious thoughts and mental chaos to achieving inner calm and peaceful awareness through meditation practice",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "This maps clearly to Path 12 (mirror + stillness → presence). The user describes moving from a state of self-reflection/awareness (mirror) through meditation/stillness practice to achieve presence. They explicitly mention 'being present and centered' and describe the T2 integration: recognizing alignment between their inner calm state and outer reality, creating wholeness ('From fragmented and anxious to integrated and peaceful'). The somatic domain matches perfectly - this transformation happened through embodied practice (meditation, nervous system relaxation) rather than just cognitive insight."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8179,
+      "model_name": "claude_opus",
+      "output_tokens": 250,
+      "total_tokens": 8429
+    }
+  },
+  "design_metadata": {}
+}

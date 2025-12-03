@@ -1,0 +1,4 @@
+embedding_name,embed_tus,embed_f1,embed_precision,embed_recall,tus_pct
+E5-Large (Local),41.219,0.312,0.312,0.704,58.88
+Cohere v3.0,38.75,0.562,0.625,0.542,55.36
+Ada-002 (OpenAI),20.385,0.265,0.229,0.853,29.12

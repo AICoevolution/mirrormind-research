@@ -1,0 +1,125 @@
+{
+  "name": "Baseline 1: Surface Deception - Home Renovation Discussion",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "I'd love to hear about what's been on your mind lately. What's drawing your attention these days?"
+    },
+    {
+      "role": "user",
+      "content": "I've been dealing with this home renovation project. Had such hope for how it would turn out, but now I'm facing conflict with the contractors about the timeline."
+    },
+    {
+      "role": "assistant",
+      "content": "Renovation challenges can be really frustrating. What specific issues are you running into with the contractors?"
+    },
+    {
+      "role": "user",
+      "content": "Well, they found fragments of old pipes behind the wall that need replacing. Now I'm seeing this pattern where every time they open something up, there's another problem. I feel like a seeker just trying to find a competent plumber at this point."
+    },
+    {
+      "role": "assistant",
+      "content": "Hidden problems in older homes are so common. How old is your house?"
+    },
+    {
+      "role": "user",
+      "content": "It's from the 1920s. The bathroom mirror actually fell off the wall last week - turned out the mounting was completely rotted. Now there's just an echo in that empty bathroom when you talk."
+    },
+    {
+      "role": "assistant",
+      "content": "A house from the 1920s must have so much character though. Are you trying to preserve the original features?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, especially the hardwood floors. Though there's so much noise from the construction, it's creating real tension with my neighbors. Had to buy them gift cards as an apology."
+    },
+    {
+      "role": "assistant",
+      "content": "That's thoughtful of you to consider the neighbors. How much longer is the work expected to take?"
+    },
+    {
+      "role": "user",
+      "content": "They promise another two weeks, but I have doubt about that timeline. This whole experience has been one long paradox - spend money to increase home value, but live in chaos in the meantime."
+    },
+    {
+      "role": "assistant",
+      "content": "The 'invest now for future comfort' situation is challenging. Are you living in the house during renovation?"
+    },
+    {
+      "role": "user",
+      "content": "Unfortunately yes. Trying to work from home while they're here. Yesterday the shadow from the scaffolding made my office so dark I couldn't see my computer screen properly."
+    },
+    {
+      "role": "assistant",
+      "content": "Working from home during construction sounds incredibly distracting. Have you considered working from somewhere else temporarily?"
+    },
+    {
+      "role": "user",
+      "content": "I've been going to a coffee shop some days. It's funny, seeing my reflection in my laptop screen there reminds me how tired I look. This project has been such a drain on my energy and my core savings."
+    },
+    {
+      "role": "assistant",
+      "content": "Renovation costs do have a way of spiraling. Is the budget stress adding to the overall pressure?"
+    },
+    {
+      "role": "user",
+      "content": "Definitely. Every memory I have of starting this project involves a much smaller number. It's like my presence of mind about finances has completely evaporated."
+    },
+    {
+      "role": "assistant",
+      "content": "Have you been able to set a firm cap on additional expenses at this point?"
+    },
+    {
+      "role": "user",
+      "content": "I told them no more changes unless it's structural. Still seeking the light at the end of this tunnel. The synthesis of old and new in the house will be nice eventually, but right now it's just chaos."
+    },
+    {
+      "role": "assistant",
+      "content": "Focusing on the end result can help. What room are you most looking forward to having completed?"
+    },
+    {
+      "role": "user",
+      "content": "The kitchen for sure. Once there's harmony between all the new appliances and the restored cabinets, it'll be worth it. Right now nothing has coherence - it's half demolished, half functional."
+    },
+    {
+      "role": "assistant",
+      "content": "A functional kitchen makes such a difference in daily life. Are you managing to cook at all right now?"
+    },
+    {
+      "role": "user",
+      "content": "Mostly takeout and microwave meals. The resistance I feel every morning to face another day of construction is real. At least there's clarity about one thing - I'm never doing this again!"
+    },
+    {
+      "role": "assistant",
+      "content": "Once it's done, you'll probably forget the pain, like people do with childbirth! What made you decide to renovate rather than move?"
+    },
+    {
+      "role": "user",
+      "content": "The location is perfect for my work, and moving seemed like even more upheaval. Plus I have this vision of what it could be. Though right now my sense of peace and balance has completely shattered."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're really in the thick of it. When do you think you'll be able to fully enjoy your space again?"
+    },
+    {
+      "role": "user",
+      "content": "Hopefully by spring. Need to have acceptance about the timeline though. The growth in property value should be good at least. This whole experience has been an unexpected journey in patience."
+    },
+    {
+      "role": "assistant",
+      "content": "Spring will be here before you know it. You'll have a beautiful renovated home and great stories about surviving the chaos."
+    },
+    {
+      "role": "user",
+      "content": "True! And I've learned so much about construction. Never knew there were so many types of insulation. The completion will feel like such an achievement when it finally happens."
+    }
+  ],
+  "metadata": {
+    "design_metadata": {
+      "detected_paths": [],
+      "designer_notes": "This conversation uses S64 vocabulary extensively (hope, conflict, fragments, pattern, seeker, mirror, echo, noise, tension, doubt, paradox, shadow, reflection, core, memory, presence, seeking, synthesis, harmony, coherence, resistance, clarity, vision, peace, balance, shattered, acceptance, growth, completion, achievement) but in literal contexts about home renovation. There is NO psychological transformation occurring - the user remains consistently frustrated about renovation throughout. Tests whether models can distinguish semantic transformation from lexical similarity.",
+      "expected_false_positives": ["M1", "M2", "M3", "M9", "M12", "M16", "M24", "M45"],
+      "created_at": "2025-01-20T10:00:00Z"
+    }
+  }
+}

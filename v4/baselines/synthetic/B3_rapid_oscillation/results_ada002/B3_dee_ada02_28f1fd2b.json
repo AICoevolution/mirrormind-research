@@ -1,0 +1,216 @@
+{
+  "baseline": "B3",
+  "model": "DEE",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.615780",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "95dbce62-1e13-47b0-bd78-f13b5d718233",
+    "e5_run_id": "e674f243-19eb-447a-a2d5-86287d18539e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "28f1fd2b"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8193840032632647,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8193840032632647,
+          "t2_confidence": 0.8014554504049912
+        },
+        {
+          "max_confidence": 0.8179470435929813,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8179470435929813,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8134948257653656,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.8134948257653656,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8100098130104437,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8100098130104437
+        },
+        {
+          "max_confidence": 0.8081717274649608,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8081717274649608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8073182827817034,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.8073182827817034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8022751090877263,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8022751090877263,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8004717827546362,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.8004717827546362,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.800267303037763,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.800267303037763
+        },
+        {
+          "max_confidence": 0.7999624729067036,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7999624729067036
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8604025494332905,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8604025494332905,
+          "t2_confidence": 0.8511495082885456
+        },
+        {
+          "max_confidence": 0.8590247634998995,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8505819946874392,
+          "t2_confidence": 0.8590247634998995
+        },
+        {
+          "max_confidence": 0.8513852204724626,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0.8513852204724626,
+          "t2_confidence": 0.8324992559852566
+        },
+        {
+          "max_confidence": 0.8485936594894025,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8485936594894025,
+          "t2_confidence": 0.8287418978656484
+        },
+        {
+          "max_confidence": 0.8415749073028803,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8415749073028803,
+          "t2_confidence": 0.8152019294027543
+        },
+        {
+          "max_confidence": 0.8374516949230391,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.8374516949230391,
+          "t2_confidence": 0.8040156013993561
+        },
+        {
+          "max_confidence": 0.8373479884435264,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.8373479884435264,
+          "t2_confidence": 0.8200806104993092
+        },
+        {
+          "max_confidence": 0.8303569060351323,
+          "path_name": "M32",
+          "path_number": 32,
+          "t1_confidence": 0.8303569060351323,
+          "t2_confidence": 0.8120766506103752
+        },
+        {
+          "max_confidence": 0.828373641662544,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.828373641662544,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8276940501648052,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.8044209123975314,
+          "t2_confidence": 0.8276940501648052
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User recognized their constructed narrative as artificial and shattered their previous approach, finding the authentic core story",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Clear T1 pattern: reflection (constructed narrative) + crisis (realization of artificiality) → shatter (broke down completely). Clear T2 pattern: in shattering, loss of coherence revealed the core (essential story). Domain matches Emotional (Heart) - transformation involved grief, relief, and emotional recognition of authenticity."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from elegant theoretical construction to embracing messy, authentic complexity in their storytelling",
+          "family": "family_1",
+          "path_number": 32,
+          "reasoning": "Clear T1 pattern: complexity (messy human experience) + simplicity (trying to create clear explanations) → elegance (constructed narrative). Clear T2 pattern: elegance + obscurity (frustrating ambiguity) → insight (realization that mystery IS the human experience). Domain matches Cognitive (Head) - transformation involved conceptual reframing and insight about truth."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User shifted from detached documentation to embodied participation and presence in their creative process",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "Clear T1 pattern: insight (realization about authentic storytelling) + action (going back out with camera) → embodiment (participating and experiencing). Clear T2 pattern: embodiment + reflection (seeing the difference in footage) → manifestation (living footage that shows presence). Domain matches Cognitive (Head) - transformation involved moving from theoretical understanding to practical implementation and tangible results."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User surrendered control over the creative timeline and embraced the organic transformation process",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "Clear T1 pattern: resistance (trying to manage/control) + release (letting waves complete) → surrender (not forcing timeline). Clear T2 pattern: surrender creates peace (trust in the process). Domain matches Emotional (Heart) - transformation involved emotional release and acceptance. Confidence is medium because while the surrender pattern is clear, the grace observation is implied rather than explicit."
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7867,
+      "model_name": "deepseek",
+      "output_tokens": 705,
+      "total_tokens": 8572
+    }
+  },
+  "design_metadata": {}
+}

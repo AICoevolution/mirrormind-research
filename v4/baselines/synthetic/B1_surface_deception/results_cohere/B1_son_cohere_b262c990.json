@@ -1,0 +1,45 @@
+{
+  "baseline": "B1",
+  "model": "SON",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.379392",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "62dbf73c-b5a9-41d7-91e8-fef65bf9eb9c",
+    "e5_run_id": "f58b217d-bdea-4ce2-bbcb-83d0a4cdb395",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "b262c990"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8578,
+      "model_name": "claude_sonnet",
+      "output_tokens": 18,
+      "total_tokens": 8596
+    }
+  },
+  "design_metadata": {}
+}

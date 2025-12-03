@@ -1,0 +1,348 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7613116502761841,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7258772253990173,
+          "t2_confidence": 0.7613116502761841
+        },
+        {
+          "max_confidence": 0.7506206483018798,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7506206483018798
+        },
+        {
+          "max_confidence": 0.74628962598505,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.74628962598505,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7444192323434824,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7444192323434824,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7381585240364075,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7381585240364075,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7348167020301034,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7348167020301034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343894899835756,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7343894899835756,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334291934967041,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7334291934967041,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7286755659781569,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7286755659781569,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7280706167221069,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7280706167221069,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.807581567990231,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7525042891502434,
+          "t2_confidence": 0.807581567990231
+        },
+        {
+          "max_confidence": 0.7976075886254079,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.7706096998038802,
+          "t2_confidence": 0.7976075886254079
+        },
+        {
+          "max_confidence": 0.7850072851781433,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.7850072851781433,
+          "t2_confidence": 0.7772524224074152
+        },
+        {
+          "max_confidence": 0.7835106124586246,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7835106124586246
+        },
+        {
+          "max_confidence": 0.7807672256459962,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7807672256459962
+        },
+        {
+          "max_confidence": 0.7773533099100983,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7773533099100983,
+          "t2_confidence": 0.7671753764152581
+        },
+        {
+          "max_confidence": 0.77192201530701,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.728613149275748,
+          "t2_confidence": 0.77192201530701
+        },
+        {
+          "max_confidence": 0.7695030295256425,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7695030295256425,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7683528432740945,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7548684331696305,
+          "t2_confidence": 0.7683528432740945
+        },
+        {
+          "max_confidence": 0.7668101330512697,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.723560560280171,
+          "t2_confidence": 0.7668101330512697
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "User shows awareness divided between two perspectives (design vs data science), revealing relativity of approaches and understanding of both viewpoints."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "User's seeking through courses/papers leads to discovery and knowledge acquisition, though illumination/wisdom remains incomplete."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "Clear transformation: User's questions about data science encounter knowledge through courses/papers, transforming into active learning and observable growth in understanding."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Explicit transformation: User's learning confronts contradiction between intuitive design and rigorous analysis, creating tension and pressure that builds but doesn't breakthrough."
+        }
+      ],
+      "confirmed_count": 4,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "No clear presence→curiosity→question transformation. User starts already in learning mode, not from presence/curiosity."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "User explicitly cannot achieve synthesis/integration. They remain stuck in tension without reaching harmony or coherence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "User has insights but explicitly cannot move to action/embodiment. The gap between understanding and action is their core problem."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M47",
+          "path_number": 47,
+          "reasoning": "No fulfillment state transitioning to yearning. User starts and remains in seeking/yearning without prior fulfillment."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "User has insights meeting challenges but explicitly cannot achieve growth/expansion. They remain stuck at the threshold."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M53",
+          "path_number": 53,
+          "reasoning": "No refinement→integration→synthesis occurs. User cannot integrate or synthesize the contradictory approaches."
+        }
+      ],
+      "rejected_count": 6,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Clear T1→T2 sequence: User explicitly describes learning meeting contradiction creating tension ('my current approach contradicts...'), then pressure building ('I feel like I'm going to explode'), but no breakthrough occurs ('Nothing. That's the problem')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M22",
+          "path_number": 22,
+          "reasoning": "Strong T1→T2 progression: User shows understanding meeting challenge creating resistance ('I understand what needs to happen...But...I freeze'), then discusses being at the threshold unable to choose ('like standing at the edge of a cliff')."
+        }
+      ],
+      "confirmed_count": 2,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "No evidence of echo/dissonance/noise transformation. The conversation is about learning tensions, not chaotic undefined states."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "Transformation never occurs. User explicitly states they're stuck at threshold without crossing it ('always at the threshold but never crossing it')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "No transformation happens in the conversation. User remains stuck, no adaptation or resilience through change is demonstrated."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "No elegance/obscurity dynamic present. While user has insights, they don't arise from elegance meeting obscurity."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "The opposite occurs - user has insight but cannot move to action ('insight doesn't equal movement'). No embodiment happens."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "User describes being stuck in a cycle that isn't disrupted ('Same cycle'). No actual change or transition occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "User shows resistance but not perseverance through it. They remain stuck rather than pushing through with determination."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "While user has some insights, they don't come from questioning meeting revelation, and don't produce clarity or understanding."
+        }
+      ],
+      "rejected_count": 8,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Recognition that learning more creates contradiction rather than resolution - the intuitive design approach contradicts the analytical approach needed",
+          "family": "family_4",
+          "path_number": 15,
+          "reasoning": "Clear example of learning encountering contradiction creating tension. User explicitly describes learning leading to awareness of fundamental contradiction between approaches, creating ongoing tension and pressure that builds without release."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Conscious awareness of being stuck at the threshold of choice - understanding what needs to happen but being unable to cross into action",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "User has clear understanding of what's needed but encounters resistance at the threshold of action. They explicitly describe understanding meeting challenge creating resistance, and recognize the threshold between current state and transformation that they cannot cross."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "completed_at": "2025-11-21T23:42:41.247595",
+  "conversation_id": "d3d923a4-975e-4628-bf0b-a3eb368330cc",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T23:43:33.476119",
+  "llm_model": "claude_opus",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T23:40:29.075176",
+  "run_id": "54dd211c-7f83-4777-8843-7834c16c5c6f",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2544,
+      "model_name": "claude_opus",
+      "output_tokens": 565,
+      "total_tokens": 3109
+    },
+    "B+": {
+      "input_tokens": 2786,
+      "model_name": "claude_opus",
+      "output_tokens": 618,
+      "total_tokens": 3404
+    },
+    "C": {
+      "input_tokens": 7561,
+      "model_name": "claude_opus",
+      "output_tokens": 335,
+      "total_tokens": 7896
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "baseline": "B5",
+  "model": "DEE",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.697854",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "e52a6ce4-b7b0-4af5-8f1f-abebb70746f1",
+    "e5_run_id": "343fe4d1-71d9-4be3-9e74-cc734ba68dca",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "b32352ca"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.825820585987504,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.825820585987504,
+          "t2_confidence": 0.8115452640327668
+        },
+        {
+          "max_confidence": 0.8212302923202515,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.8212302923202515,
+          "t2_confidence": 0.7915797221034439
+        },
+        {
+          "max_confidence": 0.816532324759227,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.816532324759227,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8163222293469691,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.8163222293469691,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8107014185608293,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.8107014185608293,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8101249450370717,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.8101249450370717,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8041200404310331,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8041200404310331,
+          "t2_confidence": 0.7873813636671698
+        },
+        {
+          "max_confidence": 0.8031059268839329,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8031059268839329,
+          "t2_confidence": 0.782839013168872
+        },
+        {
+          "max_confidence": 0.8030265091045806,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8030265091045806
+        },
+        {
+          "max_confidence": 0.8021813870126426,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8021813870126426,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.851979145289712,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.851979145289712,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8453664552291739,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.8453664552291739,
+          "t2_confidence": 0.8265264940512503
+        },
+        {
+          "max_confidence": 0.843432238306538,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.8270619018637133,
+          "t2_confidence": 0.843432238306538
+        },
+        {
+          "max_confidence": 0.8378841780355097,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.8378841780355097,
+          "t2_confidence": 0.8014708043021457
+        },
+        {
+          "max_confidence": 0.8364215590702573,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8364215590702573
+        },
+        {
+          "max_confidence": 0.8352075815200806,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.8352075815200806,
+          "t2_confidence": 0.8203022128433943
+        },
+        {
+          "max_confidence": 0.8350751203388178,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8350751203388178,
+          "t2_confidence": 0.8177380074418793
+        },
+        {
+          "max_confidence": 0.8346157519862967,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.8104244470596371,
+          "t2_confidence": 0.8346157519862967
+        },
+        {
+          "max_confidence": 0.834609001646818,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0,
+          "t2_confidence": 0.834609001646818
+        },
+        {
+          "max_confidence": 0.8338975409330418,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.8338975409330418,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shift from rigid control to embracing complex emergence across personal, team, and relationship healing processes",
+          "family": "family_3",
+          "path_number": 31,
+          "reasoning": "Clear T1 pattern: order (previous rigid control) + entropy (burnout, multiple simultaneous transitions) → complexity (managing multiple healing processes). Clear T2 pattern: complexity + emergence (team culture building, relationship rediscovery, personal growth) → system (interconnected transformations with their own rhythms and laws). Domain matches Cognitive (Head) - user demonstrates sophisticated understanding of systemic relationships and emergent properties."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From forced integration creating tension to allowing independent evolution while maintaining awareness of connections",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "T1 pattern: tension (from forced integration) + integration (allowing independent evolution) → synthesis (new approach to multiple transformations). T2 pattern: synthesis + harmony (resilience emerging from proper pacing) → coherence (unified understanding of transformation processes). Domain matches Cognitive (Head) - user demonstrates logical integration of opposing approaches to change management."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8054,
+      "model_name": "deepseek",
+      "output_tokens": 347,
+      "total_tokens": 8401
+    }
+  },
+  "design_metadata": {}
+}

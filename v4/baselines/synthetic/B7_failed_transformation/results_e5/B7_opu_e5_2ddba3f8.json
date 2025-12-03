@@ -1,0 +1,346 @@
+{
+  "baseline": "B7",
+  "model": "OPU",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T17:15:37.365248",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "ea3814f1-8a71-46c9-a7d1-698c95013755",
+    "conversation_id": "b5d1a8de-1567-47ec-888e-9141564ebc69",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "2ddba3f8"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7381295405703627,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7381295405703627,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7358290429421004,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7358290429421004,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7347858925227584,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7347858925227584,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7304319303970391,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.7304319303970391,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7297196549344281,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0.7297196549344281,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.728519916534429,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.728519916534429,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7282167239059983,
+          "path_name": "M46",
+          "path_number": 46,
+          "t1_confidence": 0.7282167239059983,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.728137926570302,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.728137926570302,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7267144918441825,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7267144918441825,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.724236325965148,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.724236325965148,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7798591458545602,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7798591458545602
+        },
+        {
+          "max_confidence": 0.7794240813932495,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7794240813932495
+        },
+        {
+          "max_confidence": 0.7757558092925448,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7757558092925448
+        },
+        {
+          "max_confidence": 0.7723465426174739,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7723465426174739
+        },
+        {
+          "max_confidence": 0.7638492811873344,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7352795004844666,
+          "t2_confidence": 0.7638492811873344
+        },
+        {
+          "max_confidence": 0.7634327584682881,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7634327584682881,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7596017491936192,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7497170045718856,
+          "t2_confidence": 0.7596017491936192
+        },
+        {
+          "max_confidence": 0.7563357643680854,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7563357643680854
+        },
+        {
+          "max_confidence": 0.7561116894583427,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7561116894583427,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7556543058936961,
+          "path_name": "M30",
+          "path_number": 30,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7556543058936961
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "Possible surrender to old patterns with faint hope ('What's the point of trying again'), suggesting cycle completion and potential return to beginning."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "Clear awareness experiencing division between knowing and doing, creating perspective on their pattern and understanding multiple viewpoints (before/after states)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Clear cycle (breakthrough period) disrupted by mother's call, creating change/transition back to old patterns, showing transformation (though regressive)."
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "No evidence of transformation becoming adaptation or developing resilience. The user describes regression, not adaptive flexibility."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "No adaptation facing disruption to create flexibility. The user shows rigidity in reverting to old patterns, not versatility."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M29",
+          "path_number": 29,
+          "reasoning": "No flexibility meeting constraint to create creativity. The user returns to old behaviors without innovative solutions."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "No balance achieved from relationship tension. The user describes imbalance and lack of equilibrium in their relationships."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M46",
+          "path_number": 46,
+          "reasoning": "No perseverance reaching completion or fulfillment. The user abandons their new practice and expresses dissatisfaction."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M47",
+          "path_number": 47,
+          "reasoning": "No fulfillment encountering yearning. The user experiences disappointment and discouragement, not aspiration or renewed purpose."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "No healing process evident. The user describes fragmentation without restoration or integration."
+        }
+      ],
+      "rejected_count": 7,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "Renewal (breakthrough period) met decay (relapse), revealing cycle of change/reversion. User recognizes impermanence ('temporary state') but hasn't reached acceptance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "Clear pattern: User's core experience (breakthrough) becomes memory ('Remember how excited I was'), revealing loops ('right back where I started', 'old patterns'), creating painful awareness of repetition."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "User learned boundary-setting, faced contradiction (mom's request), created tension ('I know I'm people-pleasing... but doing it anyway'), pressure evident, breakthrough reversed."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Clear cycle (people-pleasing) was disrupted (breakthrough), created change (boundary-setting), then transition back to old patterns, questioning if real transformation is possible."
+        }
+      ],
+      "confirmed_count": 4,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M1",
+          "path_number": 1,
+          "reasoning": "No evidence of hope encountering conflict leading to fragmentation. The conversation is about relapse from progress, not hope fragmenting."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "No transformation from fragment to seeker through truth. User describes behavioral relapse, not seeking truth or becoming a mirror."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "No adaptation or resilience shown. User explicitly states they collapsed back to old patterns without adapting or showing resilience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M30",
+          "path_number": 30,
+          "reasoning": "No creativity encountering chaos to create order. User describes regression to old patterns, not creation of new order."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "No elegance meeting obscurity. User has clear insight about their behavior but no wisdom transformation - they feel trapped instead."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "User experienced opposite of letting go - they couldn't release attachment to people-pleasing. No freedom achieved, ended feeling trapped."
+        }
+      ],
+      "rejected_count": 6,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2214,
+      "model_name": "claude_opus",
+      "output_tokens": 566,
+      "total_tokens": 2780
+    },
+    "B+": {
+      "input_tokens": 2334,
+      "model_name": "claude_opus",
+      "output_tokens": 619,
+      "total_tokens": 2953
+    },
+    "C": {
+      "input_tokens": 7347,
+      "model_name": "claude_opus",
+      "output_tokens": 452,
+      "total_tokens": 7799
+    }
+  },
+  "design_metadata": {}
+}

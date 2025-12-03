@@ -1,0 +1,110 @@
+{
+  "baseline": "B5",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.573073",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "1f944b78-3c92-4f5e-ab96-e87bf6fc7265",
+    "e5_run_id": "343fe4d1-71d9-4be3-9e74-cc734ba68dca",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "18fdfa3b"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.560690492356608,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.560690492356608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.531020484855759,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.531020484855759,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.529748558960961,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.529748558960961,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5193195591748151,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.5193195591748151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5134881535258305,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.5134881535258305,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5128114353059947,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.5128114353059947,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5090507191451621,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.5090507191451621,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 7
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shift from rigid control to embracing complex emergence across personal, team, and relationship healing processes",
+          "family": "family_3",
+          "path_number": 31,
+          "reasoning": "Clear T1 pattern: order (previous rigid control) + entropy (burnout, multiple simultaneous transitions) → complexity (managing multiple healing processes). Clear T2 pattern: complexity + emergence (team culture building, relationship rediscovery, personal growth) → system (interconnected transformations with their own rhythms and laws). Domain matches Cognitive (Head) - user demonstrates sophisticated understanding of systemic relationships and emergent properties."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From forced integration creating tension to allowing independent evolution while maintaining awareness of connections",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "T1 pattern: tension (from forced integration) + integration (allowing independent evolution) → synthesis (new approach to multiple transformations). T2 pattern: synthesis + harmony (resilience emerging from proper pacing) → coherence (unified understanding of transformation processes). Domain matches Cognitive (Head) - user demonstrates logical integration of opposing approaches to change management."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8054,
+      "model_name": "deepseek",
+      "output_tokens": 347,
+      "total_tokens": 8401
+    }
+  },
+  "design_metadata": {}
+}

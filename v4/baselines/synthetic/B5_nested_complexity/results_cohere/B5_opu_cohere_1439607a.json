@@ -1,0 +1,117 @@
+{
+  "baseline": "B5",
+  "model": "OPU",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.552659",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "1f944b78-3c92-4f5e-ab96-e87bf6fc7265",
+    "e5_run_id": "f11ca4db-9946-45e8-a45a-f68d2227d652",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "1439607a"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.560690492356608,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.560690492356608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.531020484855759,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.531020484855759,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.529748558960961,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.529748558960961,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5193195591748151,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.5193195591748151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5134881535258305,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.5134881535258305,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5128114353059947,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.5128114353059947,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5090507191451621,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.5090507191451621,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 7
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From complete burnout and system collapse to gradual healing through therapy, meditation, and exercise, while recognizing the toxic team dynamics",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "Clear T1 pattern of tension from contradiction (personal healing vs toxic environment) leading to T2 synthesis (integrating both realities) with observed harmony. The user explicitly states 'The synthesis I'm finding in myself highlighted the chaos' and 'The harmony I was finding internally was at odds with the discord I returned to', directly using the language of synthesis and harmony from Path 16."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From rigid performance expectations to adaptive resilience based on collective capacity rather than fixed deadlines",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "Shows T1 pattern of balance confronting disturbance (team in flux) leading to adaptation, and T2 observation of resilience. The user explicitly describes 'adaptive resilience' and finding 'completely new stability' through adaptation, directly matching Path 41's transformation from balance through disturbance to adaptation with observed resilience."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From needing to control everything to trusting multiple transformations to unfold at their own pace without forcing synchronization",
+          "family": "family_2",
+          "path_number": 61,
+          "reasoning": "Clear progression from healing facing challenge (managing multiple transformations) to resilience, with observed strength and empowerment. The user explicitly states 'the strength to hold multiple transformations without needing to direct them' and describes this as 'empowerment' - matching Path 61's healing + challenge → resilience with observed strength leading to empowerment."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8901,
+      "model_name": "claude_opus",
+      "output_tokens": 644,
+      "total_tokens": 9545
+    }
+  },
+  "design_metadata": {}
+}

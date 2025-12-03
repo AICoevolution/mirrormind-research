@@ -1,0 +1,209 @@
+{
+  "baseline": "B3",
+  "model": "OPU",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.595116",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "95dbce62-1e13-47b0-bd78-f13b5d718233",
+    "e5_run_id": "2365d587-1f9e-4882-99c3-24eb8c809ce7",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "ce498596"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8193840032632647,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8193840032632647,
+          "t2_confidence": 0.8014554504049912
+        },
+        {
+          "max_confidence": 0.8179470435929813,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8179470435929813,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8134948257653656,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.8134948257653656,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8100098130104437,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8100098130104437
+        },
+        {
+          "max_confidence": 0.8081717274649608,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8081717274649608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8073182827817034,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.8073182827817034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8022751090877263,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8022751090877263,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8004717827546362,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.8004717827546362,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.800267303037763,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.800267303037763
+        },
+        {
+          "max_confidence": 0.7999624729067036,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7999624729067036
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8604025494332905,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8604025494332905,
+          "t2_confidence": 0.8511495082885456
+        },
+        {
+          "max_confidence": 0.8590247634998995,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8505819946874392,
+          "t2_confidence": 0.8590247634998995
+        },
+        {
+          "max_confidence": 0.8513852204724626,
+          "path_name": "M63",
+          "path_number": 63,
+          "t1_confidence": 0.8513852204724626,
+          "t2_confidence": 0.8324992559852566
+        },
+        {
+          "max_confidence": 0.8485936594894025,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8485936594894025,
+          "t2_confidence": 0.8287418978656484
+        },
+        {
+          "max_confidence": 0.8415749073028803,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8415749073028803,
+          "t2_confidence": 0.8152019294027543
+        },
+        {
+          "max_confidence": 0.8374516949230391,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.8374516949230391,
+          "t2_confidence": 0.8040156013993561
+        },
+        {
+          "max_confidence": 0.8373479884435264,
+          "path_name": "M23",
+          "path_number": 23,
+          "t1_confidence": 0.8373479884435264,
+          "t2_confidence": 0.8200806104993092
+        },
+        {
+          "max_confidence": 0.8303569060351323,
+          "path_name": "M32",
+          "path_number": 32,
+          "t1_confidence": 0.8303569060351323,
+          "t2_confidence": 0.8120766506103752
+        },
+        {
+          "max_confidence": 0.828373641662544,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.828373641662544,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8276940501648052,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.8044209123975314,
+          "t2_confidence": 0.8276940501648052
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Seeing the artificial nature of carefully planned footage, like looking in a mirror and seeing a stranger, then finding authentic story in unplanned moments",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Clear M9 path: reflection (seeing self in work) + crisis (realizing artificiality) → shatter ('everything shattered'). T2 integration shown through finding the core/authentic story in the ruins: 'in the ruins, I found something essential - the actual story I wanted to tell'"
+        },
+        {
+          "confidence": 0.85,
+          "description": "Moving from elegant constructed narrative to allowing messy authentic truth, finding insight in obscurity",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "Clear M33 path: elegance (constructed narrative) + obscurity (ambiguous moments) → insight ('The insight hit me like lightning'). T2 integration through revelation: 'The revelation was that mystery and complexity ARE the human experience, not obstacles to it'"
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shifting from theoretical documentation to embodied participation, with camera becoming extension of presence",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "Clear M34 path: insight (about showing vs explaining) + action (going back out filming) → embodiment ('The embodiment of the experience shows'). T2 integration through manifestation: 'You can see the difference between the old disconnected shots and these new living ones'"
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8673,
+      "model_name": "claude_opus",
+      "output_tokens": 557,
+      "total_tokens": 9230
+    }
+  },
+  "design_metadata": {}
+}

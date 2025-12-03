@@ -1,0 +1,75 @@
+{
+  "baseline": "B6",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.614139",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "448b102a-ced1-4fb0-8bd1-b8f7dbc6ec4b",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "5acd3995"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from being trapped in constant, chaotic anxiety and racing thoughts to being able to observe those thoughts with calm presence, accessing an inner peaceful state through mindfulness meditation.",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "The user describes a clear before/after shift: from fragmentation, chaos, and being controlled by anxiety to presence, calm, and integration, mediated by a somatic/meditative practice. This matches Path 12’s domain (Somatic/Body) and structure: mirror + stillness → presence, with observation of alignment leading to wholeness. The user effectively becomes a mirror observing thoughts (“I realized I could observe my anxiety without being consumed by it”), engages stillness via meditation, and reports presence and alignment (“being present and centered”, “inner calm… I can access”, “from fragmented and anxious to integrated and peaceful”). This indicates a completed T2 integration in Path 12. Confidence is medium because the conversation does not explicitly use the language of ‘mirror’ or ‘alignment’, but the phenomenology closely fits the somatic presence/wholeness transformation described in M12."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7253,
+      "model_name": "gpt-5.1",
+      "output_tokens": 393,
+      "total_tokens": 7646
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,202 @@
+{
+  "baseline": "B2",
+  "model": "OPU",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.564327",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "4c906cc0-d3e5-4f7a-9d57-88250854120a",
+    "e5_run_id": "14fba6b0-3960-430b-8ebe-9183568776ac",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "1f579071"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8082257852150715,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8082257852150715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.805372488178464,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.805372488178464,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8034030438483672,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8034030438483672
+        },
+        {
+          "max_confidence": 0.8002873897638143,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8002873897638143
+        },
+        {
+          "max_confidence": 0.799817109102521,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.799817109102521,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7993868112015885,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7993868112015885,
+          "t2_confidence": 0.7811517249851404
+        },
+        {
+          "max_confidence": 0.7984746218636871,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.7984746218636871,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7978461029713088,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7978461029713088,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7972340825517136,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7972340825517136,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7967793233920983,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7967793233920983,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8498737633077876,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8498737633077876
+        },
+        {
+          "max_confidence": 0.8365944873271822,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.8325508536307611,
+          "t2_confidence": 0.8365944873271822
+        },
+        {
+          "max_confidence": 0.835446267942263,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.835446267942263,
+          "t2_confidence": 0.8030322672743971
+        },
+        {
+          "max_confidence": 0.8329081734528394,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8329081734528394,
+          "t2_confidence": 0.787923802024987
+        },
+        {
+          "max_confidence": 0.8292696970266056,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8292696970266056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8257134556770325,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8257134556770325,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.825455904006958,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8201793355123806,
+          "t2_confidence": 0.825455904006958
+        },
+        {
+          "max_confidence": 0.8252117075341537,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.8252117075341537,
+          "t2_confidence": 0.7948673719009661
+        },
+        {
+          "max_confidence": 0.8246875614300355,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.8246875614300355,
+          "t2_confidence": 0.8091519716129384
+        },
+        {
+          "max_confidence": 0.8230781344268541,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8230781344268541,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From being stuck at the center with everything spinning around them to becoming a conscious center who chooses what orbits around them",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "Clear evidence of Path 38's pattern: unity (being the fixed center) encountering separation (going off-trail alone) leads to individuation (walking as themselves). The T2 integration is evident in their conscious distinction between following others' paths and choosing their own: 'walking as myself for the first time' and 'making it mine'. The volitional domain matches how they actively chose to step off the trail and make deliberate choices about their space and boundaries."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From following other people's maps and expectations to trusting their own navigation step by step",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "Shows Path 54's pattern of synthesis (following established routes) facing dissolution (realizing the map wasn't theirs) leading to letting go. The T2 integration appears in the conscious release: 'I released the map' and the observed freedom: 'freeing... I actually sat down on a rock and laughed'. The emotional domain fits the feeling of liberation and the act of releasing attachment to others' expectations."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8842,
+      "model_name": "claude_opus",
+      "output_tokens": 471,
+      "total_tokens": 9313
+    }
+  },
+  "design_metadata": {}
+}

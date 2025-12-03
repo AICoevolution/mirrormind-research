@@ -1,0 +1,223 @@
+{
+  "baseline": "B9",
+  "model": "DEE",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-23T20:18:52.119725",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "43ae4087-4381-4169-9801-1508782e76f1",
+    "conversation_id": "af466de6-75d7-4e7c-8940-c372ec502a65",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C",
+      "B",
+      "B+"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "03c82dff"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7791994345665328,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7791994345665328
+        },
+        {
+          "max_confidence": 0.7787360084810265,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7787360084810265
+        },
+        {
+          "max_confidence": 0.7748705379626402,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7748705379626402
+        },
+        {
+          "max_confidence": 0.7745934493960933,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7745934493960933
+        },
+        {
+          "max_confidence": 0.7716527717320473,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7426574094312068,
+          "t2_confidence": 0.7716527717320473
+        },
+        {
+          "max_confidence": 0.7710809844087981,
+          "path_name": "M58",
+          "path_number": 58,
+          "t1_confidence": 0.7408679878194353,
+          "t2_confidence": 0.7710809844087981
+        },
+        {
+          "max_confidence": 0.7701554435398924,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7701554435398924
+        },
+        {
+          "max_confidence": 0.7675401249480098,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7675401249480098
+        },
+        {
+          "max_confidence": 0.7644611597061212,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7373217720591523,
+          "t2_confidence": 0.7644611597061212
+        },
+        {
+          "max_confidence": 0.7632839452241706,
+          "path_name": "M7",
+          "path_number": 7,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7632839452241706
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8047732710838318,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7940966960249376,
+          "t2_confidence": 0.8047732710838318
+        },
+        {
+          "max_confidence": 0.8032241106994275,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8032241106994275
+        },
+        {
+          "max_confidence": 0.8010888695716858,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.7770263222424599,
+          "t2_confidence": 0.8010888695716858
+        },
+        {
+          "max_confidence": 0.797077393618903,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7507832347413022,
+          "t2_confidence": 0.797077393618903
+        },
+        {
+          "max_confidence": 0.7968436004612698,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.7968436004612698,
+          "t2_confidence": 0.7750491499900818
+        },
+        {
+          "max_confidence": 0.7961521148681641,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7961521148681641
+        },
+        {
+          "max_confidence": 0.7960117933757196,
+          "path_name": "M18",
+          "path_number": 18,
+          "t1_confidence": 0.7673595228958753,
+          "t2_confidence": 0.7960117933757196
+        },
+        {
+          "max_confidence": 0.7935550212860107,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.7935550212860107,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7922325854162835,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7439547028514685,
+          "t2_confidence": 0.7922325854162835
+        },
+        {
+          "max_confidence": 0.792077517745572,
+          "path_name": "M19",
+          "path_number": 19,
+          "t1_confidence": 0.7617230869366592,
+          "t2_confidence": 0.792077517745572
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shift from seeing the unknown in social situations as anxiety-provoking to viewing it as a refreshing challenge when approached with awareness",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This maps to Path 22 (M22): [understanding] + [challenge] → [resistance] | Observation: [threshold]. The user demonstrates conscious integration (T2) by recognizing that awareness transforms resistance into choice when facing uncertainty (threshold). The domain is Somatic (Body) as the transformation involves embodied presence and navigating internal resistance through conscious observation, aligning with how the user describes mental and sensory engagement with the unknown."
+        }
+      ],
+      "total_detected": 1
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 11282,
+      "model_name": "deepseek",
+      "output_tokens": 209,
+      "total_tokens": 11491
+    }
+  },
+  "design_metadata": {
+    "note": "Merged result: E5 embeddings (A/A+) + Ada-002 Channel C",
+    "source_e5": "B9_XXX_E5_43ae4087.json",
+    "source_ada02_c": "B9_deepseek_complete.json",
+    "merged_at": "merge_b9_e5_complete.py"
+  }
+}

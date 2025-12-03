@@ -1,0 +1,82 @@
+{
+  "baseline": "B2",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.450635",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "d8d016b9-d39e-4fb7-9928-20cfb258fa64",
+    "e5_run_id": "8af018b9-d41a-4815-937b-447f5f1958b0",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "87073e78"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5087350187360151,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5087350187360151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5029233516720012,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5029233516720012,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from feeling like a stuck, passive center following others’ maps to becoming an active, conscious chooser of their own path and identity.",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "The user starts from a kind of undifferentiated, imposed unity with others’ expectations (no clear self/other boundary: living by parents’, ex’s, boss’s maps). Through the hike and going off-trail, they discover clear self-definition and boundaries: choosing their own path, choosing what orbits them, rearranging their space to reflect what matters to them, and explicitly naming themselves as ‘walking as myself for the first time.’ This fits M38’s movement from unity to individuation and distinction, culminating in identity. The change is fully conscious and integrated (ongoing behavioral shifts like pausing before answering and curating their environment), so it is T2 rather than a reactive T1-only pattern."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Releasing the need for a complete predetermined life map and trusting only the next step, moving from rigid planning to a simpler, lived authenticity.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "The user describes a clear inner release of control (letting go of the ‘whole route’) and arriving in a simple, immediate way of being (“just walking,” “just... being myself”). This resembles M55’s movement from letting go through stillness into presence and authentic being. However, the conversation does not explicitly mention stillness as a focal experience in the moment of this particular shift, and the domain could also be read as cognitive/emotional. Because of this ambiguity, M55 is chosen with low confidence: the semantic core of letting go → presence → authenticity is present, but the mapping is not unequivocal."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Experiencing a perceptual shift from repetitive mental spinning to a new, clarified way of seeing themselves and their life map.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "The user moves from noisy, repetitive thought loops to a sudden, clarifying insight about ‘someone else’s map.’ The metaphor of focus adjusting and everything becoming sharp aligns with M33’s elegance meeting obscurity to yield insight and revelation—seeing beneath surface confusion. However, the conversation doesn’t explicitly establish the prior state as ‘elegance’ or name the outcome as wisdom; it is more clearly a single powerful insight. Because the cognitive domain and structure (confusion → sharp seeing/insight) align but some formal elements of the path are not explicit, confidence is low."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7857,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1118,
+      "total_tokens": 8975
+    }
+  },
+  "design_metadata": {}
+}

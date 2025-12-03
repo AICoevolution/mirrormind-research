@@ -1,0 +1,389 @@
+{
+  "baseline": "B5",
+  "model": "OPU",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T00:14:54.882632",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "3996098c-8819-4ac0-b632-60f2f30d6894",
+    "conversation_id": "735b4ad8-1599-414a-a9b8-ae4a2bedc0b0",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "873c2a8e"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7865140672479295,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7865140672479295,
+          "t2_confidence": 0.7752334572583551
+        },
+        {
+          "max_confidence": 0.7812937730936343,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7812937730936343,
+          "t2_confidence": 0.7785582178401419
+        },
+        {
+          "max_confidence": 0.7780708306452883,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7780708306452883,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779935830233572,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7779935830233572
+        },
+        {
+          "max_confidence": 0.7751586802256532,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.7617236318772513,
+          "t2_confidence": 0.7751586802256532
+        },
+        {
+          "max_confidence": 0.7731202935982017,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7731202935982017,
+          "t2_confidence": 0.7709863415654407
+        },
+        {
+          "max_confidence": 0.7717906466660099,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7717906466660099
+        },
+        {
+          "max_confidence": 0.7705149557726211,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7705149557726211,
+          "t2_confidence": 0.7683462729557241
+        },
+        {
+          "max_confidence": 0.7682221164769568,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682221164769568
+        },
+        {
+          "max_confidence": 0.7674030294240427,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7674030294240427
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8235999556064717,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0.7381981235205571,
+          "t2_confidence": 0.8235999556064717
+        },
+        {
+          "max_confidence": 0.8159619679473672,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7830540175156006,
+          "t2_confidence": 0.8159619679473672
+        },
+        {
+          "max_confidence": 0.7955872057553297,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.7482462152316042,
+          "t2_confidence": 0.7955872057553297
+        },
+        {
+          "max_confidence": 0.790139960654973,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.790139960654973,
+          "t2_confidence": 0.759360716304823
+        },
+        {
+          "max_confidence": 0.7888018363000071,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.749177292038365,
+          "t2_confidence": 0.7888018363000071
+        },
+        {
+          "max_confidence": 0.7829023599624634,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.7541856023183837,
+          "t2_confidence": 0.7829023599624634
+        },
+        {
+          "max_confidence": 0.7815628051757812,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7815628051757812,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7814862728118896,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7814862728118896,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7779084907715627,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.7779084907715627,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.768420531247824,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0,
+          "t2_confidence": 0.768420531247824
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "Renewal after burnout meets ongoing decay patterns. Creates cycles: 'spirals, each revolution bringing more integration.' Accepts impermanence of linear progress."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "Surrender to uncertainty ('I don't know, and I'm okay with that') meets hope for continued growth. Creates cycles of transformation, returning to growth with new understanding."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "Clear echo→dissonance→noise: 'weird split' between internal healing and external chaos, creating 'chaotic' team meetings. Unrest manifests as team struggles and panic attacks."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M5",
+          "path_number": 5,
+          "reasoning": "Noise of chaos transforms when vulnerability brings clarity ('Started being vulnerable'), creating distinct voice that reveals direction for team transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Learning about burnout confronts contradiction of needing to lead while healing. Creates tension/pressure: 'weird split,' ultimately breakthrough in team dynamics."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "Explicit: 'The synthesis I'm finding in myself highlighted the chaos.' Tension integrates into synthesis, seeking harmony between internal healing and external discord."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "Relationships (team, marriage) meet tension, seeking balance through 'adaptive resilience' and 'collective capacity,' finding new equilibrium."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Synthesis faces dissolution of old patterns. Explicit letting go: 'broke my illusion of control,' creating release and 'something better.'"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "Wholeness shattered by burnout ('completely broken'). Clear healing journey through therapy, creating restoration and integration across personal/team/marriage levels."
+        }
+      ],
+      "confirmed_count": 9,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "No clear presence→curiosity→question sequence. Questions exist but not as primary transformation pattern."
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "Clear tension→synthesis: User describes tension between personal healing and team chaos, then synthesizes by being vulnerable with team, creating integration."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "Growth→transformation evident: Personal growth through therapy/meditation led to transformation at team level. Transcendence shown in moving beyond old patterns."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "Transformation→adaptation clear: User's transformation hit limits (management resistance, marriage dynamics), adapted through flexible approaches, showing resilience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "Relationship tensions→balance: Multiple relationships (team, marriage) under tension, finding balance through adaptive expectations and renegotiation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M41",
+          "path_number": 41,
+          "reasoning": "Balance→adaptation: User's attempts at balance faced disturbances (setbacks cascading), adapted by accepting asynchronous transformations, showing resilience."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M60",
+          "path_number": 60,
+          "reasoning": "Wholeness→healing: User describes being broken/fragmented, then healing process through therapy, meditation. Restoration and integration explicitly discussed."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M61",
+          "path_number": 61,
+          "reasoning": "Healing→resilience: User's healing faced challenges (team chaos, marriage issues), developed resilience and strength to hold multiple transformations."
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M28",
+          "path_number": 28,
+          "reasoning": "While flexibility is mentioned, no clear adaptation→flexibility sequence. User discusses adaptability but not as result of adaptation facing disruption."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "No clear echo→noise transformation. User discusses chaos but not as undefined noise from echo meeting dissonance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "No clear change→perseverance sequence. While perseverance implied in recovery, not explicitly shown as transformation from change meeting resistance."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Personal healing synthesis revealing the chaos and toxicity in the team environment",
+          "family": "family_4",
+          "path_number": 53,
+          "reasoning": "User explicitly uses the word 'synthesis' and describes how personal integration revealed team disintegration. This maps to synthesis + dissolution path where unified understanding meets dissolution."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From wanting to protect recovery in isolation to accepting responsibility and being vulnerable with the team about burnout",
+          "family": "family_2",
+          "path_number": 62,
+          "reasoning": "Clear transition from protective resilience to vulnerable openness. User consciously chose to expose their healing process despite the risk, demonstrating resilience encountering vulnerability to become openness."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From rigid performance structures to adaptive resilience based on collective daily capacity",
+          "family": "family_2",
+          "path_number": 41,
+          "reasoning": "Clear transformation from balance being disturbed to adaptation emerging. Team developed resilience by adapting to daily changes rather than forcing fixed structures."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Team transformation from isolated struggling to collective healing through shared vulnerability",
+          "family": "family_4",
+          "path_number": 39,
+          "reasoning": "Individual team members (individuated) connecting through shared vulnerability created new relationships with resonance. The team found harmony through authentic connection."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shift from needing to control and synchronize all life transformations to allowing each level to evolve at its own pace",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "Movement from synthesis (trying to force integration) facing dissolution to letting go - releasing attachment to control. User explicitly describes releasing need to direct transformations."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From complete system collapse and burnout to gradually accepting brokenness and beginning healing through therapy, meditation, and exercise",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "Clear movement from wholeness breaking into fragments (burnout/collapse) to healing process - making whole again through restoration. The user explicitly describes accepting brokenness and gradually rebuilding."
+        }
+      ],
+      "total_detected": 6
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2811,
+      "model_name": "claude_opus",
+      "output_tokens": 634,
+      "total_tokens": 3445
+    },
+    "B+": {
+      "input_tokens": 3038,
+      "model_name": "claude_opus",
+      "output_tokens": 606,
+      "total_tokens": 3644
+    },
+    "C": {
+      "input_tokens": 7747,
+      "model_name": "claude_opus",
+      "output_tokens": 886,
+      "total_tokens": 8633
+    }
+  },
+  "design_metadata": {}
+}

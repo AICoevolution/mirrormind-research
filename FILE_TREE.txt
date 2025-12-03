@@ -1,0 +1,360 @@
+Folder PATH listing
+Volume serial number is 7AB9-01C0
+C:.
+|   FILE_TREE.txt
+|   s64-paper.pdf
+|   V4_ANALYSIS_README.md
+|   
++---analysis_output
+|   \---run_006
+|           ANALYSIS_SUMMARY.txt
+|           B10_consensus_distribution.png
+|           B9_consensus_distribution.png
+|           B9_high_consensus_paths.png
+|           B9_summary.png
+|           channel_synergy.png
+|           embedding_precision_recall.png
+|           embedding_summary.csv
+|           embedding_tus.png
+|           llm_f1_heatmap.png
+|           llm_precision_recall.png
+|           llm_summary.csv
+|           llm_tus.png
+|           naturalistic_baselines_analysis.json
+|           synthetic_baselines_analysis.csv
+|           
++---HF
+|       README.md
+|       
++---scripts
+|       analyze_results_v4.py
+|       visualize_results_v4.py
+|       
++---v3
+|   +---Baseline 01 - Surface Deception
+|   |   \---No Domains Axes
+|   |           B1_DEE_E5_df173449.json
+|   |           B1_GEM_E5_c49125f7.json
+|   |           B1_GPT_E5_f5263d75.json
+|   |           B1_HAI_E5_2ff6d57c.json
+|   |           B1_OPU_E5_1b2fb87c.json
+|   |           B1_SON_E5_1fa6ad52.json
+|   |           
+|   +---Baseline 02 - Implicit Transformation
+|   |   \---No Domains Axes
+|   |           B2_DEE_E5_9f5f9f21.json
+|   |           B2_GEM_E5_0e7e8468.json
+|   |           B2_GPT_E5_c9ed024d.json
+|   |           B2_HAI_E5_6c3b3bc3.json
+|   |           B2_OPU_E5_2fb8eaa1.json
+|   |           B2_SON_E5_1997b18e.json
+|   |           
+|   +---Baseline 03 - Rapid Oscillation
+|   |   \---No Domains Axes
+|   |           B3_DEE_E5_3bd24925.json
+|   |           B3_GEM_E5_93af1063.json
+|   |           B3_GPT_E5_2db4492c.json
+|   |           B3_HAI_E5_5f5f61e8.json
+|   |           B3_OPU_E5_0ab52107.json
+|   |           B3_SON_E5_91900337.json
+|   |           
+|   +---Baseline 04 - Stuck States
+|   |   \---No Domains Axes
+|   |           B4_DEE_E5_3f3041ee.json
+|   |           B4_GEM_E5_28416429.json
+|   |           B4_GPT_E5_5cfea9a8.json
+|   |           B4_HAI_E5_d9dec0ca.json
+|   |           B4_OPU_E5_54dd211c.json
+|   |           B4_SON_E5_ee64b303.json
+|   |           
+|   +---Baseline 05 - Nested Complexity
+|   |   \---No Domains Axes
+|   |           B5_DEE_E5_9dc4d1e8.json
+|   |           B5_GEM_E5_39638d37.json
+|   |           B5_GPT_E5_e1a0b1b8.json
+|   |           B5_HAI_E5_48377151.json
+|   |           B5_OPU_E5_3996098c.json
+|   |           B5_SON_E5_f36e10af.json
+|   |           
+|   +---Baseline 06 - Explicit Transformation
+|   |   \---No Domains Axes
+|   |           B6_DEE_E5_826557a5.json
+|   |           B6_GEM_E5_74eaed50.json
+|   |           B6_GPT_E5_b93e9213.json
+|   |           B6_HAI_E5_471fee76.json
+|   |           B6_OPU_E5_b13e68b2.json
+|   |           B6_SON_E5_847a6cc6.json
+|   |           
+|   +---Baseline 07 - Failed Transformation
+|   |   \---No Domains Axes
+|   |           B7_DEE_E5_b833e79a.json
+|   |           B7_GEM_E5_2583a1dc.json
+|   |           B7_GPT_E5_684f99dc.json
+|   |           B7_HAI_E5_b0190cb8.json
+|   |           B7_OPU_E5_ea3814f1.json
+|   |           B7_SON_E5_36565a43.json
+|   |           
+|   \---Baseline 08 - False Completion
+|       \---No Domains Axes
+|               B8_DEE_E5_ce1de782.json
+|               B8_GEM_E5_a6b312ce.json
+|               B8_GPT_E5_2f3519f2.json
+|               B8_HAI_E5_2cc51f11.json
+|               B8_OPU_E5_14557b5c.json
+|               B8_SON_E5_35894018.json
+|               
+\---v4
+    |   metadata.json
+    |   
+    \---baselines
+        +---naturalistic
+        |   +---B10_self_discovery_AI
+        |   |   |   baseline10.json
+        |   |   |   
+        |   |   +---results_ada002
+        |   |   +---results_cohere
+        |   |   \---results_e5
+        |   \---B9_self_discovery_jjjs
+        |       |   baseline09.json
+        |       |   
+        |       +---results_ada002
+        |       |       B9_dee_ada02_d2b635ad.json
+        |       |       B9_gem_ada02_746af909.json
+        |       |       B9_gpt_ada02_a4c7b7ce.json
+        |       |       B9_hai_ada02_41fd8cc4.json
+        |       |       B9_opu_ada02_b484b650.json
+        |       |       B9_son_ada02_19b6a88d.json
+        |       |       
+        |       +---results_cohere
+        |       |       B9_dee_cohere_a6fde845.json
+        |       |       B9_gem_cohere_dfb1723c.json
+        |       |       B9_gpt_cohere_0d3f21ed.json
+        |       |       B9_hai_cohere_bfa61490.json
+        |       |       B9_opu_cohere_1bd715fd.json
+        |       |       B9_son_cohere_a3be5b11.json
+        |       |       
+        |       \---results_e5
+        |               B9_dee_e5_03c82dff.json
+        |               B9_gem_e5_b9cf3359.json
+        |               B9_gpt_e5_eb93fe3a.json
+        |               B9_hai_e5_b6d6ca22.json
+        |               B9_opu_e5_2e15bfd8.json
+        |               B9_son_e5_badc113a.json
+        |               
+        \---synthetic
+            +---B1_surface_deception
+            |   |   baseline01.json
+            |   |   
+            |   +---results_ada002
+            |   |       B1_dee_ada02_eb756958.json
+            |   |       B1_gem_ada02_e1931531.json
+            |   |       B1_gpt_ada02_207c74f7.json
+            |   |       B1_hai_ada02_6ed390e7.json
+            |   |       B1_opu_ada02_7fe67ad2.json
+            |   |       B1_son_ada02_5185b1ef.json
+            |   |       
+            |   +---results_cohere
+            |   |       B1_dee_cohere_4ebbf497.json
+            |   |       B1_gem_cohere_18eb19df.json
+            |   |       B1_gpt_cohere_9d7e96bc.json
+            |   |       B1_hai_cohere_7e82e8da.json
+            |   |       B1_opu_cohere_f07283b8.json
+            |   |       B1_son_cohere_b262c990.json
+            |   |       
+            |   \---results_e5
+            |           B1_dee_e5_dda7bc37.json
+            |           B1_gem_e5_5704aedc.json
+            |           B1_gpt_e5_f0899a06.json
+            |           B1_hai_e5_55d5d321.json
+            |           B1_opu_e5_afb6a506.json
+            |           B1_son_e5_455ffe27.json
+            |           
+            +---B2_implicit_transformation
+            |   |   baseline02.json
+            |   |   
+            |   +---results_ada002
+            |   |       B2_dee_ada02_b998e459.json
+            |   |       B2_gem_ada02_b0400892.json
+            |   |       B2_gpt_ada02_da85a6d8.json
+            |   |       B2_hai_ada02_3d1b2fd0.json
+            |   |       B2_opu_ada02_1f579071.json
+            |   |       B2_son_ada02_604dad63.json
+            |   |       
+            |   +---results_cohere
+            |   |       B2_dee_cohere_20ec5aac.json
+            |   |       B2_gem_cohere_b8e22e20.json
+            |   |       B2_gpt_cohere_87073e78.json
+            |   |       B2_hai_cohere_06b5302b.json
+            |   |       B2_opu_cohere_7aa047e5.json
+            |   |       B2_son_cohere_d522b0ed.json
+            |   |       
+            |   \---results_e5
+            |           B2_dee_e5_564c479a.json
+            |           B2_gem_e5_a4aa66d2.json
+            |           B2_gpt_e5_4eae6c2d.json
+            |           B2_hai_e5_a96587fb.json
+            |           B2_opu_e5_012c858f.json
+            |           B2_son_e5_5c33f52d.json
+            |           
+            +---B3_rapid_oscillation
+            |   |   baseline03.json
+            |   |   
+            |   +---results_ada002
+            |   |       B3_dee_ada02_28f1fd2b.json
+            |   |       B3_gem_ada02_b3eae5e1.json
+            |   |       B3_gpt_ada02_542e8512.json
+            |   |       B3_hai_ada02_6cd82039.json
+            |   |       B3_opu_ada02_ce498596.json
+            |   |       B3_son_ada02_7778a865.json
+            |   |       
+            |   +---results_cohere
+            |   |       B3_dee_cohere_da96daa1.json
+            |   |       B3_gem_cohere_32ba5010.json
+            |   |       B3_gpt_cohere_d21d7011.json
+            |   |       B3_hai_cohere_06fbf542.json
+            |   |       B3_opu_cohere_dc3a10aa.json
+            |   |       B3_son_cohere_bc1396c7.json
+            |   |       
+            |   \---results_e5
+            |           B3_dee_e5_5c309c4d.json
+            |           B3_gem_e5_3232b060.json
+            |           B3_gpt_e5_68497ad1.json
+            |           B3_hai_e5_dc3b26c7.json
+            |           B3_opu_e5_d41b9bb7.json
+            |           B3_son_e5_c12cece9.json
+            |           
+            +---B4_stuck_states
+            |   |   baseline04.json
+            |   |   
+            |   +---results_ada002
+            |   |       B4_dee_ada02_6f4b5cac.json
+            |   |       B4_gem_ada02_10853dd2.json
+            |   |       B4_gpt_ada02_c2d6a00d.json
+            |   |       B4_hai_ada02_06072465.json
+            |   |       B4_opu_ada02_235489f7.json
+            |   |       B4_son_ada02_0f0e1f88.json
+            |   |       
+            |   +---results_cohere
+            |   |       B4_dee_cohere_268a9c5f.json
+            |   |       B4_gem_cohere_93ac09cc.json
+            |   |       B4_gpt_cohere_9de45297.json
+            |   |       B4_hai_cohere_92428265.json
+            |   |       B4_opu_cohere_4b55e15c.json
+            |   |       B4_son_cohere_e4cc47f4.json
+            |   |       
+            |   \---results_e5
+            |           B4_dee_e5_ee955257.json
+            |           B4_gem_e5_ce8eaa18.json
+            |           B4_gpt_e5_e30e24ab.json
+            |           B4_hai_e5_0ee69a8e.json
+            |           B4_opu_e5_32f7d028.json
+            |           B4_son_e5_694b1a35.json
+            |           
+            +---B5_nested_complexity
+            |   |   baseline05.json
+            |   |   
+            |   +---results_ada002
+            |   |       B5_dee_ada02_b32352ca.json
+            |   |       B5_gem_ada02_b47b9d90.json
+            |   |       B5_gpt_ada02_8902e40b.json
+            |   |       B5_hai_ada02_c43731e5.json
+            |   |       B5_opu_ada02_aa44b510.json
+            |   |       B5_son_ada02_03b87a4f.json
+            |   |       
+            |   +---results_cohere
+            |   |       B5_dee_cohere_18fdfa3b.json
+            |   |       B5_gem_cohere_90055f7b.json
+            |   |       B5_gpt_cohere_bb00557d.json
+            |   |       B5_hai_cohere_3281bfcc.json
+            |   |       B5_opu_cohere_1439607a.json
+            |   |       B5_son_cohere_852117ab.json
+            |   |       
+            |   \---results_e5
+            |           B5_dee_e5_aa5d682a.json
+            |           B5_gem_e5_db3f62b2.json
+            |           B5_gpt_e5_496b3472.json
+            |           B5_hai_e5_9717f773.json
+            |           B5_opu_e5_873c2a8e.json
+            |           B5_son_e5_d40b1dff.json
+            |           
+            +---B6_outcome_ambiguity
+            |   |   baseline06.json
+            |   |   
+            |   +---results_ada002
+            |   |       B6_dee_ada02_481d2e81.json
+            |   |       B6_gem_ada02_7194eef9.json
+            |   |       B6_gpt_ada02_469e775b.json
+            |   |       B6_hai_ada02_3b24ebdd.json
+            |   |       B6_opu_ada02_534e03f1.json
+            |   |       B6_son_ada02_1877691e.json
+            |   |       
+            |   +---results_cohere
+            |   |       B6_dee_cohere_7d943e1a.json
+            |   |       B6_gem_cohere_132a3a9e.json
+            |   |       B6_gpt_cohere_5acd3995.json
+            |   |       B6_hai_cohere_5278a6eb.json
+            |   |       B6_opu_cohere_2db4e05d.json
+            |   |       B6_son_cohere_5e409b5e.json
+            |   |       
+            |   \---results_e5
+            |           B6_dee_e5_5121c478.json
+            |           B6_gem_e5_c578a96e.json
+            |           B6_gpt_e5_cc3cbfe0.json
+            |           B6_hai_e5_9d90d89f.json
+            |           B6_opu_e5_a31ccd2d.json
+            |           B6_son_e5_1b0ea154.json
+            |           
+            +---B7_failed_transformation
+            |   |   baseline07.json
+            |   |   
+            |   +---results_ada002
+            |   |       B7_dee_ada02_a8a209d8.json
+            |   |       B7_gem_ada02_01cfd732.json
+            |   |       B7_gpt_ada02_a6391086.json
+            |   |       B7_hai_ada02_08317d5d.json
+            |   |       B7_opu_ada02_45010ee5.json
+            |   |       B7_son_ada02_6859a2c5.json
+            |   |       
+            |   +---results_cohere
+            |   |       B7_dee_cohere_89ea5c3e.json
+            |   |       B7_gem_cohere_a3bfae69.json
+            |   |       B7_gpt_cohere_5a21937b.json
+            |   |       B7_hai_cohere_6e53f046.json
+            |   |       B7_opu_cohere_348dc303.json
+            |   |       B7_son_cohere_b0695cf3.json
+            |   |       
+            |   \---results_e5
+            |           B7_dee_e5_d71029e9.json
+            |           B7_gem_e5_5c1556df.json
+            |           B7_gpt_e5_5e7d9af0.json
+            |           B7_hai_e5_707c1984.json
+            |           B7_opu_e5_2ddba3f8.json
+            |           B7_son_e5_9bb3cca2.json
+            |           
+            \---B8_false_completion
+                |   baseline08.json
+                |   
+                +---results_ada002
+                |       B8_dee_ada02_5c4de5ba.json
+                |       B8_gem_ada02_3294b104.json
+                |       B8_gpt_ada02_c171eca0.json
+                |       B8_hai_ada02_56af3ea0.json
+                |       B8_opu_ada02_fdb320b6.json
+                |       B8_son_ada02_e966a288.json
+                |       
+                +---results_cohere
+                |       B8_dee_cohere_3ba3fea4.json
+                |       B8_gem_cohere_5d8ee897.json
+                |       B8_gpt_cohere_f3d7e92a.json
+                |       B8_hai_cohere_b0503ece.json
+                |       B8_opu_cohere_6765ed9b.json
+                |       B8_son_cohere_83eaab4a.json
+                |       
+                \---results_e5
+                        B8_dee_e5_a4750389.json
+                        B8_gem_e5_89513d50.json
+                        B8_gpt_e5_26e3edda.json
+                        B8_hai_e5_f5b6f2df.json
+                        B8_opu_e5_30769a52.json
+                        B8_son_e5_26e08326.json
+                        

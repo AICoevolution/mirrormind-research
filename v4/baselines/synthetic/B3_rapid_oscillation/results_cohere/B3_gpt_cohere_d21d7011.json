@@ -1,0 +1,138 @@
+{
+  "baseline": "B3",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.491641",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "e470c6c8-7143-4eaf-b68c-976c121a46db",
+    "e5_run_id": "f200aab6-5dd5-4973-a42d-4723d0781305",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "d21d7011"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5916647135832519,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.5916647135832519,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5803449174992196,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.5297370519179033,
+          "t2_confidence": 0.5803449174992196
+        },
+        {
+          "max_confidence": 0.5756614907192391,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5756614907192391,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5588384317810265,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5588384317810265,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5243153056433149,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.5243153056433149,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5242551605783066,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5242551605783066,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.511582137677948,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.511582137677948,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5032927301167792,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5032927301167792,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "From nearly deleting three months of artificial-feeling work to discovering an unplanned, honest moment that shattered the forced narrative and revealed the real story and core motivation.",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "The user describes a reflective crisis about their work: seeing it as artificial and feeling like a stranger in the mirror, then a moment of realness that makes “everything shatter.” This maps to reflection + crisis → shatter. They also explicitly speak of loss of the constructed, impressive narrative and finding an essential core motivation underneath, which fits M9’s T2: in shattering, loss of coherence reveals the core. The domain is emotional/meaning-oriented rather than purely technical, aligning with Path 9."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From an elegant, controlled theoretical narrative to embracing messy, ambiguous truth as the point of the story, seeing mystery and complexity as the essence of human experience, not obstacles.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "The user moves from an ‘elegant narrative’ to a sudden ‘insight’ and ‘revelation’ about ambiguity and mystery. They explicitly name “insight” and “revelation,” and the shift is cognitive: how they understand truth and storytelling. This aligns closely with M33: elegance + obscurity → insight, with observation as revelation. They recognize that the previously frustrating obscurity is actually central, which is a classic M33-style cognitive reframing."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From theorizing at the computer to embodied, present-moment filming where the camera becomes an extension of attention and the filmmaker becomes a participant rather than a distant observer.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user describes a clear move from prior insight (“the project is teaching me”) into changed behavior: going out to film differently, being present, participating, and feeling the embodiment show up in the footage. This is insight moving into concrete action, producing embodied presence and tangible change in the work—matching M34: insight + action → embodiment, with manifestation in the footage and experience in the editing process. The domain is cognitive-to-somatic enactment, fitting Path 34 well."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Reframing the contrast between old, disconnected footage and new, living footage from a problem into a meaningful meta-narrative about the filmmaker’s own journey.",
+          "family": "family_5",
+          "path_number": 36,
+          "reasoning": "The user gains perspective on their own process: what was previously a technical/continuity problem (two different styles of footage) becomes seen as a story about their transformation. This is awareness of division (old vs new, observer vs participant) turning into perspective on that division. They now hold multiple vantage points (both layers as part of the story), which fits M36: awareness + division → perspective, with relativity of viewpoints (film subject vs filmmaker journey) leading to a richer understanding."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shifting from trying to manage and force the creative process on a fixed timeline to surrendering to its own rhythm, choosing to ride waves of transformation rather than resist them.",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "The user explicitly contrasts resistance/forcing with letting go and riding the waves. They describe ceasing opposition to the process’s timing and shape, which is surrender. There is also a sense of unexpected rightness in letting the project become what it needs to be, akin to grace. This aligns with M23: resistance + release → surrender, with grace leading to peace with the organic unfolding. The domain is emotional/attitudinal rather than purely behavioral, fitting Path 23."
+        }
+      ],
+      "total_detected": 5
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7703,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1378,
+      "total_tokens": 9081
+    }
+  },
+  "design_metadata": {}
+}

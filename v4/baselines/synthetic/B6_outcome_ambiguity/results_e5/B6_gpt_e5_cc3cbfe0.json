@@ -1,0 +1,361 @@
+{
+  "baseline": "B6",
+  "model": "GPT",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T00:58:43.401183",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "b93e9213-d728-418a-be3f-bce038fc414a",
+    "conversation_id": "7e86c6cb-0ad6-4344-bfb6-8962a04c32a0",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "cc3cbfe0"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7557506561279297,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7557506561279297
+        },
+        {
+          "max_confidence": 0.7410345077514648,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7410345077514648,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.737521199884563,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.737521199884563,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7373336114088541,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7373336114088541,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.734052971955958,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.734052971955958,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334922552108765,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7334922552108765,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7314959488515966,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7314959488515966,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7306036949157715,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7306036949157715,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7297519767580112,
+          "path_name": "M18",
+          "path_number": 18,
+          "t1_confidence": 0.7297519767580112,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7278572645357584,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7278572645357584,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7754218809432355,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7754218809432355
+        },
+        {
+          "max_confidence": 0.7688124408964053,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7688124408964053
+        },
+        {
+          "max_confidence": 0.7646590839428014,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.7646590839428014,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7598077285232466,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7598077285232466
+        },
+        {
+          "max_confidence": 0.7597807872230052,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7597807872230052
+        },
+        {
+          "max_confidence": 0.7574290552053784,
+          "path_name": "M18",
+          "path_number": 18,
+          "t1_confidence": 0.7574290552053784,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7557281110124654,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7557281110124654
+        },
+        {
+          "max_confidence": 0.7551116572353741,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7551116572353741,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7523421273333472,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7523421273333472,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7512135133508898,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7512135133508898
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M18",
+          "path_number": 18,
+          "reasoning": "The user moves from a noisy, racing mind (noise in the channel of attention) to observing thoughts and not being consumed by them (filtering), which enables choosing what to attend to (discernment/clarity about what matters)."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The user creates distance from thoughts (awareness plus division between self and anxiety), which yields a new vantage point on their experience (perspective) and a deeper understanding of their anxiety rather than being controlled by it."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "Meditation cultivates presence in the midst of wandering, worrying thoughts (distractions), and the user reports being able to center themselves and return to a peaceful state, indicating focus and more stable concentration on what matters."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M12",
+          "path_number": 12,
+          "reasoning": "The user describes meditation (stillness) leading to being fully in the moment and accessing an inner calm (presence), and later to feeling fundamentally different and more integrated (alignment/wholeness between inner state and outer life)."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "Through embodied practice (meditation, nervous system relaxing) and observing thoughts (reflection), the user gains ongoing awareness and describes being present and centered, consistent with awareness leading to presence and a more conscious way of being."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "The user explicitly describes a disrupted cycle of anxiety through meditation (cycle + disruption), leading to change and an ongoing transition from anxious to calm, culminating in a self-described transformation in how they experience everything."
+        }
+      ],
+      "confirmed_count": 6,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "Although there is some learning and growth implied in adopting meditation, the conversation does not frame this as a clear question–knowledge–learning–growth progression; it focuses more on experiential emotional change than on explicit learning processes."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M57",
+          "path_number": 57,
+          "reasoning": "While awareness increases, the dialogue does not clearly describe a move from narrow focus to expanded, inclusive awareness or breadth of perception; it emphasizes calm and centering more than expanded scope or multiple viewpoints."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "No explicit or implicit shadow–mirroring–reflection–familiarity sequence; the dialogue centers on anxiety and mindfulness, not seeing oneself as a reflection or recognizing oneself in an observed other."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "There is no clear surrender–hope–cycle–return–awakening narrative; the user commits to practice and experiences change, but does not frame it as surrender meeting hope or as a cyclical journey returning to a starting point with new understanding."
+        }
+      ],
+      "rejected_count": 4,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user describes moving from being controlled by anxiety to witnessing it with calm awareness, effectively letting go of attachment to anxious thoughts and experiencing a sense of liberation and new capacity in life, which fits letting go → release → greater freedom."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M57",
+          "path_number": 57,
+          "reasoning": "The user's focused meditation practice expands into a broader, inclusive awareness (space between thoughts, witnessing anxiety, wider calm that permeates daily life), aligning with focus experiencing expansion to become broader awareness and perspective."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "The user practices an embodied activity (meditation) and reflects on their thoughts, leading to awareness and then a present, centered state; this closely matches embodiment + reflection → awareness → presence → a more conscious way of being."
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "While the user contrasts past anxiety with present calm, the dialogue does not clearly frame awareness encountering division to become perspective, nor does it emphasize multiple viewpoints or relativity."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "There are realizations and a breakthrough, but no explicit dynamic of questioning encountering revelation to yield insight which then produces clarity and broad understanding; questioning is not foregrounded as the driver."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "Meditation involves attention, but the narrative emphasizes calm and witnessing rather than presence meeting distraction to become focus, concentration, and then discipline as the core transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The conversation describes psychological change (anxiety to calm) but not core experiences becoming memory or loops of memory patterns leading to self-recognition across time."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "There is learning and eventual breakthrough, but no explicit confrontation with contradiction creating tension and pressure against established patterns; the shift arises from practice, not from resolving contradictions."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M18",
+          "path_number": 18,
+          "reasoning": "The user develops a new relationship to anxiety, but there is no explicit channel–noise–filter metaphor or emphasis on separating signal from distraction as a central transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M21",
+          "path_number": 21,
+          "reasoning": "The user gains insight about anxiety and mindfulness, but there is no explicit deep listening to truth leading to understanding that then aligns knowledge and experience into wisdom."
+        }
+      ],
+      "rejected_count": 7,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from being trapped and controlled by anxious, racing thoughts to being able to observe them with calm awareness and access an inner peaceful state.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "The user describes moving from identification with anxiety (chaos, being trapped) to a stable, observing presence accessed through meditation, culminating in an ongoing ability to rest in calm awareness. This closely matches M55 T2: presence + being → authenticity, where presence and stillness reveal a more genuine, undistorted way of being. The emphasis on being present, centered, and no longer controlled by anxiety aligns more with the presence/being/authenticity dynamic of Path 55 than with earlier paths focused on initial recognition or later ones focused on growth or refinement."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Experiencing a somatic and emotional release from chronic tension into a deep, reliable sense of calm that can be revisited intentionally.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "The description of long-held tension releasing and an ongoing capacity to return to an inner calm suggests a healing and restoration process: moving from a fragmented, overactivated state toward a more whole, regulated one. This partially aligns with M60 T2: healing + restoration → integration. However, the user does not explicitly frame it as healing or restoring previously fragmented parts, so the mapping is tentative and thus confidence is low."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 1793,
+      "model_name": "gpt-5.1",
+      "output_tokens": 724,
+      "total_tokens": 2517
+    },
+    "B+": {
+      "input_tokens": 1826,
+      "model_name": "gpt-5.1",
+      "output_tokens": 647,
+      "total_tokens": 2473
+    },
+    "C": {
+      "input_tokens": 6269,
+      "model_name": "gpt-5.1",
+      "output_tokens": 518,
+      "total_tokens": 6787
+    }
+  },
+  "design_metadata": {}
+}

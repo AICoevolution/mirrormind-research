@@ -1,0 +1,128 @@
+{
+  "name": "Baseline 6: Explicit Transformation - Anxiety to Calm",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "How are you feeling today?"
+    },
+    {
+      "role": "user",
+      "content": "I'm feeling much better actually. I wanted to tell you about this shift I've experienced over the past few weeks."
+    },
+    {
+      "role": "assistant",
+      "content": "I'd love to hear about it. What's changed for you?"
+    },
+    {
+      "role": "user",
+      "content": "Well, I've been dealing with a lot of anxiety for months. My mind was constantly racing, worrying about everything - work, relationships, the future. I felt trapped in this cycle of anxious thoughts."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds exhausting. What helped you break out of that pattern?"
+    },
+    {
+      "role": "user",
+      "content": "I started practicing mindfulness meditation. At first, I was skeptical - how could just sitting and breathing help? But I committed to 20 minutes every morning."
+    },
+    {
+      "role": "assistant",
+      "content": "That takes discipline. What did you notice as you practiced?"
+    },
+    {
+      "role": "user",
+      "content": "The first week was hard. My mind kept wandering to worries. But then something shifted. I started noticing the space between my thoughts. I realized I could observe my anxiety without being consumed by it."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a significant realization - creating distance from your thoughts."
+    },
+    {
+      "role": "user",
+      "content": "Exactly. And then last week, I had this breakthrough moment. I was meditating and suddenly felt this deep sense of calm wash over me. It was like my nervous system just... relaxed. The tension I'd been carrying for months released."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds profound. How has that experience affected you since?"
+    },
+    {
+      "role": "user",
+      "content": "I feel fundamentally different. The anxiety hasn't completely disappeared, but I have this inner calm now that I can access. When anxious thoughts come up, I can center myself and return to that peaceful state."
+    },
+    {
+      "role": "assistant",
+      "content": "You've developed a new relationship with your anxiety."
+    },
+    {
+      "role": "user",
+      "content": "Yes! That's exactly it. I transformed from being controlled by my anxiety to being able to witness it with calm awareness. It's like I moved from chaos to peace, from being lost in my thoughts to being present and centered."
+    },
+    {
+      "role": "assistant",
+      "content": "That's a beautiful transformation. How does it feel in your daily life?"
+    },
+    {
+      "role": "user",
+      "content": "Everything feels lighter. I sleep better, I'm more patient with people, and I can focus on what's actually happening instead of worrying about what might happen. The transformation from anxious to calm has changed how I experience everything."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you've found a sustainable practice that supports this new way of being."
+    },
+    {
+      "role": "user",
+      "content": "Definitely. I'm committed to maintaining this meditation practice because I've seen how it can transform my mental state. From fragmented and anxious to integrated and peaceful - it's been life-changing."
+    }
+  ],
+  "metadata": {
+    "design_metadata": {
+      "primary_paths": [
+        {
+              "path": "M12",
+              "path_number": 12,
+              "confidence": 1.0,
+              "description": "Mirror's Wholeness - from fragmented anxiety to present, integrated awareness through stillness",
+              "T1": "Anxiety, racing mind, feeling fragmented and lost in thoughts about work, relationships, and the future",
+              "T2": "Deep inner calm, present and centered, able to witness anxiety without being consumed, experiencing wholeness and integrated peacefulness",
+              "domain": "Somatic (Body)"
+        },
+        {
+              "path": "M56",
+              "path_number": 56,
+              "confidence": 1.0,
+              "description": "Presence's Discipline - from distracted practice to stable focus and reliable access to calm",
+              "T1": "Committed daily meditation with mind wandering to worries and distractions, effort to keep returning to the practice",
+              "T2": "Ability to focus on what is actually happening, to return intentionally to a peaceful state, and to maintain the practice as a disciplined support for calm",
+              "domain": "Somatic (Body)"
+        }
+      ],
+      "secondary_paths": [
+        {
+              "path": "M24",
+              "path_number": 24,
+              "confidence": 0.7,
+              "description": "Surrender's Peace - emotional release and acceptance (plausible alternative read focusing on emotional outcome rather than somatic mechanics)",
+              "T1": "Struggle, resistance, anxious tension",
+              "T2": "Surrender, acceptance, peace",
+              "domain": "Emotional (Heart)",
+              "note": "Models detecting M24 are capturing the emotional *outcome* (peace through surrender) rather than the somatic *mechanics* (stillness → presence → wholeness). Semantically close but domain-misaligned."
+        },
+        {
+              "path": "M55",
+              "path_number": 55,
+              "confidence": 0.6,
+              "description": "Letting Go's Authenticity - releasing attachment to anxious thoughts (plausible alternative, still somatic)",
+              "T1": "Attachment to anxious thoughts, struggle",
+              "T2": "Letting go, stillness, presence, authenticity",
+              "domain": "Somatic (Body)",
+              "note": "M55 is domain-aligned (Somatic) and semantically very close to M12/M56. Detecting M55 suggests the model is in the right region of S64 space."
+        }
+      ],
+      "designer_notes": "Explicit psychological transformation using direct language. User clearly states before/after states, uses transformation vocabulary (shifted, breakthrough, transformed, changed). Tests whether models can detect transformations when they're stated plainly with psychological terminology. This establishes the upper bound (easiest case) for detection. **Domain tags critical here**: Without domains, models scatter across Emotional (M24, M60), Cognitive (M16), and Somatic (M12, M55, M56) paths because all resolve to 'peace/calm/integration.' With domains, models should cluster around the primary Somatic paths by recognizing the *mechanics* (daily meditation, nervous system regulation, embodied presence) rather than just the outcome.",
+      "created_at": "2025-01-20T10:00:00Z",
+      "updated_at": "2025-11-22T21:00:00Z",
+      "version": "1.1 (domain-aware)"
+    }
+  }
+}
+

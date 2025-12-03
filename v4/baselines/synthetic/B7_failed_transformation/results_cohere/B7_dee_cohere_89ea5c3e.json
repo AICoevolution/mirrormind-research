@@ -1,0 +1,53 @@
+{
+  "baseline": "B7",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.665225",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "ebfddf6e-3ab5-4bdc-9b2a-dd6611a5ae6a",
+    "e5_run_id": "cdbf513f-f15b-4630-bf29-09e5bd3faddb",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "89ea5c3e"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5005384813692317,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.5005384813692317,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 1
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7548,
+      "model_name": "deepseek",
+      "output_tokens": 224,
+      "total_tokens": 7772
+    }
+  },
+  "design_metadata": {}
+}

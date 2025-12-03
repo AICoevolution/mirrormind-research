@@ -1,0 +1,55 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "completed_at": "2025-11-21T19:41:15.924267",
+  "conversation_id": "403c715b-9235-40ad-afcf-2f08cdbb28ca",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T19:43:11.238165",
+  "llm_model": "claude_sonnet",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T19:40:06.493471",
+  "run_id": "1fa6ad52-3665-4ac3-b913-0fc7c4c79e32",
+  "status": "completed",
+  "token_usage": {
+    "C": {
+      "input_tokens": 7424,
+      "model_name": "claude_sonnet",
+      "output_tokens": 18,
+      "total_tokens": 7442
+    }
+  }
+}

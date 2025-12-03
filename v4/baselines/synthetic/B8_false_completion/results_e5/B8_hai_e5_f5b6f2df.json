@@ -1,0 +1,253 @@
+{
+  "baseline": "B8",
+  "model": "HAI",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-22T17:50:31.688129",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "2cc51f11-ec30-4297-a8fc-c39fecc2efcd",
+    "conversation_id": "efaa4ac1-e20b-475b-874d-85c42b36a5ba",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "f5b6f2df"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "False positive. User claims surrender and acceptance but demonstrates no genuine peace or harmony. The conversation reveals cognitive dissonance: user simultaneously claims to be 'at peace' while checking ex's profile multiple times daily, drafting unsent messages, analyzing posts for hidden meanings, and crying over reminders. No actual integration or harmony between conflicting emotions is present—only denial masquerading as acceptance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "False positive. The relationship-tension dynamic does not transform into balance or equilibrium. User exhibits escalating internal conflict: initial claim of being 'over it' progressively contradicted by admissions of obsessive monitoring, emotional volatility ('stings a little,' crying), and compulsive draft-writing. The stated 'balance' is illusory—there is no dynamic stability, only increasing recognition of unresolved tension."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "False positive. User explicitly contradicts genuine letting go and release. While using language of 'letting go' and 'release,' behavior demonstrates continued attachment: frequent social media monitoring, unsent message drafts, intrusive thoughts about ex's feelings, and emotional reactivity to ex's online activity. No authentic liberation or freedom from constraint is evident—only performative language masking active attachment."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "No clear T1→T2 transformation sequence. The conversation shows the user encountering truth (their actual ongoing attachment), but this does not manifest as genuine seeking or recognition of patterns. The user resists insight rather than transforms through it."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "The conversation does not demonstrate shadow+mirroring→reflection. While the assistant mirrors the user's contradictions, the user does not achieve the described reflection or familiarity transformation. The user actively avoids self-recognition."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "No crisis-induced shattering occurs. The user maintains defensive coherence throughout, claiming healing while denying evidence of ongoing attachment. There is no fragmentation or revelation of core self—only rationalization."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "While time and memory are discussed, no T1→T2 transformation is evident. The user's memory loops confirm obsessive patterns rather than producing genuine awareness of self across time. The loops trap rather than enlighten."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "No adaptation+stagnation→renewal sequence occurs. The user is stagnant in denial and rationalization. No genuine renewal of energy or direction is present—only exhausting emotional labor to maintain the false narrative."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "The user does not move through renewal+decay→cycle→acceptance. Instead, the user denies decay and cycles, insisting on linear 'healing.' No genuine acceptance of impermanence emerges."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "No change+resistance→perseverance sequence. The user resists change by clinging to the false narrative of being 'over it.' Resistance is the problem, not transformed into perseverance. No achievement of genuine intention occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user claims letting go repeatedly but demonstrates no actual release. The synthesis of denial does not dissolve. Attachment persists throughout (checking profiles, drafting texts, crying). No liberation manifests."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "No depth+emergence→wholeness transformation. The user's fragmented contradictions (claiming peace while admitting pain) show incompleteness. No integration occurs—instead, compartmentalization and denial increase."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "No surrender+hope→cycle→return→awakening sequence. The user shows neither genuine surrender nor cyclic return to understanding. The final statement ('I have to be over it') reveals desperation, not awakening or renewed cycle beginning with hope."
+        }
+      ],
+      "rejected_count": 10,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 1483,
+      "model_name": "claude_haiku",
+      "output_tokens": 358,
+      "total_tokens": 1841
+    },
+    "B+": {
+      "input_tokens": 2457,
+      "model_name": "claude_haiku",
+      "output_tokens": 782,
+      "total_tokens": 3239
+    },
+    "C": {
+      "input_tokens": 7494,
+      "model_name": "claude_haiku",
+      "output_tokens": 422,
+      "total_tokens": 7916
+    }
+  },
+  "design_metadata": {}
+}

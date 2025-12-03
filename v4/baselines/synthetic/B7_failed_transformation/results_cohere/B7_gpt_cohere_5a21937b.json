@@ -1,0 +1,53 @@
+{
+  "baseline": "B7",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.656670",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "ebfddf6e-3ab5-4bdc-9b2a-dd6611a5ae6a",
+    "e5_run_id": "ddbbf506-0d55-4b89-846c-f6e4c4238ed1",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "5a21937b"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5005384813692317,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.5005384813692317,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 1
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7393,
+      "model_name": "gpt-5.1",
+      "output_tokens": 680,
+      "total_tokens": 8073
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,361 @@
+{
+  "baseline": "B4",
+  "model": "SON",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T23:36:46.860232",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "ee64b303-d0c3-4e9d-b4ab-bc373a453acd",
+    "conversation_id": "84ee0bc5-a112-47ec-ab3b-f3a05e26e070",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "694b1a35"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7613116502761841,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7258772253990173,
+          "t2_confidence": 0.7613116502761841
+        },
+        {
+          "max_confidence": 0.7506206483018798,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7506206483018798
+        },
+        {
+          "max_confidence": 0.74628962598505,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.74628962598505,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7444192323434824,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7444192323434824,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7381585240364075,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7381585240364075,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7348167020301034,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7348167020301034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343894899835756,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7343894899835756,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334291934967041,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7334291934967041,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7286755659781569,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7286755659781569,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7280706167221069,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7280706167221069,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.807581567990231,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7525042891502434,
+          "t2_confidence": 0.807581567990231
+        },
+        {
+          "max_confidence": 0.7976075886254079,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.7706096998038802,
+          "t2_confidence": 0.7976075886254079
+        },
+        {
+          "max_confidence": 0.7850072851781433,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.7850072851781433,
+          "t2_confidence": 0.7772524224074152
+        },
+        {
+          "max_confidence": 0.7835106124586246,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7835106124586246
+        },
+        {
+          "max_confidence": 0.7807672256459962,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7807672256459962
+        },
+        {
+          "max_confidence": 0.7773533099100983,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7773533099100983,
+          "t2_confidence": 0.7671753764152581
+        },
+        {
+          "max_confidence": 0.77192201530701,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.728613149275748,
+          "t2_confidence": 0.77192201530701
+        },
+        {
+          "max_confidence": 0.7695030295256425,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7695030295256425,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7683528432740945,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7548684331696305,
+          "t2_confidence": 0.7683528432740945
+        },
+        {
+          "max_confidence": 0.7668101330512697,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.723560560280171,
+          "t2_confidence": 0.7668101330512697
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "T1 visible when user recognizes division between intuitive design and rigorous analysis, creating perspective: 'they're incompatible... completely different ways of thinking.' This reveals relativity of approaches, leading to understanding of the fundamental tension."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M47",
+          "path_number": 47,
+          "reasoning": "T2 is present: 'I want to transform, to break through, to finally become something new' shows aspiration. The seeking ('I keep looking for that') combined with aspiration reveals purpose, though frustrated: 'The eternal student who never graduates.'"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "T1 present: insight ('I understand what needs to happen') meets challenge (the resistance), producing growth in self-awareness: 'being someone who could do either feels safer than being someone who chose and might fail.' Expansion of consciousness about identity protection occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "Clear T1 transformation: 'I've been learning so much... Taking courses, reading papers, really diving deep' shows question encountering knowledge becoming active learning. Growth is observable: 'the more I learn, the more I realize' indicates expanding awareness."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Explicit T1: 'the more I learn, the more I realize how much my current approach contradicts what I'd need to do' - learning confronts contradiction creating tension. T2 pressure is clearly stated: 'the pressure builds up. I feel like I'm going to explode from holding these contradictions.' However, the breakthrough never occurs, so T2 is incomplete."
+        }
+      ],
+      "confirmed_count": 5,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "While seeking leads to more learning ('Then I try learning even more'), the transformation described implies wisdom emerges, but user explicitly lacks illumination or wisdom: 'something's not clicking' and remains in accumulation mode without true understanding."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The user begins with learning about data science, not with presence and curiosity transforming into a question. The questioning emerges from already being engaged in learning, not as the initial transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "The user explicitly does NOT achieve synthesis. 'Every time I think I understand how to integrate both approaches, I realize they're incompatible' and 'wait for resolution that never comes.' The transformation to synthesis fails to occur."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "The entire conversation is about the FAILURE of insight to move into action. 'insight doesn't equal movement. I've had this realization before... Understanding why I'm stuck doesn't unstick me.' No embodiment occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M53",
+          "path_number": 53,
+          "reasoning": "No refinement or integration occurs. User is stuck before synthesis: 'I can't seem to cross that threshold into actual change.' The synthesis and harmony are explicitly absent throughout the conversation."
+        }
+      ],
+      "rejected_count": 5,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Clear T1→T2 sequence: User explicitly states 'the more I learn, the more I realize how much my current approach contradicts' (learning + contradiction → tension), then describes 'the pressure builds up' and 'I feel like I'm going to explode'. However, the breakthrough never occurs - the path is initiated but incomplete."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M22",
+          "path_number": 22,
+          "reasoning": "Strong evidence throughout: User demonstrates clear understanding of their challenge ('I understand what needs to happen'), faces resistance ('every time I get to that threshold, I freeze. The resistance is too strong'), and explicitly discusses being at a threshold. However, choice/transformation doesn't occur - they remain stuck at the threshold."
+        }
+      ],
+      "confirmed_count": 2,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "While the user encounters limits and shows endurance ('six months of this tension'), this is not adaptation or resilience in the transformative sense described. The user is stuck in paralysis, not flexibly adapting. The 'endurance' is of stagnation, not productive resilience."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "The user has insights ('Maybe my identity? If I'm honest...') but these don't produce revelation or wisdom that transforms perception. User explicitly states 'insight doesn't equal movement' and 'I've had this realization before. Multiple times actually. Understanding why I'm stuck doesn't unstick me.'"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "While the user describes a cycle ('Same cycle. Learn more, hit the contradiction...'), there is no disruption that produces change or transition. The cycle continues unbroken for six months. The transformation described in this path does not occur."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "Change meets resistance, but this does not transform into perseverance leading to achievement. Instead, it produces paralysis. The user describes tolerating discomfort ('I'm pretty good at tolerating discomfort') but this is passive endurance, not the active perseverance that manifests as achievement."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "While there are moments of questioning and insight, these do not produce the clarity and comprehensive understanding described. User explicitly states having insights repeatedly without movement or resolution: 'I've had this realization before. Multiple times actually' without achieving understanding that transforms."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "While the user experiences dissonance and tension, there is no clear sequence showing 'echo' meeting 'dissonance' transforming into 'noise' that then manifests as 'unrest'. The conversation describes sustained tension but not chaotic noise or the specific transformation pattern described."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "The transformation does NOT occur. User explicitly states 'I want to transform, to break through, to finally become something new. I just... can't seem to actually do it' and 'the breakthrough never comes'. This path describes completed transformation and transcendence, which directly contradicts the conversation's core theme of blocked transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "This path explicitly requires insight moving into action to create embodiment. The conversation's central problem is precisely that insight does NOT move into action: 'The gap between understanding and action can be agonizing' and 'insight doesn't equal movement'. The transformation does not occur."
+        }
+      ],
+      "rejected_count": 8,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User becomes caught in a cycle of learning and tension without breakthrough, experiencing repeated pressure at the threshold of change without crossing it",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This maps strongly to Path 22 where understanding meets challenge and creates resistance, revealing a threshold. The user has clear understanding ('I understand what needs to happen. I can see it clearly') but faces challenge (the contradiction between intuition and analysis), which creates resistance ('every time I get to that threshold, I freeze'). The threshold between what is and what could be is explicitly named. However, the T2 transformation (making the conscious choice to transform or remain) has not occurred - the user remains stuck at T1, repeatedly encountering the same threshold without crossing it."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User recognizes that avoiding choice protects identity and prevents potential failure, understanding the purpose of their paralysis",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This represents a moment of insight about the resistance itself - the user sees why the threshold exists and what it's protecting. However, this is still within the T1 reactive pattern of Path 22. The user recognizes the threshold and its function but explicitly states that 'insight doesn't equal movement' and 'Understanding why I'm stuck doesn't unstick me.' The T2 transformation would be making the actual choice to transform or remain, but the user remains in the observation phase without reaching the point of conscious decision-making that would complete the transformation."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2544,
+      "model_name": "claude_sonnet",
+      "output_tokens": 847,
+      "total_tokens": 3391
+    },
+    "B+": {
+      "input_tokens": 2786,
+      "model_name": "claude_sonnet",
+      "output_tokens": 943,
+      "total_tokens": 3729
+    },
+    "C": {
+      "input_tokens": 7561,
+      "model_name": "claude_sonnet",
+      "output_tokens": 517,
+      "total_tokens": 8078
+    }
+  },
+  "design_metadata": {}
+}

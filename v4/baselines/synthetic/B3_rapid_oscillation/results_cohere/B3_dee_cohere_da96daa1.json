@@ -1,0 +1,131 @@
+{
+  "baseline": "B3",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.491641",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "e470c6c8-7143-4eaf-b68c-976c121a46db",
+    "e5_run_id": "e674f243-19eb-447a-a2d5-86287d18539e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "da96daa1"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5916647135832519,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.5916647135832519,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5803449174992196,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.5297370519179033,
+          "t2_confidence": 0.5803449174992196
+        },
+        {
+          "max_confidence": 0.5756614907192391,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5756614907192391,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5588384317810265,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5588384317810265,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5243153056433149,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.5243153056433149,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5242551605783066,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5242551605783066,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.511582137677948,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.511582137677948,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5032927301167792,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5032927301167792,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User recognized their constructed narrative as artificial and shattered their previous approach, finding the authentic core story",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "Clear T1 pattern: reflection (constructed narrative) + crisis (realization of artificiality) → shatter (broke down completely). Clear T2 pattern: in shattering, loss of coherence revealed the core (essential story). Domain matches Emotional (Heart) - transformation involved grief, relief, and emotional recognition of authenticity."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from elegant theoretical construction to embracing messy, authentic complexity in their storytelling",
+          "family": "family_1",
+          "path_number": 32,
+          "reasoning": "Clear T1 pattern: complexity (messy human experience) + simplicity (trying to create clear explanations) → elegance (constructed narrative). Clear T2 pattern: elegance + obscurity (frustrating ambiguity) → insight (realization that mystery IS the human experience). Domain matches Cognitive (Head) - transformation involved conceptual reframing and insight about truth."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User shifted from detached documentation to embodied participation and presence in their creative process",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "Clear T1 pattern: insight (realization about authentic storytelling) + action (going back out with camera) → embodiment (participating and experiencing). Clear T2 pattern: embodiment + reflection (seeing the difference in footage) → manifestation (living footage that shows presence). Domain matches Cognitive (Head) - transformation involved moving from theoretical understanding to practical implementation and tangible results."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User surrendered control over the creative timeline and embraced the organic transformation process",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "Clear T1 pattern: resistance (trying to manage/control) + release (letting waves complete) → surrender (not forcing timeline). Clear T2 pattern: surrender creates peace (trust in the process). Domain matches Emotional (Heart) - transformation involved emotional release and acceptance. Confidence is medium because while the surrender pattern is clear, the grace observation is implied rather than explicit."
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7867,
+      "model_name": "deepseek",
+      "output_tokens": 705,
+      "total_tokens": 8572
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,362 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7344782571339091,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7344782571339091,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7332798461103397,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7332798461103397,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325938084172288,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7325938084172288,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325121063757131,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7325121063757131,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251714684120262,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7251714684120262,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7235939718363876,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.7235939718363876,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7227761099240761,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7227761099240761,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7218343879979132,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7218343879979132,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7217388583266054,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7217388583266054,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7203592610038068,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.7203592610038068,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7749558955483561,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7218103458115771,
+          "t2_confidence": 0.7749558955483561
+        },
+        {
+          "max_confidence": 0.773666395326473,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7696268099768885,
+          "t2_confidence": 0.773666395326473
+        },
+        {
+          "max_confidence": 0.772043374533251,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.772043374533251,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7687009114801354,
+          "path_name": "M58",
+          "path_number": 58,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7687009114801354
+        },
+        {
+          "max_confidence": 0.7615958452224731,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.7615958452224731,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7605902325931152,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7605902325931152
+        },
+        {
+          "max_confidence": 0.7589843129506311,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.7296323341350369,
+          "t2_confidence": 0.7589843129506311
+        },
+        {
+          "max_confidence": 0.7589464639989427,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7391396229690006,
+          "t2_confidence": 0.7589464639989427
+        },
+        {
+          "max_confidence": 0.7573528434423911,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7573528434423911
+        },
+        {
+          "max_confidence": 0.7499862462290392,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7499862462290392,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "Embodiment of new filming approach combined with reflection leads to heightened awareness and presence in the moment"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "Seeking authentic storytelling leads to discovery ('insight hit me like lightning'), creating new knowledge/illumination about human experience"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Synthesis of elegant narrative dissolves, leading to letting go of control and release into authentic process"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M62",
+          "path_number": 62,
+          "reasoning": "Resilience through creative crisis meets vulnerability, leading to openness and receptivity to transformation"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "Clear transformation: reflection on artificial footage leads to crisis/shattering ('everything shattered'), revealing core truth through loss of constructed narrative"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "Clear transformation: insight about authentic storytelling moves into action ('went back out with my camera'), embodying new approach"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Clear cycle disruption: established creative process disrupted leads to fundamental change and transformation in approach"
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "No clear evidence of seeker encountering silence leading to echo/absence pattern in dialogue"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "No explicit presence+curiosity→question transformation sequence detected"
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "No clear awareness+division→perspective transformation in dialogue"
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M29",
+          "path_number": 29,
+          "reasoning": "Flexibility+constraint→creativity evident as user finds new creative approaches within constraints of existing footage and project limitations"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "Questioning+revelation→insight present as user questions approach, experiences revelation about mystery/complexity, gains clarity about storytelling"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M58",
+          "path_number": 58,
+          "reasoning": "Awareness+contraction→depth evident as user's awareness contracts during intense editing sessions, leading to depth of experience and immersion"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M6",
+          "path_number": 6,
+          "reasoning": "Clear sequence from voice/doubt to paradox: User describes feeling artificial and disconnected (doubt), then experiences split between constructed narrative and authentic truth, leading to integration of opposing perspectives"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M21",
+          "path_number": 21,
+          "reasoning": "Clear listening+truth→understanding: User listens to footage, encounters truth in unplanned moments, gains understanding about forcing narratives vs finding authentic stories"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "Clear growth+threshold→transformation: User describes multiple transformations through crisis points, moving beyond previous limitations in creative approach"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "Clear elegance+obscurity→insight: User moves from elegant constructed narrative to embracing obscurity/ambiguity, leading to revelation about human experience"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "Clear insight+action→embodiment: User takes insight about authentic storytelling and embodies it through re-filming and re-editing, manifesting new approach"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "Clear insight+challenge→growth: User faces challenges of creative crisis, gains insights, and grows through testing, expanding creative boundaries"
+        }
+      ],
+      "confirmed_count": 9,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "No clear presence+curiosity→question transformation; user's questioning emerges from crisis/disconnection rather than presence and curiosity"
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User surrendered control over the creative timeline and embraced the natural unfolding of the process",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "This maps to M23 (resistance + release → surrender) where the user released resistance to the natural creative process, surrendering control and finding peace in allowing the work to unfold organically"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User recognized their constructed narrative was artificial and shattered their previous approach, finding an essential core story",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "This maps to M9 (reflection + crisis → shatter) where the user's reflection on their work faced a crisis, leading to shattering and loss of coherence, but revealing the core essence of what truly mattered"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from elegant theoretical construction to embracing messy, authentic truth in their creative work",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "This aligns with M33 (elegance + obscurity → insight) where the user's elegant approach encountered obscurity and complexity, leading to insight about the true nature of human experience and storytelling"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User shifted from detached documentation to embodied participation and experience in their creative process",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "This corresponds to M34 (insight + action → embodiment) where the user's insights about authentic storytelling moved into action, becoming embodied practice where understanding was made tangible through direct participation"
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "completed_at": "2025-11-21T22:15:32.102522",
+  "conversation_id": "3af6c9f4-f84c-4e70-aa34-e128bbed198c",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T22:16:07.432297",
+  "llm_model": "deepseek",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T22:13:14.211110",
+  "run_id": "3bd24925-a327-4b5c-b90b-bc0ceab7da09",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2307,
+      "model_name": "deepseek",
+      "output_tokens": 475,
+      "total_tokens": 2782
+    },
+    "B+": {
+      "input_tokens": 2413,
+      "model_name": "deepseek",
+      "output_tokens": 568,
+      "total_tokens": 2981
+    },
+    "C": {
+      "input_tokens": 6880,
+      "model_name": "deepseek",
+      "output_tokens": 571,
+      "total_tokens": 7451
+    }
+  }
+}

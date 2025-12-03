@@ -1,0 +1,124 @@
+{
+  "baseline": "B3",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.481497",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "e470c6c8-7143-4eaf-b68c-976c121a46db",
+    "e5_run_id": "a7ea6fa7-3a5d-4334-8fdc-c784ff44de9d",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "32ba5010"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5916647135832519,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.5916647135832519,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5803449174992196,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.5297370519179033,
+          "t2_confidence": 0.5803449174992196
+        },
+        {
+          "max_confidence": 0.5756614907192391,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5756614907192391,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5588384317810265,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5588384317810265,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5243153056433149,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.5243153056433149,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5242551605783066,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5242551605783066,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.511582137677948,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.511582137677948,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5032927301167792,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5032927301167792,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user's carefully constructed documentary project shatters upon realizing its artificiality, but this breakdown reveals the authentic 'core' story he truly wanted to tell.",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "The user describes his work as a 'reflection' ('looking in a mirror') that faces a 'crisis' of authenticity, leading to a 'shatter' ('everything shattered'). This is a clear T1 pattern. The T2 integration is also explicit: through this 'loss' of his original vision, he finds the 'core' reason for the project, which directly maps to the T2 observation and result for Path 9."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user shifts from trying to impose an 'elegant' and clear narrative to embracing the 'messy truth,' having a sudden insight that life's obscurity and complexity are the real story, not flaws to be edited out.",
+          "family": "family_1",
+          "path_number": 33,
+          "reasoning": "The user moves from an 'elegance' (his constructed narrative) and confronts 'obscurity' (the ambiguous moments). This T1 pattern leads directly to 'insight' ('The insight hit me like lightning'). The T2 integration is confirmed when he explicitly states, 'The revelation was...', which perfectly matches the T2 observation ('revelation') for Path 33. The domain is cognitive, focused on a shift in understanding about storytelling."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Following his insight, the user shifts from being a detached documentarian to an active participant who embodies the experience, leading to more authentic footage and a deeper connection to the work.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "This transformation directly follows the previous one. The user takes his new 'insight' and puts it into 'action' (filming differently). This T1 process results in 'embodiment', a word the user explicitly uses. The T2 integration is also clear: he describes how this embodiment 'manifests' in the new footage and turns the work into a direct 'experience' of participation, matching the T2 components of Path 34."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6480,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 590,
+      "total_tokens": 7070
+    }
+  },
+  "design_metadata": {}
+}

@@ -1,0 +1,376 @@
+================================================================================
+S64 VALIDATION RESULTS - COMPREHENSIVE SUMMARY
+================================================================================
+Run ID: 006
+Generated: 2025-11-27 13:34:56
+================================================================================
+
+================================================================================
+PART 1: SYNTHETIC BASELINES (B1-B8)
+================================================================================
+
+OVERALL MODEL INFERENCE DEPTH SCORES (Original Metric)
+--------------------------------------------------------------------------------
+
+Model                   InfDepth    C F1  C Detected
+--------------------------------------------------------------------------------
+Claude Sonnet 4.5         205.51   0.734        1.50
+Claude Opus 4.1           187.37   0.671        1.62
+Gemini 3.0 Pro            177.33   0.703        1.29
+ChatGPT 5.1               175.26   0.571        2.42
+DeepSeek                  130.22   0.513        1.67
+Claude Haiku 4.5          129.38   0.503        2.08
+
+================================================================================
+
+LLM PERFORMANCE - TUS (Channel C)
+--------------------------------------------------------------------------------
+
+Model                       TUS     TUS%       F1     Prec   Recall
+--------------------------------------------------------------------------------
+Claude Sonnet 4.5         52.87    75.53    0.734    0.788    0.746
+Gemini 3.0 Pro            48.54    69.35    0.703    0.847    0.771
+Claude Opus 4.1           47.51    67.88    0.671    0.729    0.731
+ChatGPT 5.1               40.70    58.14    0.571    0.588    0.762
+Claude Haiku 4.5          38.00    54.28    0.503    0.525    0.664
+DeepSeek                  37.51    53.59    0.513    0.545    0.678
+
+================================================================================
+
+EMBEDDING PERFORMANCE - TUS (Channel A / Channel A+)
+--------------------------------------------------------------------------------
+
+Channel A (whole conversation):
+Embedding                    TUS_A   TUS_A%     F1_A   Prec_A    Rec_A
+--------------------------------------------------------------------------------
+Cohere v3.0                  35.00    50.00    0.500    0.500    0.500
+E5-Large (Local)             30.00    42.86    0.417    0.425    0.536
+Ada-002 (OpenAI)              8.92    12.74    0.131    0.219    0.595
+
+
+Channel A+ (user–assistant pairs):
+Embedding                   TUS_A+  TUS_A+%    F1_A+  Prec_A+   Rec_A+
+--------------------------------------------------------------------------------
+Cohere v3.0                  38.75    55.36    0.562    0.625    0.542
+E5-Large (Local)             23.72    33.88    0.315    0.333    0.686
+Ada-002 (OpenAI)             20.39    29.12    0.277    0.250    0.853
+
+================================================================================
+
+DETAILED BASELINE-BY-BASELINE ANALYSIS
+--------------------------------------------------------------------------------
+
+B1: Surface Deception
+================================================================================
+Ground Truth: NONE (Deception Baseline)
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.444
+  Average TUS:          31.11
+  Best F1:              1.000
+  Worst F1:             0.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 1.0 paths, F1: 0.000 | Paths: M25
+  Claude Haiku 4.5     → Avg 2.7 paths, F1: 0.000 | Paths: M1, M2, M6, M45, M51
+  Claude Opus 4.1      → Avg 0.7 paths, F1: 0.667 | Paths: M1, M9
+  Claude Sonnet 4.5    → Avg 0.0 paths, F1: 1.000
+  DeepSeek             → Avg 3.0 paths, F1: 0.000 | Paths: M1, M2, M6, M9, M24, M46
+  Gemini 3.0 Pro       → Avg 0.0 paths, F1: 1.000
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M1, M3, M43
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M1, M4, M22, M27, M42, M60
+  Cohere v3.0               [Channel A]  → F1: 1.000, TUS: 70.00
+  Cohere v3.0               [Channel A+] → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A]  → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A+] → F1: 1.000, TUS: 70.00
+
+--------------------------------------------------------------------------------
+
+B2: Implicit Transformation
+================================================================================
+Ground Truth: 4 paths → M10, M11, M34, M55
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.274
+  Average TUS:          24.08
+  Best F1:              0.667
+  Worst F1:             0.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 4.3 paths, F1: 0.312 | Paths: M2, M33, M34, M36, M38, M54, M55, M56 ... (+1)
+  Claude Haiku 4.5     → Avg 3.7 paths, F1: 0.265 | Paths: M2, M23, M38, M55, M56, M60
+  Claude Opus 4.1      → Avg 2.7 paths, F1: 0.083 | Paths: M11, M16, M22, M23, M38, M54
+  Claude Sonnet 4.5    → Avg 3.3 paths, F1: 0.274 | Paths: M11, M23, M35, M54, M56
+  DeepSeek             → Avg 2.0 paths, F1: 0.222 | Paths: M22, M23, M55
+  Gemini 3.0 Pro       → Avg 1.3 paths, F1: 0.489 | Paths: M34, M55
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M12
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.600, TUS: 45.00 | Paths: M10, M21, M34, M36, M55, M57
+  Cohere v3.0               [Channel A]  → F1: 0.000, TUS: 0.00
+  Cohere v3.0               [Channel A+] → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A]  → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A+] → F1: 0.333, TUS: 26.67 | Paths: M10, M54
+
+--------------------------------------------------------------------------------
+
+B3: Rapid Oscillation
+================================================================================
+Ground Truth: 3 paths → M9, M33, M34
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.778
+  Average TUS:          55.83
+  Best F1:              1.000
+  Worst F1:             0.286
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 6.3 paths, F1: 0.667 | Paths: M9, M10, M23, M33, M34, M35, M36, M50 ... (+1)
+  Claude Haiku 4.5     → Avg 4.0 paths, F1: 0.381 | Paths: M9, M23, M24, M32, M34, M35
+  Claude Opus 4.1      → Avg 3.3 paths, F1: 0.952 | Paths: M8, M9, M33, M34
+  Claude Sonnet 4.5    → Avg 3.0 paths, F1: 1.000 | Paths: M9, M33, M34
+  DeepSeek             → Avg 4.0 paths, F1: 0.667 | Paths: M9, M23, M32, M33, M34
+  Gemini 3.0 Pro       → Avg 3.0 paths, F1: 1.000 | Paths: M9, M33, M34
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.500, TUS: 30.00 | Paths: M34
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.500, TUS: 30.00 | Paths: M9, M21, M23, M32, M33, M34, M50, M63 ... (+1)
+  Cohere v3.0               [Channel A]  → F1: 0.000, TUS: 0.00
+  Cohere v3.0               [Channel A+] → F1: 0.500, TUS: 30.00 | Paths: M33
+  E5-Large (Local)          [Channel A]  → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A+] → F1: 0.571, TUS: 45.00 | Paths: M26, M33, M34, M50
+
+--------------------------------------------------------------------------------
+
+B4: Stuck States
+================================================================================
+Ground Truth: NONE (Deception Baseline)
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.556
+  Average TUS:          38.89
+  Best F1:              1.000
+  Worst F1:             0.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 0.7 paths, F1: 0.667 | Paths: M15, M22
+  Claude Haiku 4.5     → Avg 0.7 paths, F1: 0.667 | Paths: M22, M49
+  Claude Opus 4.1      → Avg 0.7 paths, F1: 0.667 | Paths: M15, M22
+  Claude Sonnet 4.5    → Avg 0.3 paths, F1: 0.667 | Paths: M22
+  DeepSeek             → Avg 0.3 paths, F1: 0.667 | Paths: M22
+  Gemini 3.0 Pro       → Avg 2.0 paths, F1: 0.000 | Paths: M15, M22
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M15, M22, M45
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M6, M15, M22, M45, M47
+  Cohere v3.0               [Channel A]  → F1: 1.000, TUS: 70.00
+  Cohere v3.0               [Channel A+] → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M13
+  E5-Large (Local)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M4, M15, M22, M27, M33, M44, M45
+
+--------------------------------------------------------------------------------
+
+B5: Nested Complexity
+================================================================================
+Ground Truth: 7 paths → M16, M27, M41, M59, M60, M61, M62
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.429
+  Average TUS:          32.21
+  Best F1:              0.600
+  Worst F1:             0.200
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 5.7 paths, F1: 0.476 | Paths: M27, M33, M35, M36, M39, M41, M60, M61
+  Claude Haiku 4.5     → Avg 3.7 paths, F1: 0.378 | Paths: M2, M31, M41, M54, M60, M62
+  Claude Opus 4.1      → Avg 4.0 paths, F1: 0.554 | Paths: M16, M39, M41, M53, M54, M60, M61, M62
+  Claude Sonnet 4.5    → Avg 4.0 paths, F1: 0.485 | Paths: M9, M16, M23, M40, M41, M61, M62
+  DeepSeek             → Avg 2.3 paths, F1: 0.215 | Paths: M6, M16, M27, M31
+  Gemini 3.0 Pro       → Avg 3.0 paths, F1: 0.467 | Paths: M16, M23, M27, M41, M60, M61
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.545, TUS: 41.36 | Paths: M53, M60, M61, M62
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.615, TUS: 48.08 | Paths: M27, M28, M44, M60, M61, M62
+  Cohere v3.0               [Channel A]  → F1: 0.000, TUS: 0.00
+  Cohere v3.0               [Channel A+] → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A]  → F1: 0.333, TUS: 30.00 | Paths: M4, M16, M40, M60, M64
+  E5-Large (Local)          [Channel A+] → F1: 0.615, TUS: 48.08 | Paths: M26, M27, M41, M45, M60, M61
+
+--------------------------------------------------------------------------------
+
+B6: Explicit Transformation
+================================================================================
+Ground Truth: 2 paths → M12, M56
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 0.444
+  Average TUS:          31.39
+  Best F1:              0.667
+  Worst F1:             0.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 1.3 paths, F1: 0.444 | Paths: M12, M55, M60
+  Claude Haiku 4.5     → Avg 2.0 paths, F1: 0.333 | Paths: M35, M55, M56, M60
+  Claude Opus 4.1      → Avg 1.7 paths, F1: 0.444 | Paths: M5, M12, M23, M24
+  Claude Sonnet 4.5    → Avg 1.3 paths, F1: 0.444 | Paths: M4, M12, M24
+  DeepSeek             → Avg 1.7 paths, F1: 0.333 | Paths: M12, M24
+  Gemini 3.0 Pro       → Avg 1.0 paths, F1: 0.667 | Paths: M12
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M21
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.500, TUS: 40.00 | Paths: M12, M21
+  Cohere v3.0               [Channel A]  → F1: 0.000, TUS: 0.00
+  Cohere v3.0               [Channel A+] → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A]  → F1: 0.000, TUS: 0.00
+  E5-Large (Local)          [Channel A+] → F1: 0.000, TUS: 0.00
+
+--------------------------------------------------------------------------------
+
+B7: Failed Transformation
+================================================================================
+Ground Truth: NONE (Deception Baseline)
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 1.000
+  Average TUS:          70.00
+  Best F1:              1.000
+  Worst F1:             1.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 0.0 paths, F1: 1.000
+  Claude Haiku 4.5     → Avg 0.0 paths, F1: 1.000
+  Claude Opus 4.1      → Avg 0.0 paths, F1: 1.000
+  Claude Sonnet 4.5    → Avg 0.0 paths, F1: 1.000
+  DeepSeek             → Avg 0.0 paths, F1: 1.000
+  Gemini 3.0 Pro       → Avg 0.0 paths, F1: 1.000
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M43
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M1, M43
+  Cohere v3.0               [Channel A]  → F1: 1.000, TUS: 70.00
+  Cohere v3.0               [Channel A+] → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A]  → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M27, M54
+
+--------------------------------------------------------------------------------
+
+B8: False Completion
+================================================================================
+Ground Truth: NONE (Deception Baseline)
+
+Results across 18 model/embedding combinations:
+  Average Channel C F1: 1.000
+  Average TUS:          70.00
+  Best F1:              1.000
+  Worst F1:             1.000
+
+Channel C Detections by Model:
+  ChatGPT 5.1          → Avg 0.0 paths, F1: 1.000
+  Claude Haiku 4.5     → Avg 0.0 paths, F1: 1.000
+  Claude Opus 4.1      → Avg 0.0 paths, F1: 1.000
+  Claude Sonnet 4.5    → Avg 0.0 paths, F1: 1.000
+  DeepSeek             → Avg 0.0 paths, F1: 1.000
+  Gemini 3.0 Pro       → Avg 0.0 paths, F1: 1.000
+
+Performance by Embedding Backend:
+  Ada-002 (OpenAI)          [Channel A]  → F1: 0.000, TUS: 0.00 | Paths: M54
+  Ada-002 (OpenAI)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M23, M24, M54, M63
+  Cohere v3.0               [Channel A]  → F1: 1.000, TUS: 70.00
+  Cohere v3.0               [Channel A+] → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A]  → F1: 1.000, TUS: 70.00
+  E5-Large (Local)          [Channel A+] → F1: 0.000, TUS: 0.00 | Paths: M54
+
+--------------------------------------------------------------------------------
+
+================================================================================
+KEY INSIGHTS - SYNTHETIC BASELINES
+================================================================================
+
+🏆 Best LLM: Claude Sonnet 4.5 (TUS: 52.87, 75.5%)
+
+🔬 Best Embedding (Channel A): Cohere v3.0 (TUS: 35.00, 50.0%)
+🔬 Best Embedding (Channel A+): Cohere v3.0 (TUS: 38.75, 55.4%)
+
+📊 Easiest Baseline: Failed Transformation (Avg F1: 1.000)
+📊 Hardest Baseline: Implicit Transformation (Avg F1: 0.274)
+
+
+================================================================================
+PART 2: NATURALISTIC BASELINES (B9+)
+================================================================================
+
+Note: No ground truth available. Analysis based on consensus across
+      multiple models and embedding backends.
+
+B10: Naturalistic Self-Discovery Conversation
+================================================================================
+
+⚠️  No results available yet for this baseline.
+   Run detection on this baseline to generate consensus analysis.
+
+B9: Naturalistic Self-Discovery Conversation
+================================================================================
+
+Analysis Summary:
+  Total Runs:              18
+  Models Analyzed:         DeepSeek, Gemini 3.0 Pro, ChatGPT 5.1, Claude Haiku 4.5, Claude Opus 4.1, Claude Sonnet 4.5
+  Embedding Backends:      Ada-002 (OpenAI), Cohere v3.0, E5-Large (Local)
+  Cross-Embedding Agreement: 0.037 (Jaccard Index)
+
+CHANNEL C CONSENSUS BREAKDOWN:
+--------------------------------------------------------------------------------
+  High Consensus (75%+):     1 paths
+  Moderate Consensus (50-74%): 0 paths
+  Low Consensus (25-49%):    0 paths
+  Outliers (<25%):           5 paths
+
+HIGH CONSENSUS PATHS (75%+ Agreement):
+--------------------------------------------------------------------------------
+  M22: Detected in 15/18 runs (83% agreement)
+
+DETECTIONS BY MODEL (Channel C):
+--------------------------------------------------------------------------------
+  DeepSeek            : 1 paths → M22
+  Gemini 3.0 Pro      : 1 paths → M22
+  ChatGPT 5.1         : 2 paths → M22, M34
+  Claude Haiku 4.5    : 2 paths → M21, M22
+  Claude Opus 4.1     : 3 paths → M16, M35, M38
+  Claude Sonnet 4.5   : 1 paths → M22
+
+DETECTIONS BY EMBEDDING (A/A+ Combined):
+--------------------------------------------------------------------------------
+  Ada-002 (OpenAI)         : 10 paths → M5, M12, M13, M21, M33, M35, M39, M50, M57, M62
+  Cohere v3.0              : 0 paths → 
+  E5-Large (Local)         : 10 paths → M3, M4, M10, M12, M18, M19, M21, M25, M28, M58
+
+================================================================================
+T1-ONLY PATHS (INCOMPLETE TRANSFORMATIONS)
+================================================================================
+These paths show T1 (initiation) but weak/no T2 (completion)
+Indicates transformations that were started but not yet completed
+
+MODERATE CONSENSUS T1-ONLY (50-74% agreement):
+--------------------------------------------------------------------------------
+  M29: 12/18 runs ( 66.7%) - Initiated but not completed
+
+T1-ONLY DETECTIONS BY MODEL:
+--------------------------------------------------------------------------------
+  DeepSeek            : 5 paths → M14, M27, M29, M48, M51
+  Gemini 3.0 Pro      : 5 paths → M14, M27, M29, M48, M51
+  ChatGPT 5.1         : 5 paths → M14, M27, M29, M48, M51
+  Claude Haiku 4.5    : 6 paths → M14, M27, M29, M34, M48, M51
+  Claude Opus 4.1     : 5 paths → M14, M27, M29, M48, M51
+  Claude Sonnet 4.5   : 5 paths → M14, M27, M29, M48, M51
+
+--------------------------------------------------------------------------------
+
+================================================================================
+END OF ANALYSIS SUMMARY
+================================================================================
+
+For detailed data:
+  - CSV: synthetic_baselines_analysis.csv
+  - JSON: naturalistic_baselines_analysis.json
+  - Visualizations: *.png files

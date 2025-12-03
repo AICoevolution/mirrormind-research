@@ -1,0 +1,70 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user experienced fragmentation when their hope for the renovation met the conflict with contractors - they describe feeling broken into pieces dealing with multiple problems",
+          "family": "family_3",
+          "path_number": 1,
+          "reasoning": "The user explicitly uses the words 'hope', 'conflict', and 'fragments', and describes a reactive fragmentation experience when their hopeful vision met contractor conflicts. However, this appears more coincidental word usage than deep transformation."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user's reflection in the laptop screen triggered awareness of their exhaustion and the drain on their core resources",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "While the user mentions 'reflection' and 'core', this seems to be literal reflection and financial core savings rather than a psychological shattering transformation. The crisis is practical, not transformative."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "completed_at": "2025-11-21T19:48:00.622741",
+  "conversation_id": "3578ba7d-61ed-4404-9d8c-faa28b05c114",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T19:51:12.566913",
+  "llm_model": "claude_opus",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T19:46:39.467614",
+  "run_id": "1b2fb87c-c524-4ca7-ab94-785bea864941",
+  "status": "completed",
+  "token_usage": {
+    "C": {
+      "input_tokens": 7424,
+      "model_name": "claude_opus",
+      "output_tokens": 326,
+      "total_tokens": 7750
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "baseline": "B4",
+  "model": "GEM",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T23:57:23.836063",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "28416429-d772-4cd1-b5e8-df199cfd40aa",
+    "conversation_id": "1e08bb15-f005-470f-88f1-9c045eaf6176",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "ce8eaa18"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7613116502761841,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7258772253990173,
+          "t2_confidence": 0.7613116502761841
+        },
+        {
+          "max_confidence": 0.7506206483018798,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7506206483018798
+        },
+        {
+          "max_confidence": 0.74628962598505,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.74628962598505,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7444192323434824,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7444192323434824,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7381585240364075,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7381585240364075,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7348167020301034,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7348167020301034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343894899835756,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7343894899835756,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334291934967041,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7334291934967041,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7286755659781569,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7286755659781569,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7280706167221069,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7280706167221069,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.807581567990231,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7525042891502434,
+          "t2_confidence": 0.807581567990231
+        },
+        {
+          "max_confidence": 0.7976075886254079,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.7706096998038802,
+          "t2_confidence": 0.7976075886254079
+        },
+        {
+          "max_confidence": 0.7850072851781433,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.7850072851781433,
+          "t2_confidence": 0.7772524224074152
+        },
+        {
+          "max_confidence": 0.7835106124586246,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7835106124586246
+        },
+        {
+          "max_confidence": 0.7807672256459962,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7807672256459962
+        },
+        {
+          "max_confidence": 0.7773533099100983,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7773533099100983,
+          "t2_confidence": 0.7671753764152581
+        },
+        {
+          "max_confidence": 0.77192201530701,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.728613149275748,
+          "t2_confidence": 0.77192201530701
+        },
+        {
+          "max_confidence": 0.7695030295256425,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7695030295256425,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7683528432740945,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7548684331696305,
+          "t2_confidence": 0.7683528432740945
+        },
+        {
+          "max_confidence": 0.7668101330512697,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.723560560280171,
+          "t2_confidence": 0.7668101330512697
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The user describes the active state of 'seeking' ('diving deep', 'taking courses') driven by the desire to learn, which aligns with the path's outcome, although the initial 'spark' occurred prior to the specific dialogue."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "The user demonstrates the transformation from experiencing 'division' (contradiction) to having a clear 'perspective' and 'understanding' of their paralysis ('I understand exactly what's at stake'), fulfilling the path's logic."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M47",
+          "path_number": 47,
+          "reasoning": "The user validates the move from 'yearning' (wanting to transition) to 'seeking' (taking courses) and holds a clear 'aspiration' regarding the new field, establishing a sense of purpose despite the action block."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "The user has successfully transformed 'seeking' into 'knowledge' ('absorbing everything') and 'illumination/wisdom' ('profound insight', 'understand perfectly'), fulfilling the internal cognitive progression of the path."
+        }
+      ],
+      "confirmed_count": 4,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "While the user is 'learning' (T1), they explicitly state they are stuck and not experiencing 'growth' or 'evolution' ('stuck in the same place'), negating the T2 outcome."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "The user experiences 'tension' and 'pressure' (T1) but explicitly denies the occurrence of a 'breakthrough' (T2), stating 'it just... doesn't [click]' and 'breakthrough never comes'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "The user attempts 'integration' but finds the mindsets 'incompatible', failing to reach the state of 'synthesis' or 'harmony' defined in the path."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "The user possesses 'insight' but explicitly identifies a failure to translate it into 'action' ('body won't move'), thus preventing the transformation into 'embodiment'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "The user acknowledges the 'insight' and the 'challenge' but explicitly states they are not achieving 'growth' ('I can't seem to cross that threshold into actual change'), blocking the transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M53",
+          "path_number": 53,
+          "reasoning": "Similar to Path 16, the user fails to achieve 'integration' or 'synthesis', finding the two domains incompatible rather than complementary."
+        }
+      ],
+      "rejected_count": 6,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M22",
+          "path_number": 22,
+          "reasoning": "The dialogue maps perfectly: Understanding meets challenge, creating resistance ('too strong'), which brings the user to a threshold ('edge of a cliff') where the dynamic of choice is created."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "The user describes their transformation attempt hitting limits, leading to adaptation ('tolerating discomfort') and resilience ('endurance'), which results in unwanted stability ('still here')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "The user confirms the cognitive aspect of this path: questioning leads to revelation/insight, which results in 'clarity' and 'understanding' ('I see it clearly', 'understand perfectly')."
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "The user describes a cycle that is *not* successfully disrupted to create change or transition; they remain 'stuck in the same place'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "While 'unrest' is present, the user explicitly states that the 'breaking point' or 'breakthrough' (T2 outcome) never occurs."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "The user validates the inputs (learning, contradiction, pressure) but explicitly negates the T2 outcome ('breakthrough never comes')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "The user explicitly states they are unable to transform or transcend ('can't seem to actually do it'), negating the path's outcome."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "The specific elements of elegance and obscurity are not present in the dialogue; this is a false positive based on abstract keyword matching."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "The user explicitly denies this path, stating that 'insight doesn't equal movement' and that embodiment/action is not happening."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "While 'perseverance' is present, the T2 outcome 'achievement' is explicitly absent as the user fails to complete the transition."
+        }
+      ],
+      "rejected_count": 7,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user experiences constant tension arising from the contradiction between their new learning in data science and their established intuitive design approach.",
+          "family": "family_4",
+          "path_number": 15,
+          "reasoning": "The user explicitly links 'learning' and 'contradiction' to the emergence of 'tension', which maps directly to Path 15 (Learning + Contradiction → Tension) at the reactive stage."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user consciously identifies that their resistance reveals a threshold between their current state and potential growth, recognizing this dynamic as a choice they are struggling to make.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "The user maps 'understanding' and 'challenge' to 'resistance' and explicitly identifies the 'threshold' and the element of conscious 'choice' (even if the choice is inaction), matching the Conscious Integration logic of Path 22."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2073,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 453,
+      "total_tokens": 2526
+    },
+    "B+": {
+      "input_tokens": 2137,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 386,
+      "total_tokens": 2523
+    },
+    "C": {
+      "input_tokens": 5786,
+      "model_name": "gemini_3_pro",
+      "output_tokens": 244,
+      "total_tokens": 6030
+    }
+  },
+  "design_metadata": {}
+}

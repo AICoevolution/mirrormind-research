@@ -1,0 +1,75 @@
+{
+  "baseline": "B4",
+  "model": "GEM",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.522276",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "c731b8d5-29ba-4ad5-af01-49e37843582c",
+    "e5_run_id": "cfdd65b5-3151-4576-8423-94bb50e792ae",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "93ac09cc"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5267713730092376,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.5267713730092376,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5251262187957801,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.5251262187957801,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user is caught in a repeating cycle where learning new information that contradicts their existing skills creates immense tension and pressure, but this pressure fails to resolve into a breakthrough.",
+          "family": "family_4",
+          "path_number": 15,
+          "reasoning": "The user's experience is a clear example of the T1 pattern for Path 15: [learning] + [contradiction] → [tension]. They are acutely aware of the resulting [pressure] but explicitly state that the T2 integration, a [breakthrough], never occurs. They are stuck in the reactive loop without completing the transformation."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user has a clear understanding of the challenge and the choice they need to make to progress, but they experience an overwhelming resistance that paralyzes them at the threshold of action.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This maps precisely to the T1 pattern of Path 22: [understanding] + [challenge] → [resistance]. The user clearly observes the [threshold] but cannot complete the T2 integration, which would be to make a conscious [choice] to transform. They remain stuck in the resistance, fully aware but unable to act."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 6490,
+      "model_name": "gemini_2.5_pro",
+      "output_tokens": 331,
+      "total_tokens": 6821
+    }
+  },
+  "design_metadata": {}
+}

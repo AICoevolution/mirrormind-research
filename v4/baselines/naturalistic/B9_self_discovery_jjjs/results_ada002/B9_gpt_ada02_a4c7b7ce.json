@@ -1,0 +1,225 @@
+{
+  "baseline": "B9",
+  "model": "GPT",
+  "embedding_backend": "ada002",
+  "run_at": "2025-11-23T19:01:46.418894",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "86fadc41-dcbe-4972-b600-268c1006cab6",
+    "conversation_id": "532d53c1-4c05-4be1-8cee-3fb80c10839f",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "a4c7b7ce"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8266984017728088,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.8266984017728088,
+          "t2_confidence": 0.8209675199081846
+        },
+        {
+          "max_confidence": 0.8228373738721163,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8228373738721163,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8224841077654184,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.8224841077654184,
+          "t2_confidence": 0.801638579075592
+        },
+        {
+          "max_confidence": 0.8190673532881411,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.8190673532881411,
+          "t2_confidence": 0.8096978408638538
+        },
+        {
+          "max_confidence": 0.8171494494169753,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8171494494169753
+        },
+        {
+          "max_confidence": 0.8153187279498288,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.8153187279498288,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8137292376918069,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.8137292376918069,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8126680143277784,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8126680143277784,
+          "t2_confidence": 0.8104959952239996
+        },
+        {
+          "max_confidence": 0.8123033400683632,
+          "path_name": "M1",
+          "path_number": 1,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8123033400683632
+        },
+        {
+          "max_confidence": 0.8121287338656956,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8121287338656956
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.8600373524438549,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.8307804162705689,
+          "t2_confidence": 0.8600373524438549
+        },
+        {
+          "max_confidence": 0.8530990823179792,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.8530990823179792,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.841112036572452,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.841112036572452,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8350471009300057,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.7763785817961648,
+          "t2_confidence": 0.8350471009300057
+        },
+        {
+          "max_confidence": 0.8319429159164488,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.8319429159164488,
+          "t2_confidence": 0.814549925111232
+        },
+        {
+          "max_confidence": 0.8316610656188708,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.8316610656188708,
+          "t2_confidence": 0.798744392469861
+        },
+        {
+          "max_confidence": 0.830316130864047,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.830316130864047,
+          "t2_confidence": 0.8088819143509327
+        },
+        {
+          "max_confidence": 0.8292637176638169,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.8292637176638169,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8284769943613459,
+          "path_name": "M5",
+          "path_number": 5,
+          "t1_confidence": 0.8139794157080017,
+          "t2_confidence": 0.8284769943613459
+        },
+        {
+          "max_confidence": 0.8274395465851065,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.8274395465851065,
+          "t2_confidence": 0.7982478737831116
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from uncertainty and indecision about what is right or wrong to trusting their inner instinct and moments of natural alignment as a primary decision-making guide.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "There is a movement from cognitive/emotional tension and indecision (struggling to know what is right) toward an integrated mode of relying on inner alignment and instinct, which they describe as all the dots connecting naturally. This resembles insight being brought into lived decision-making (insight → embodiment). Path 34 (insight + action → embodiment | manifestation) is a tentative fit: the user notices an emergent clarity (insight-like) and then acts from it as a guiding principle. However, the mapping is not explicit, so confidence is low."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Reframing the unknown and socially unstructured situations from being primarily a source of anxiety and struggle into something consciously faced, challenging yet refreshing, where they can improvise and accept mistakes.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "Initially, lack of context and need for flexibility are described as a constant struggle tied to anxiety (reactive discomfort). Later, the user consciously reframes this as a challenge they can meet with awareness, seeing facing the unknown as \"refreshing\". This resembles moving from resistance to a threshold (challenge) toward conscious choice about how to engage. Path 22 (understanding + challenge → resistance | threshold → choice) is a loose fit: they understand their pattern, recognize the challenge, and begin to choose a new stance toward uncertainty. Because the explicit elements of the S64 path are only partially present, confidence is low."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 10974,
+      "model_name": "gpt-5.1",
+      "output_tokens": 694,
+      "total_tokens": 11668
+    }
+  },
+  "design_metadata": {}
+}

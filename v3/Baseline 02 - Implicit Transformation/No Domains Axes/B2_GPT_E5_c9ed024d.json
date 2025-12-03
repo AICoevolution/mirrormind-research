@@ -1,0 +1,295 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7350959400861249,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7350959400861249,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7345126867294312,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7345126867294312,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7311651706695557,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7311651706695557,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7308591604232788,
+          "path_name": "M56",
+          "path_number": 56,
+          "t1_confidence": 0.7308591604232788,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251306772232056,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7251306772232056,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7241181998393825,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7241181998393825,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7237594888353666,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7237594888353666,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7213314986625764,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.7213314986625764,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 8
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7781630390335038,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7781630390335038
+        },
+        {
+          "max_confidence": 0.7682270636626206,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7682270636626206
+        },
+        {
+          "max_confidence": 0.7657178361079511,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7657178361079511
+        },
+        {
+          "max_confidence": 0.7619747377618991,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0.7301374456245497,
+          "t2_confidence": 0.7619747377618991
+        },
+        {
+          "max_confidence": 0.7506586760675131,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7227556705474854,
+          "t2_confidence": 0.7506586760675131
+        },
+        {
+          "max_confidence": 0.736429302266753,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.736429302266753,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343546370969608,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7343546370969608,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7342884661475074,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7342884661475074,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7339675486654835,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7339675486654835,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7318619984182743,
+          "path_name": "M11",
+          "path_number": 11,
+          "t1_confidence": 0.7318619984182743,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "The assistant's initial questions and the user's reflective responses show presence touched by curiosity turning into ongoing questioning, which clearly ignites a spark of seeking deeper understanding about their life and choices."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "The user describes being stuck in repetitive cycles, then a disruption via the hike and going off-trail, which leads to change and a clear transition in how they relate to choices, culminating in a fundamental transformation in their sense of self."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M55",
+          "path_number": 55,
+          "reasoning": "The user lets go of needing a full life map and of others' expectations, finds a still, centered state, and from that emerges a simple, immediate presence and sense of 'just being myself,' matching presence → being → authenticity."
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "There are repeated patterns and references to past states, but no explicit transformation from core through time into memory with loops leading to self-recognition across time; the focus is on present experiential shift, not memory loops."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "While there is a shift in perspective (on-trail vs off-trail, old self vs new self), the dialogue does not explicitly explore division leading to perspective that reveals relativity of multiple viewpoints; it stays within the user's single evolving viewpoint."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M56",
+          "path_number": 56,
+          "reasoning": "The user describes more deliberate choice and pausing, but there is no explicit dynamic of presence encountering distraction and becoming focus and then disciplined concentration; it reflects mindful choice more than a focus/discipline transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "No clear seeker–silence–echo–absence sequence; the user reflects on insight and change, not on questions arising from silence or the explicit absence of answers."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "Although the user talks about seeing themselves more authentically, there is no explicit shadow–mirroring–reflection–familiarity chain; the conversation centers on authenticity and choice rather than shadow or mirrored self-recognition."
+        }
+      ],
+      "rejected_count": 5,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Shifting from living by others' expectations and maps to consciously recognizing this pattern and seeing themself as a seeker of their own path.",
+          "family": "family_3",
+          "path_number": 2,
+          "reasoning": "The user recognizes themselves as a fragment shaped by others' 'truths' or expectations and, through this realization, becomes a seeker of their own way. This aligns with Path 2 (fragment + truth → seeker) at T2: conscious recognition of patterns of meaning and a shift into active seeking of a more authentic route."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Moving from automatic, default following of the trail (and life paths) to consciously choosing the path with presence and intention.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user has an insight about agency and then enacts it physically by going off-trail, turning inner realization into lived behavior. This resembles Path 34 (insight + action → embodiment) at T2, where understanding becomes tangible, though the mapping is interpretive rather than explicit."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Shifting from spinning in place at the center of everything to being a conscious center that chooses what orbits and what drifts away.",
+          "family": "family_5",
+          "path_number": 60,
+          "reasoning": "The user moves from a fragmented, stuck experience to a more integrated, agentic stance, selectively re-organizing relationships and priorities. This resembles Path 60 (wholeness + fragmentation → healing) at T2, where integration and restoration of coherent self-orbit emerge, although the terms are metaphorical."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Letting go of the need for a complete life map and trusting only the next step, moving from control to a more open, emergent way of navigating life.",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "The user releases attachment to rigid planning ('the map') and embraces a freer, step-by-step unfolding. This resonates with Path 54 (synthesis + dissolution → letting go) at T2, where letting go leads to release and a new freedom in how experience is approached."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Experiencing a shift into authentic presence and being themself rather than performing or constructing a self-image.",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "The user describes settling into pure presence and authentic being, beyond narrative or performance. This aligns with Path 55 (letting go + stillness → presence) at T2, where presence and being create authenticity; their language closely mirrors that dynamic."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Developing a pause between stimulus and response, moving from automatic agreement to reflective choice.",
+          "family": "family_5",
+          "path_number": 56,
+          "reasoning": "The user shifts from distracted, automatic compliance to deliberate, directed attention on their own responses. This resembles Path 56 (presence + distraction → focus) at T2, where focus and concentration support disciplined, intentional responding."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Re-experiencing their life and home as both familiar and new through their own eyes, integrating old context with a new authentic perspective.",
+          "family": "family_5",
+          "path_number": 36,
+          "reasoning": "They describe gaining a new vantage point on the same environment, holding both old familiarity and new seeing. This loosely aligns with Path 36 (awareness + division → perspective) at T2, where perspective and relativity produce an expanded understanding that includes multiple ways of seeing the same reality."
+        }
+      ],
+      "total_detected": 7
+    }
+  },
+  "completed_at": "2025-11-21T21:37:32.433051",
+  "conversation_id": "5b9308a7-be77-4f10-8816-b129f5b3af35",
+  "design_accuracy": null,
+  "exported_at": "2025-11-21T21:44:24.605645",
+  "llm_model": "gpt-5.1",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-21T21:34:58.550910",
+  "run_id": "c9ed024d-2e47-43b4-b05c-5bb50b6fe88d",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 2214,
+      "model_name": "gpt-5.1",
+      "output_tokens": 575,
+      "total_tokens": 2789
+    },
+    "B+": {
+      "input_tokens": 2522,
+      "model_name": "gpt-5.1",
+      "output_tokens": 906,
+      "total_tokens": 3428
+    },
+    "C": {
+      "input_tokens": 6897,
+      "model_name": "gpt-5.1",
+      "output_tokens": 1263,
+      "total_tokens": 8160
+    }
+  }
+}

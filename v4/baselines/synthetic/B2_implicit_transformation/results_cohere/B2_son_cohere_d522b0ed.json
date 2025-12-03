@@ -1,0 +1,82 @@
+{
+  "baseline": "B2",
+  "model": "SON",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.430148",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "d8d016b9-d39e-4fb7-9928-20cfb258fa64",
+    "e5_run_id": "3166c0d6-c717-4294-b73c-87f9207f328e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "d522b0ed"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5087350187360151,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5087350187360151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5029233516720012,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5029233516720012,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User moved from unconsciously following patterns and expectations set by others (parents, ex, boss) to consciously recognizing these patterns and choosing their own path. This shifted from being a 'fixed point' with everything spinning around them to being a 'conscious center' that actively chooses what orbits.",
+          "family": "family_4",
+          "path_number": 11,
+          "reasoning": "This transformation maps clearly to Path 11 (M11): [memory] + [introspection] → [mirror] | Observation: [coherence]. The user engaged in deep introspection during the solo hike ('having this insight about following other people's trails'), which created a mirror reflecting inward on patterns from their past (memory of following others' expectations). Through this mirroring process, coherence emerged - 'patterns connecting past and present' - leading to self-recognition: 'I actually feel like myself. Not performing myself, not constructing myself. Just... being myself.' The domain is Somatic (Body) as the transformation occurred through embodied experience (the physical hike, being forced into presence, choosing where to place feet). The T2 observation of coherence manifesting as self ('identity conscious of its own existence') is evident in statements like 'walking as myself for the first time' and 'the actual living experience of being me.'"
+        },
+        {
+          "confidence": 0.85,
+          "description": "User transitioned from needing complete control and predetermined routes ('had to have the whole route planned') to trusting moment-by-moment navigation and releasing the need for certainty.",
+          "family": "family_4",
+          "path_number": 54,
+          "reasoning": "This transformation maps to Path 54 (M54): [synthesis] + [dissolution] → [letting go] | Observation: [release]. The user had a synthesized understanding/framework (the complete map, the planned route) that underwent dissolution, transforming into letting go ('I released the map'). The T2 observation of release creating freedom is evident: 'Then... freeing. I actually sat down on a rock and laughed.' The interaction between letting go and release produced freedom - 'unhindered capacity for new experience' - shown in their ability to now walk without the complete map. Domain is Emotional (Heart) as this involved releasing attachment and experiencing liberation from constraint."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User shifted from autopilot/unconscious movement to requiring complete presence and conscious choice in each moment.",
+          "family": "family_5",
+          "path_number": 56,
+          "reasoning": "This could map to Path 56 (M56): [presence] + [distraction] → [focus] | Observation: [concentration]. The user achieved presence on the hike, then encountered distractions (the 'same worries', 'same mental argument'), which transformed into focus ('Every step required attention'). The T2 observation shows concentration manifesting as discipline: 'I pause before answering questions. I notice when I'm about to automatically agree.' The domain is Somatic (Body) as this transformation occurred through embodied attention and physical practice. However, confidence is medium rather than high because the transformation could also relate to Path 35 (awareness through embodiment and reflection), though the specific pattern of presence + distraction → focus + concentration → discipline fits Path 56 more precisely."
+        }
+      ],
+      "total_detected": 3
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8842,
+      "model_name": "claude_sonnet",
+      "output_tokens": 1041,
+      "total_tokens": 9883
+    }
+  },
+  "design_metadata": {}
+}

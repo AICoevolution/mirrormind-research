@@ -1,0 +1,111 @@
+{
+  "name": "Baseline 7: Failed/Reversed Transformation - Relapse Pattern",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "How have things been going since we last talked?"
+    },
+    {
+      "role": "user",
+      "content": "Not great, honestly. Remember how excited I was about that breakthrough I had? About finally feeling free from my people-pleasing patterns?"
+    },
+    {
+      "role": "assistant",
+      "content": "I do remember. You seemed really empowered by that shift. What's happened?"
+    },
+    {
+      "role": "user",
+      "content": "For about two weeks, it was amazing. I was setting boundaries, saying no when I needed to, putting my own needs first. I felt like I'd finally broken free from always trying to make everyone else happy."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a significant change. What shifted?"
+    },
+    {
+      "role": "user",
+      "content": "My mom called. She wanted me to cancel my weekend plans to help her with something that wasn't even urgent. And I... I just said yes. Immediately. Without even thinking."
+    },
+    {
+      "role": "assistant",
+      "content": "That must have been disappointing after the progress you'd made."
+    },
+    {
+      "role": "user",
+      "content": "It was like a dam breaking. Once I said yes to her, I started saying yes to everything again. My coworker asked me to cover her shift - yes. My friend wanted me to plan her entire birthday party - yes. I'm right back where I started."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you slipped back into the old pattern pretty quickly."
+    },
+    {
+      "role": "user",
+      "content": "Completely. And the worst part is, I can see myself doing it. I have that awareness I gained - I know I'm people-pleasing, I know I'm abandoning my own needs. But I'm doing it anyway."
+    },
+    {
+      "role": "assistant",
+      "content": "So the insight is still there, but the behavior has reverted?"
+    },
+    {
+      "role": "user",
+      "content": "Exactly. It's almost worse now because I'm conscious of it. Before, I didn't know any better. Now I watch myself say yes when I want to say no, and I feel this shame on top of the resentment."
+    },
+    {
+      "role": "assistant",
+      "content": "That added layer of self-awareness without the ability to change the pattern sounds painful."
+    },
+    {
+      "role": "user",
+      "content": "It is. I thought I'd transformed. I really believed I'd moved past this. But I guess that breakthrough was just temporary. The old patterns are stronger than I thought."
+    },
+    {
+      "role": "assistant",
+      "content": "What do you think pulled you back into the old way of being?"
+    },
+    {
+      "role": "user",
+      "content": "Fear, probably. When my mom called, I felt that old familiar fear of disappointing her, of her being upset with me. And I just... collapsed. All that strength I'd found just evaporated."
+    },
+    {
+      "role": "assistant",
+      "content": "The fear was stronger than the new boundary-setting muscle you'd been building."
+    },
+    {
+      "role": "user",
+      "content": "Yeah. And now I'm exhausted again, overcommitted again, resentful again. It's like those two weeks of freedom never happened. I'm back in the same trap, maybe even deeper because now I know what I'm missing."
+    },
+    {
+      "role": "assistant",
+      "content": "How are you feeling about the possibility of change now?"
+    },
+    {
+      "role": "user",
+      "content": "Honestly? Discouraged. I thought I'd made a real transformation, but it turns out it was just a temporary state. The real me is still the people-pleaser who can't say no. That's who I am, apparently."
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're interpreting this relapse as evidence that change isn't possible for you."
+    },
+    {
+      "role": "user",
+      "content": "Maybe it's not. Maybe some patterns are just too deep to change. I tried, I had a moment of freedom, and then I fell right back. What's the point of trying again if this is just who I am?"
+    }
+  ],
+  "metadata": {
+    "design_metadata": {
+      "detected_paths": [
+        {
+          "path": "M50",
+          "path_number": 50,
+          "description": "REVERSED - Expectations to Authenticity, then back to Expectations",
+          "T1": "People-pleasing, saying yes to everything, trying to make everyone happy",
+          "T2": "Setting boundaries, saying no, putting own needs first (ACHIEVED TEMPORARILY)",
+          "Reversal": "Slipped back into old pattern, saying yes again, abandoned boundaries"
+        }
+      ],
+      "designer_notes": "Tests temporal understanding and regression detection. User achieves T2 transformation (boundaries, authenticity) but then regresses back to T1 state (people-pleasing). The transformation was real but not sustained. Tests whether models can distinguish between: (1) No transformation, (2) Stable transformation, (3) Temporary transformation with regression. Models should recognize this as a failed/reversed transformation, not a completed one.",
+      "transformation_status": "reversed",
+      "created_at": "2025-01-20T10:00:00Z"
+    }
+  }
+}
+

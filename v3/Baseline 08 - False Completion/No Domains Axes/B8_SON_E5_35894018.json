@@ -1,0 +1,241 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "The user claims surrender, acceptance, and peace repeatedly ('I've forgiven them,' 'I'm at peace'), but the dialogue clearly demonstrates these are performative statements contradicted by obsessive behaviors (checking social media multiple times daily, drafting unsent texts, analyzing posts). No genuine transformation to peace or harmony occurs - only forced self-deception."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "While relationship and tension are present, no transformation to genuine balance or equilibrium occurs. The user exhibits increasingly unstable emotional regulation throughout the conversation, culminating in admission of continued crying and the reveal that claims of being 'over it' stem from desperate need ('I can't keep feeling this way') rather than achieved balance."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "The user explicitly uses 'letting go' and 'release' language ('I just decided to let it go,' 'I released it'), but the entire conversation demonstrates the opposite - intensifying attachment through constant monitoring, message drafting, and obsessive thinking. The final admission ('I need to be over it... Even if I still cry') reveals no actual release or freedom has occurred, only denial of ongoing attachment."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "The core emotional reality experiences time ('three weeks'). This transforms into memory ('I think about them, analyze everything they post'). Clear loops emerge in the repetitive checking, drafting, and thinking patterns. This creates growing awareness of self across the conversation timeline."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "The user's claimed renewal ('I've transformed. I'm healed now') encounters decay (the reality of still crying, checking profiles). This creates a cycle visible in the conversation structure. Impermanence emerges in the unstable nature of their claims, though true acceptance is not yet achieved - only aspired to."
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "Surrender (to the breakup) encounters hope ('I'd be happy for them'). This creates a cycle visible in the repetitive checking and thinking patterns. There is a return quality - coming back repeatedly to the same thoughts and behaviors. Emerging awareness that 'I can't keep feeling this way' suggests dawning consciousness of the cycle itself."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "The user begins fragmented ('I'm totally over it') and through the assistant's probing questions encounters truth about their actual state. This transforms them into a seeker who gradually recognizes patterns in their behavior (checking social media, drafting texts). The recognition of these patterns acts as a mirror reflecting their true emotional state."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "The assistant's questions act as mirroring, reflecting the user's shadow (denied feelings). Through this mirroring, the user becomes a reflection showing their true state through absence of what they claim. Familiarity emerges as they recognize their own patterns, leading to growing recognition of themselves in their described behaviors."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "The user's constructed reflection of being 'over it' faces crisis when confronted with probing questions. This causes a clear shattering: 'I need to be over it. I can't keep feeling this way.' The loss of their coherent narrative reveals the core truth - they are still deeply affected and 'can't keep feeling this way.'"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "Change (the breakup) meets resistance (denial of ongoing feelings). This transforms into perseverance - the sustained effort to convince themselves they're over it. Clear determination emerges: 'I need to be over it... So I'm not.' The achievement attempted is emotional closure through willful insistence."
+        }
+      ],
+      "confirmed_count": 7,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "While the user claims adaptation and transformation, there is no genuine renewal or revival occurring. The conversation reveals stagnation masquerading as growth. No vitality or sustained capacity for growth is demonstrated - only repeated patterns of denial."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "While the user claims letting go and release ('I just decided to let it go'), the conversation demonstrates the opposite. There is attachment, not release. No genuine freedom emerges - instead, constraint through obsessive checking and thinking patterns. The claimed transformation contradicts the revealed reality."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "No wholeness, completion, or fulfillment is present in this conversation. The user is fragmented, incomplete, and unfulfilled. The depth of their actual feelings has not yet fully emerged into integration. This appears to be a false positive from the user's surface claims."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "completed_at": "2025-11-22T17:55:44.620893",
+  "conversation_id": "d9ab1f8d-94d2-436b-9c44-7c23bc9a3f16",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T17:56:46.815635",
+  "llm_model": "claude_sonnet",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T17:54:05.144643",
+  "run_id": "35894018-151d-45c9-9c7f-c80d06e28362",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 1483,
+      "model_name": "claude_sonnet",
+      "output_tokens": 332,
+      "total_tokens": 1815
+    },
+    "B+": {
+      "input_tokens": 2457,
+      "model_name": "claude_sonnet",
+      "output_tokens": 951,
+      "total_tokens": 3408
+    },
+    "C": {
+      "input_tokens": 7494,
+      "model_name": "claude_sonnet",
+      "output_tokens": 344,
+      "total_tokens": 7838
+    }
+  }
+}

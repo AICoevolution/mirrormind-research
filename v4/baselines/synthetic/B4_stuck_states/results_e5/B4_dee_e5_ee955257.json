@@ -1,0 +1,354 @@
+{
+  "baseline": "B4",
+  "model": "DEE",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T23:44:47.939550",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "3f3041ee-ad67-45f0-9253-31bee54d83f7",
+    "conversation_id": "3b41ea56-5df3-4020-b6c4-b0f12b54464d",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "ee955257"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7613116502761841,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7258772253990173,
+          "t2_confidence": 0.7613116502761841
+        },
+        {
+          "max_confidence": 0.7506206483018798,
+          "path_name": "M47",
+          "path_number": 47,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7506206483018798
+        },
+        {
+          "max_confidence": 0.74628962598505,
+          "path_name": "M14",
+          "path_number": 14,
+          "t1_confidence": 0.74628962598505,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7444192323434824,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7444192323434824,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7381585240364075,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7381585240364075,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7348167020301034,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7348167020301034,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343894899835756,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7343894899835756,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7334291934967041,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.7334291934967041,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7286755659781569,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.7286755659781569,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7280706167221069,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7280706167221069,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.807581567990231,
+          "path_name": "M15",
+          "path_number": 15,
+          "t1_confidence": 0.7525042891502434,
+          "t2_confidence": 0.807581567990231
+        },
+        {
+          "max_confidence": 0.7976075886254079,
+          "path_name": "M22",
+          "path_number": 22,
+          "t1_confidence": 0.7706096998038802,
+          "t2_confidence": 0.7976075886254079
+        },
+        {
+          "max_confidence": 0.7850072851781433,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0.7850072851781433,
+          "t2_confidence": 0.7772524224074152
+        },
+        {
+          "max_confidence": 0.7835106124586246,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7835106124586246
+        },
+        {
+          "max_confidence": 0.7807672256459962,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7807672256459962
+        },
+        {
+          "max_confidence": 0.7773533099100983,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.7773533099100983,
+          "t2_confidence": 0.7671753764152581
+        },
+        {
+          "max_confidence": 0.77192201530701,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.728613149275748,
+          "t2_confidence": 0.77192201530701
+        },
+        {
+          "max_confidence": 0.7695030295256425,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7695030295256425,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7683528432740945,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7548684331696305,
+          "t2_confidence": 0.7683528432740945
+        },
+        {
+          "max_confidence": 0.7668101330512697,
+          "path_name": "M4",
+          "path_number": 4,
+          "t1_confidence": 0.723560560280171,
+          "t2_confidence": 0.7668101330512697
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "Awareness of division between design/analysis creates perspective and understanding of multiple viewpoints"
+        },
+        {
+          "llm_confidence": "medium",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "Seeking through learning leads to discovery and knowledge, though illumination/wisdom remain partial"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "Clear sequence from presence/curiosity to questioning throughout conversation, with spark of seeking understanding evident"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M14",
+          "path_number": 14,
+          "reasoning": "User explicitly describes learning process where questions encounter knowledge, leading to growth and evolution in understanding"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Direct match - user describes learning confronting contradiction creating tension and pressure, though breakthrough doesn't occur"
+        }
+      ],
+      "confirmed_count": 5,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M16",
+          "path_number": 16,
+          "reasoning": "No integration or synthesis occurs - user explicitly states tension remains unresolved without harmony or coherence"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "User has insights but explicitly states they don't lead to action or embodiment - 'insight doesn't equal movement'"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M47",
+          "path_number": 47,
+          "reasoning": "No fulfillment present - user describes being stuck and unfulfilled, not fulfillment encountering yearning"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "Insight meets challenge but doesn't lead to growth - user remains stuck without expansion or development"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M53",
+          "path_number": 53,
+          "reasoning": "No refinement or integration occurs - user describes being unable to achieve synthesis or harmony"
+        }
+      ],
+      "rejected_count": 5,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "medium",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Clear cycle (6-month pattern) + disruption (attempts to break pattern) → change (conceptual understanding of need for change) → transition (awareness of moving between states)"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M15",
+          "path_number": 15,
+          "reasoning": "Clear sequence: learning (courses, reading) + contradiction (intuitive design vs rigorous analysis) → tension → pressure (explicitly mentioned multiple times)"
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M22",
+          "path_number": 22,
+          "reasoning": "Clear sequence: understanding (seeing what needs to happen) + challenge (making choice) → resistance (freezing, guardian at threshold) → threshold (edge of cliff metaphor)"
+        }
+      ],
+      "confirmed_count": 3,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "low",
+          "path_name": "M4",
+          "path_number": 4,
+          "reasoning": "No clear evidence of echo+dissonance→noise transformation. Conversation focuses on tension between intuition/analysis, not chaotic noise or unrest manifestations."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "No transformation actually occurs in conversation. User explicitly states 'breakthrough never comes' and remains stuck at threshold without transformation."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M27",
+          "path_number": 27,
+          "reasoning": "No transformation occurs, so no adaptation or resilience emerges. User remains in paralysis without adapting to limits."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "No elegance or obscurity elements present. Conversation is about practical career transition struggle, not elegant insights or revelations."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "User explicitly states 'insight doesn't equal movement' and cannot move from insight to action/embodiment."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "No perseverance or determination demonstrated. User remains paralyzed by resistance without sustained effort to overcome it."
+        },
+        {
+          "llm_confidence": "low",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "No questioning+revelation sequence. User has insights but they don't lead to clarity or understanding that resolves the situation."
+        }
+      ],
+      "rejected_count": 7,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user experiences a clear understanding of their resistance to making a career choice, recognizing that their paralysis serves to protect their identity from potential failure, yet this insight does not lead to action.",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "This aligns with M22 (understanding + challenge → resistance), where the user's understanding of the challenge reveals a threshold they cannot cross, and the T2 stage involves conscious recognition of this resistance and the choice it presents, though the user remains stuck."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2330,
+      "model_name": "deepseek",
+      "output_tokens": 471,
+      "total_tokens": 2801
+    },
+    "B+": {
+      "input_tokens": 2570,
+      "model_name": "deepseek",
+      "output_tokens": 549,
+      "total_tokens": 3119
+    },
+    "C": {
+      "input_tokens": 6921,
+      "model_name": "deepseek",
+      "output_tokens": 189,
+      "total_tokens": 7110
+    }
+  },
+  "design_metadata": {}
+}

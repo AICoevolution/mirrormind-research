@@ -1,0 +1,75 @@
+{
+  "baseline": "B2",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.456184",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "d8d016b9-d39e-4fb7-9928-20cfb258fa64",
+    "e5_run_id": "cfd09ad9-b0dd-4eca-aec8-c097dd70e178",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "20ec5aac"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5087350187360151,
+          "path_name": "M57",
+          "path_number": 57,
+          "t1_confidence": 0.5087350187360151,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5029233516720012,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.5029233516720012,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 2
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User shifted from following others' expectations and predefined paths to consciously choosing their own direction and trusting their navigation",
+          "family": "family_2",
+          "path_number": 22,
+          "reasoning": "Clear T1 pattern: understanding (of being trapped in others' expectations) meets challenge (the hike experience) → resistance (decision to go off-trail). Clear T2 pattern: resistance reveals threshold (between following and choosing), creating conscious choice to transform. Domain matches somatic (body) - transformation happened through embodied hiking experience, physical movement, and sensory awareness."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from performing/constructing an identity to authentic being and presence",
+          "family": "family_5",
+          "path_number": 55,
+          "reasoning": "T1 pattern: letting go (of constructed identity) leads to stillness (mountain experience) → presence (authentic being). T2 pattern: presence reveals being itself, creating authenticity. Domain matches somatic (body) - transformation centered on embodied presence and physical experience of 'being' rather than thinking."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8025,
+      "model_name": "deepseek",
+      "output_tokens": 383,
+      "total_tokens": 8408
+    }
+  },
+  "design_metadata": {}
+}

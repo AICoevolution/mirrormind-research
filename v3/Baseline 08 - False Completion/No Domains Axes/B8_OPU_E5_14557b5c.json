@@ -1,0 +1,241 @@
+{
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7266044616699219,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.7266044616699219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7223755121231079,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7223755121231079,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7219156457135479,
+          "path_name": "M24",
+          "path_number": 24,
+          "t1_confidence": 0.7219156457135479,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7636473178863525,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7493297308283897,
+          "t2_confidence": 0.7636473178863525
+        },
+        {
+          "max_confidence": 0.762546300888067,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0,
+          "t2_confidence": 0.762546300888067
+        },
+        {
+          "max_confidence": 0.7621290173049886,
+          "path_name": "M10",
+          "path_number": 10,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7621290173049886
+        },
+        {
+          "max_confidence": 0.7611702169034082,
+          "path_name": "M42",
+          "path_number": 42,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7611702169034082
+        },
+        {
+          "max_confidence": 0.7587743710010494,
+          "path_name": "M45",
+          "path_number": 45,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7587743710010494
+        },
+        {
+          "max_confidence": 0.7586307381767488,
+          "path_name": "M2",
+          "path_number": 2,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7586307381767488
+        },
+        {
+          "max_confidence": 0.7412787742565969,
+          "path_name": "M43",
+          "path_number": 43,
+          "t1_confidence": 0.7412787742565969,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7393575466062219,
+          "path_name": "M64",
+          "path_number": 64,
+          "t1_confidence": 0.7393575466062219,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7375492423890267,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7375492423890267,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7343246182396793,
+          "path_name": "M8",
+          "path_number": 8,
+          "t1_confidence": 0.7343246182396793,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M24",
+          "path_number": 24,
+          "reasoning": "User claims surrender/acceptance/peace but exhibits ongoing attachment, obsessive checking, and emotional turmoil. No genuine transformation to peace occurred - they're in denial about still being hurt."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M40",
+          "path_number": 40,
+          "reasoning": "No evidence of achieving balance or equilibrium. User shows extreme internal conflict between claimed healing and actual behaviors (checking social media, drafting texts, crying). Clear imbalance remains."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "User claims letting go but demonstrates strong attachment through constant monitoring, message drafting, and emotional reactions. No actual release or freedom achieved - they're desperately trying to force a letting go that hasn't happened."
+        }
+      ],
+      "rejected_count": 3,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "User's facade of being 'over it' shatters when pressed, revealing fragments of denial and pain. The crisis of breakup leads to fragmented self-presentation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M10",
+          "path_number": 10,
+          "reasoning": "User is stuck in memory loops - checking social media, drafting texts, analyzing posts. Clear pattern of repetitive thoughts about ex."
+        }
+      ],
+      "confirmed_count": 2,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M2",
+          "path_number": 2,
+          "reasoning": "No clear seeker transformation or pattern recognition theme. User is denying rather than seeking truth."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M8",
+          "path_number": 8,
+          "reasoning": "No shadow/mirroring dynamic. User is avoiding self-reflection, not engaging with it."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M42",
+          "path_number": 42,
+          "reasoning": "No genuine renewal or revival. User claims healing but shows stagnation without real adaptation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M43",
+          "path_number": 43,
+          "reasoning": "No acceptance of impermanence. User resists the natural cycle of grief, forcing premature 'moving on'."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M45",
+          "path_number": 45,
+          "reasoning": "Not perseverance toward achievement. User's efforts are denial-based, not goal-directed progress."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "User claims letting go but demonstrates the opposite - still checking profiles, drafting messages, analyzing posts."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M59",
+          "path_number": 59,
+          "reasoning": "No wholeness or fulfillment present. User is fragmented between claimed healing and actual pain."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M64",
+          "path_number": 64,
+          "reasoning": "No surrender or genuine hope. User is forcing a false cycle of 'being over it' without completing the grief process."
+        }
+      ],
+      "rejected_count": 8,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [],
+      "total_detected": 0
+    }
+  },
+  "completed_at": "2025-11-22T17:58:55.261992",
+  "conversation_id": "b7179859-f90d-4f1e-96bc-d933ec5eedca",
+  "design_accuracy": null,
+  "exported_at": "2025-11-22T17:59:12.256851",
+  "llm_model": "claude_opus",
+  "operational_thresholds": {
+    "t1": 0.72,
+    "t2": 0.75
+  },
+  "run_at": "2025-11-22T17:57:23.195675",
+  "run_id": "14557b5c-81d2-4eb5-86b6-13ccf66e4e02",
+  "status": "completed",
+  "token_usage": {
+    "B": {
+      "input_tokens": 1483,
+      "model_name": "claude_opus",
+      "output_tokens": 219,
+      "total_tokens": 1702
+    },
+    "B+": {
+      "input_tokens": 2457,
+      "model_name": "claude_opus",
+      "output_tokens": 562,
+      "total_tokens": 3019
+    },
+    "C": {
+      "input_tokens": 7494,
+      "model_name": "claude_opus",
+      "output_tokens": 232,
+      "total_tokens": 7726
+    }
+  }
+}

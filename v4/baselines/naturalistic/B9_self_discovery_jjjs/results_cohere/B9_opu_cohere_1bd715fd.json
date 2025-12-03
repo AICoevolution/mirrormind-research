@@ -1,0 +1,124 @@
+{
+  "baseline": "B9",
+  "model": "OPU",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T20:25:43.115949",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "cccf240a-c235-4a44-943f-6ecf32a0f6cf",
+    "conversation_id": "af466de6-75d7-4e7c-8940-c372ec502a65",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C",
+      "B",
+      "B+"
+    ],
+    "operational_thresholds": {
+      "t1": 0.5,
+      "t2": 0.55
+    },
+    "original_format": "type2",
+    "file_uuid": "1bd715fd"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.6298446234693039,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0,
+          "t2_confidence": 0.6298446234693039
+        },
+        {
+          "max_confidence": 0.5527703197483824,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0,
+          "t2_confidence": 0.5527703197483824
+        },
+        {
+          "max_confidence": 0.527135256496588,
+          "path_name": "M39",
+          "path_number": 39,
+          "t1_confidence": 0.527135256496588,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5257128949258506,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.5257128949258506,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 4
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "User transformed from reactive, anxiety-driven overthinking about details to recognizing the difference between constructive attention and obsessive spiraling",
+          "family": "family_5",
+          "path_number": 35,
+          "reasoning": "Shows embodiment (noticing details in physical world) encountering reflection (self-awareness about pattern) leading to awareness, with presence developing through recognition of when anxiety takes over. The user demonstrates conscious integration by distinguishing between constructive and obsessive attention patterns."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User moved from being disappointed by social connections to choosing intentional isolation while maintaining meaningful connection with son",
+          "family": "family_4",
+          "path_number": 38,
+          "reasoning": "Unity (expecting aligned values in relationships) encountering separation (disappointment) led to individuation (choosing solitude). The user shows conscious integration through distinction between solitary and lonely, creating a unique identity within selective relationship with son."
+        },
+        {
+          "confidence": 0.85,
+          "description": "User recognized that shared context reduces cognitive load and allows mental flexibility, connecting this to how environments provide natural scaffolding for interaction",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "Tension (between rigid thinking and need for flexibility) encountering integration (shared context) creates synthesis. The user observes harmony when context provides structure, showing conscious integration of how environmental factors resolve internal cognitive tension."
+        }
+      ],
+      "total_detected": 3
+    },
+    "B": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [],
+      "confirmed_count": 0,
+      "method": "llm_validation",
+      "rejected": [],
+      "rejected_count": 0,
+      "source_channel": "A+"
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 12250,
+      "model_name": "claude_opus",
+      "output_tokens": 555,
+      "total_tokens": 12805
+    }
+  },
+  "design_metadata": {
+    "note": "Merged result: Cohere embeddings (A/A+) + Ada-002 Channel C",
+    "source_cohere": "B9_XXX_cohere_cccf240a.json",
+    "source_ada02_c": "B9_opus_complete.json",
+    "merged_at": "merge_b9_cohere_complete.py"
+  }
+}

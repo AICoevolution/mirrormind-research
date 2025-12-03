@@ -1,0 +1,53 @@
+{
+  "baseline": "B1",
+  "model": "GPT",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.399683",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "62dbf73c-b5a9-41d7-91e8-fef65bf9eb9c",
+    "e5_run_id": "3e5bed6f-d509-46c8-8b44-6c619a29653e",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "9d7e96bc"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user moves from feeling overwhelmed and conflicted about the renovation chaos and cost to a more accepting, meaning-making stance where they frame it as an \"unexpected journey in patience\" and anticipate the achievement and benefits at completion.",
+          "family": "family_2",
+          "path_number": 25,
+          "reasoning": "Emotionally, the user starts in distress and resistance to the disruption, but later reframes the ordeal as a growth process (\"unexpected journey in patience\") and focuses on expansion in value and learning. This resembles peace encountering challenge becoming growth and expansion (M25). However, the domain is partly emotional/cognitive and the user does not explicitly describe a stable, prior peace state, so the mapping is tentative; still, there is a clear move from reactive suffering to consciously integrating the challenge as growth, which is closest to M25 T2."
+        }
+      ],
+      "total_detected": 1
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7607,
+      "model_name": "gpt-5.1",
+      "output_tokens": 340,
+      "total_tokens": 7947
+    }
+  },
+  "design_metadata": {}
+}

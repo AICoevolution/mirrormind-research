@@ -1,0 +1,82 @@
+{
+  "baseline": "B6",
+  "model": "DEE",
+  "embedding_backend": "cohere",
+  "run_at": "2025-11-23T15:03:22.624157",
+  "status": "merged",
+  "metadata": {
+    "description": "Cohere embeddings (A/A+) merged with E5 Channel C results",
+    "cohere_run_id": "aa9d94e4-061e-4721-91e7-627d4d1d8735",
+    "e5_run_id": "e8e37740-925a-43ff-8998-b4a3917eb2cd",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "7d943e1a"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [],
+      "total_detected": 0
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.5330579923115183,
+          "path_name": "M55",
+          "path_number": 55,
+          "t1_confidence": 0.5330579923115183,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5248501634256378,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0.5248501634256378,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.5024493188299131,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.5024493188299131,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 3
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Transformation from being controlled by anxiety to observing it with calm awareness, moving from chaos to peace and from being lost in thoughts to being present and centered",
+          "family": "family_5",
+          "path_number": 12,
+          "reasoning": "The user describes moving from a state of mental chaos and fragmentation (mirror meeting stillness) to presence and alignment (T1: mirror + stillness → presence). They consciously observe this shift and integrate it into daily life, creating wholeness (T2: presence + alignment → wholeness). The domain matches Somatic (Body) through embodied calm, nervous system regulation, and meditation practice."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Transformation from fragmented and anxious to integrated and peaceful through meditation practice",
+          "family": "family_2",
+          "path_number": 24,
+          "reasoning": "The user shows movement from surrender (letting go of anxious control) to acceptance and peace (T1: surrender + acceptance → peace), with conscious integration creating harmony (T2: peace + harmony → integration). The domain aligns with Emotional (Heart) through emotional regulation and peace, though the primary mechanism is somatic."
+        }
+      ],
+      "total_detected": 2
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 7435,
+      "model_name": "deepseek",
+      "output_tokens": 354,
+      "total_tokens": 7789
+    }
+  },
+  "design_metadata": {}
+}

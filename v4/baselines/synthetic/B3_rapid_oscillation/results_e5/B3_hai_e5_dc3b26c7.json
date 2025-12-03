@@ -1,0 +1,375 @@
+{
+  "baseline": "B3",
+  "model": "HAI",
+  "embedding_backend": "e5",
+  "run_at": "2025-11-21T21:56:45.391727",
+  "status": "completed",
+  "metadata": {
+    "description": "Normalized from Type 2 format",
+    "original_run_id": "5f5f61e8-113a-4def-b21b-92ce0f72c98c",
+    "conversation_id": "7cc7ab03-68a8-438e-851c-ae010695c608",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "B",
+      "B+",
+      "C"
+    ],
+    "operational_thresholds": {
+      "t1": 0.72,
+      "t2": 0.75
+    },
+    "original_format": "type2",
+    "file_uuid": "dc3b26c7"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7344782571339091,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0.7344782571339091,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7332798461103397,
+          "path_name": "M36",
+          "path_number": 36,
+          "t1_confidence": 0.7332798461103397,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325938084172288,
+          "path_name": "M9",
+          "path_number": 9,
+          "t1_confidence": 0.7325938084172288,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7325121063757131,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.7325121063757131,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7251714684120262,
+          "path_name": "M54",
+          "path_number": 54,
+          "t1_confidence": 0.7251714684120262,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7235939718363876,
+          "path_name": "M35",
+          "path_number": 35,
+          "t1_confidence": 0.7235939718363876,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7227761099240761,
+          "path_name": "M48",
+          "path_number": 48,
+          "t1_confidence": 0.7227761099240761,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7218343879979132,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7218343879979132,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7217388583266054,
+          "path_name": "M3",
+          "path_number": 3,
+          "t1_confidence": 0.7217388583266054,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7203592610038068,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.7203592610038068,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.7749558955483561,
+          "path_name": "M33",
+          "path_number": 33,
+          "t1_confidence": 0.7218103458115771,
+          "t2_confidence": 0.7749558955483561
+        },
+        {
+          "max_confidence": 0.773666395326473,
+          "path_name": "M50",
+          "path_number": 50,
+          "t1_confidence": 0.7696268099768885,
+          "t2_confidence": 0.773666395326473
+        },
+        {
+          "max_confidence": 0.772043374533251,
+          "path_name": "M21",
+          "path_number": 21,
+          "t1_confidence": 0.772043374533251,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7687009114801354,
+          "path_name": "M58",
+          "path_number": 58,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7687009114801354
+        },
+        {
+          "max_confidence": 0.7615958452224731,
+          "path_name": "M29",
+          "path_number": 29,
+          "t1_confidence": 0.7615958452224731,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.7605902325931152,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7605902325931152
+        },
+        {
+          "max_confidence": 0.7589843129506311,
+          "path_name": "M26",
+          "path_number": 26,
+          "t1_confidence": 0.7296323341350369,
+          "t2_confidence": 0.7589843129506311
+        },
+        {
+          "max_confidence": 0.7589464639989427,
+          "path_name": "M34",
+          "path_number": 34,
+          "t1_confidence": 0.7391396229690006,
+          "t2_confidence": 0.7589464639989427
+        },
+        {
+          "max_confidence": 0.7573528434423911,
+          "path_name": "M13",
+          "path_number": 13,
+          "t1_confidence": 0,
+          "t2_confidence": 0.7573528434423911
+        },
+        {
+          "max_confidence": 0.7499862462290392,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.7499862462290392,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "B": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M9",
+          "path_number": 9,
+          "reasoning": "Clear transformation present: USER experiences crisis (seeing footage as artificial, considering deletion), reflection shatters conventional approach, and through loss of 'elegant narrative' discovers core essence. Direct quote: 'It broke me down completely. But in the ruins, I found something essential.' This matches T1→T2 sequence perfectly."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "Presence + curiosity generating questions is evident throughout. USER describes being 'present with what's actually happening' and the conversation demonstrates active questioning that sparks seeking. The dynamic of presence meeting curiosity leading to exploratory questions is consistently demonstrated."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "Explicit transformation documented: Insight ('I'd been trying to explain people instead of showing them') moves into action ('went back out with my camera') creating embodiment ('I'm participating, experiencing'). This manifests as tangible change in footage quality and approach. Clear T1→T2 sequence."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M35",
+          "path_number": 35,
+          "reasoning": "USER describes embodied experience ('I was really there for them') encountering reflection during editing, producing awareness of the difference in footage quality and conscious presence in the work. Develops into heightened consciousness of the creative process."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M36",
+          "path_number": 36,
+          "reasoning": "Awareness experiences division between 'old disconnected shots and new living ones,' creating perspective on the filmmaker's journey. This perspective reveals relativity of approach (observer vs. participant) and generates understanding that includes multiple viewpoints."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M44",
+          "path_number": 44,
+          "reasoning": "Original cycle (planning-shooting-editing) is disrupted by crisis moment, producing change in approach and trajectory. USER explicitly states 'Three transformations in three days' marking transitions between states. This manifests as fundamental transformation in creative methodology."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M48",
+          "path_number": 48,
+          "reasoning": "Seeking (questioning approach, re-editing) leads to discovery (finding the unplanned honest moment, recognizing the core reason). This creates knowledge that illuminates the entire project. Produces wisdom evident in final statement about surrendering to the creative process."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M54",
+          "path_number": 54,
+          "reasoning": "Synthesis (constructed elegant narrative) faces dissolution (realization it was artificial). USER demonstrates letting go ('not trying to manage them') and release from attachment to predetermined outcome. This produces freedom to create authentically."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M62",
+          "path_number": 62,
+          "reasoning": "Resilience (continuing despite crisis) encounters vulnerability (breakdown, tears, uncertainty 'I don't know exactly'). This creates openness to the process and receptivity to unexpected guidance from the material itself, manifesting as profound transformation in approach."
+        }
+      ],
+      "confirmed_count": 9,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M3",
+          "path_number": 3,
+          "reasoning": "The conversation contains no significant silences or pauses that would generate 'echo' dynamics. The user speaks continuously with the assistant responding actively. This is a metaphorical construct not grounded in the actual dialogue structure."
+        }
+      ],
+      "rejected_count": 1,
+      "source_channel": "A"
+    },
+    "B+": {
+      "confirmed": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M21",
+          "path_number": 21,
+          "reasoning": "Clear T1→T2 sequence: User listens deeply to footage, encounters truth (authentic moments), understanding emerges ('I'd been forcing a narrative'). This understanding aligns with lived experience, transforming into wisdom about human complexity as the core insight."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M26",
+          "path_number": 26,
+          "reasoning": "Growth reaches threshold when artificial approach breaks down. Transformation occurs through crisis ('broke me down completely'). Transcendence manifests as emergence of new capacities: 'participated, experiencing' rather than observing; seeing differently."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M29",
+          "path_number": 29,
+          "reasoning": "Flexibility meets constraint: artistic constraints force creative rethinking. T1 confirmed: 'elegant narrative gave way to something messier but more true.' T2 confirmed: innovation emerges ('moments I'd dismissed became most important'), expanding possibilities of what documentary can be."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M33",
+          "path_number": 33,
+          "reasoning": "Elegance meets obscurity explicitly in text: 'The elegant narrative I'd constructed gave way... The obscurity I'd been frustrated with... suddenly became the point.' This generates insight ('mystery and complexity ARE the human experience'). Revelation and wisdom manifest clearly."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M34",
+          "path_number": 34,
+          "reasoning": "T1 confirmed: Insight ('I'd been trying to explain instead of showing') moves into action ('went back out with my camera'). T2 confirmed: Embodiment manifests ('camera has become an extension of my attention'). Experience emerges ('can feel the moments because I was really there')."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M50",
+          "path_number": 50,
+          "reasoning": "Questioning ('What is my real purpose?') encounters revelation ('the actual story I wanted to tell'). This produces insight ('the project reorganized itself'). Clarity follows: 'to show how ordinary people navigate extraordinary circumstances' becomes unobstructed vision guiding all subsequent work."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M51",
+          "path_number": 51,
+          "reasoning": "Insight meets challenge: new understanding challenges established editing approach. T1 confirmed: growth occurs ('re-editing with this new understanding'). T2 confirmed: expansion manifests as 'completely different relationship to creativity' with extended capacities and vision beyond initial scope."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M58",
+          "path_number": 58,
+          "reasoning": "Awareness undergoes contraction during crisis moments ('broke me down completely'). Depth emerges through this contraction. Intensity develops ('living multiple lifetimes in each editing session'). Immersion manifests: 'not just documenting anymore - I'm participating, experiencing' with complete engagement."
+        }
+      ],
+      "confirmed_count": 8,
+      "method": "llm_validation",
+      "rejected": [
+        {
+          "llm_confidence": "high",
+          "path_name": "M6",
+          "path_number": 6,
+          "reasoning": "No genuine paradox of simultaneous certainty/uncertainty emerges. User experiences clear sequential realizations, not coexisting contradictions. The path misidentifies emotional intensity for paradoxical transformation."
+        },
+        {
+          "llm_confidence": "high",
+          "path_name": "M13",
+          "path_number": 13,
+          "reasoning": "While presence and curiosity exist in the conversation, there is no transformation sequence where they generate 'questioning as spark' leading to 'seeking.' The user's journey is narrative discovery, not this specific S64 transformation pattern."
+        }
+      ],
+      "rejected_count": 2,
+      "source_channel": "A+"
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "The user shifted from attempting to create an elegant, clearly-structured narrative to accepting and valuing the messiness, obscurity, and ambiguity inherent in human experience, recognizing that complexity and mystery are not obstacles but are themselves the authentic content.",
+          "family": "family_1",
+          "path_number": 32,
+          "reasoning": "The user encountered complexity (messy reality, ambiguous moments) meeting their previous simplicity (elegant constructed narrative), transforming into elegance in a different sense - discovering that essential beauty exists in authentic complexity rather than imposed simplification. This suggests M32: [complexity] + [simplicity] → [elegance], with T2 where 'within this elegance, refinement emerges - precision of form and function.' The mapping is moderate confidence because the direction is reversed (complexity winning over simplicity rather than simplicity ordering chaos), but the conscious integration of apparent opposites into a higher understanding of elegance is present."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user moved from attempting to control and manage the creative process toward surrendering to the project's own unfolding timeline and wisdom, trusting that the documentary will be complete when it reaches authentic completion rather than when intellectually decided.",
+          "family": "family_2",
+          "path_number": 23,
+          "reasoning": "The user's resistance (forcing, controlling, managing) encountered release (surrendering to the process's own timing and wisdom), transforming into surrender. This maps to M23: [resistance] + [release] → [surrender], with T2 where 'within this surrender, grace emerges unexpectedly' and 'the combination of surrender and grace manifests as peace - harmony beyond struggle.' The user explicitly moves from resistance to acceptance of the process's autonomy."
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user moved from seeing their carefully constructed documentary footage as artificial and fake to recognizing an unplanned moment of authentic human interaction, which shattered their original narrative framework and revealed their true core motivation: showing ordinary people navigating extraordinary circumstances rather than crafting an impressive story.",
+          "family": "family_5",
+          "path_number": 9,
+          "reasoning": "The user's reflection (constructed narrative/artificial facade) encountered crisis (realization of inauthenticity), leading to shattering of their coherent vision. In the shattering, loss of their original constructed identity occurred, yet the core essential motivation was revealed. This maps directly to M9: [reflection] + [crisis] → [shatter], with T2 conscious integration where 'through this loss, the core is revealed - the essential nature that remains when all else falls away.'"
+        },
+        {
+          "confidence": 0.85,
+          "description": "The user transitioned from intellectually theorizing about their documentary to embodied participation - physically going back out with the camera and being genuinely present with their subjects, transforming their relationship to the work from a barrier between them and reality to an extension of authentic attention.",
+          "family": "family_1",
+          "path_number": 34,
+          "reasoning": "The user's insight (authentic motivation discovered) moved into action (returning to film with new understanding and presence), transforming into embodiment - understanding made tangible through participation. This maps to M34: [insight] + [action] → [embodiment], with T2 where 'this embodiment creates manifestation - bringing inner realities to outer expression' and 'the interaction between embodiment and manifestation produces experience - direct knowing through participation.'"
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "B": {
+      "input_tokens": 2511,
+      "model_name": "claude_haiku",
+      "output_tokens": 846,
+      "total_tokens": 3357
+    },
+    "B+": {
+      "input_tokens": 2613,
+      "model_name": "claude_haiku",
+      "output_tokens": 879,
+      "total_tokens": 3492
+    },
+    "C": {
+      "input_tokens": 7519,
+      "model_name": "claude_haiku",
+      "output_tokens": 1189,
+      "total_tokens": 8708
+    }
+  },
+  "design_metadata": {}
+}

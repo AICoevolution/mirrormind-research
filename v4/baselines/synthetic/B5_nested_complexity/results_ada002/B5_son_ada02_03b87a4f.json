@@ -1,0 +1,216 @@
+{
+  "baseline": "B5",
+  "model": "SON",
+  "embedding_backend": "ada02",
+  "run_at": "2025-11-23T12:31:07.667478",
+  "status": "merged",
+  "metadata": {
+    "description": "Ada02 embeddings (A/A+) merged with E5 Channel C results",
+    "ada02_run_id": "e52a6ce4-b7b0-4af5-8f1f-abebb70746f1",
+    "e5_run_id": "45e9fcf2-d8e0-4e76-a9ea-e697dd840e01",
+    "run_stage_2": false,
+    "channels_run": [
+      "A",
+      "A+",
+      "C"
+    ],
+    "file_uuid": "03b87a4f"
+  },
+  "channels": {
+    "A": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.825820585987504,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.825820585987504,
+          "t2_confidence": 0.8115452640327668
+        },
+        {
+          "max_confidence": 0.8212302923202515,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.8212302923202515,
+          "t2_confidence": 0.7915797221034439
+        },
+        {
+          "max_confidence": 0.816532324759227,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.816532324759227,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8163222293469691,
+          "path_name": "M40",
+          "path_number": 40,
+          "t1_confidence": 0.8163222293469691,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8107014185608293,
+          "path_name": "M25",
+          "path_number": 25,
+          "t1_confidence": 0.8107014185608293,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8101249450370717,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.8101249450370717,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8041200404310331,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8041200404310331,
+          "t2_confidence": 0.7873813636671698
+        },
+        {
+          "max_confidence": 0.8031059268839329,
+          "path_name": "M53",
+          "path_number": 53,
+          "t1_confidence": 0.8031059268839329,
+          "t2_confidence": 0.782839013168872
+        },
+        {
+          "max_confidence": 0.8030265091045806,
+          "path_name": "M6",
+          "path_number": 6,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8030265091045806
+        },
+        {
+          "max_confidence": 0.8021813870126426,
+          "path_name": "M16",
+          "path_number": 16,
+          "t1_confidence": 0.8021813870126426,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "A+": {
+      "method": "embedding",
+      "paths": [
+        {
+          "max_confidence": 0.851979145289712,
+          "path_name": "M51",
+          "path_number": 51,
+          "t1_confidence": 0.851979145289712,
+          "t2_confidence": 0
+        },
+        {
+          "max_confidence": 0.8453664552291739,
+          "path_name": "M60",
+          "path_number": 60,
+          "t1_confidence": 0.8453664552291739,
+          "t2_confidence": 0.8265264940512503
+        },
+        {
+          "max_confidence": 0.843432238306538,
+          "path_name": "M27",
+          "path_number": 27,
+          "t1_confidence": 0.8270619018637133,
+          "t2_confidence": 0.843432238306538
+        },
+        {
+          "max_confidence": 0.8378841780355097,
+          "path_name": "M28",
+          "path_number": 28,
+          "t1_confidence": 0.8378841780355097,
+          "t2_confidence": 0.8014708043021457
+        },
+        {
+          "max_confidence": 0.8364215590702573,
+          "path_name": "M41",
+          "path_number": 41,
+          "t1_confidence": 0,
+          "t2_confidence": 0.8364215590702573
+        },
+        {
+          "max_confidence": 0.8352075815200806,
+          "path_name": "M61",
+          "path_number": 61,
+          "t1_confidence": 0.8352075815200806,
+          "t2_confidence": 0.8203022128433943
+        },
+        {
+          "max_confidence": 0.8350751203388178,
+          "path_name": "M62",
+          "path_number": 62,
+          "t1_confidence": 0.8350751203388178,
+          "t2_confidence": 0.8177380074418793
+        },
+        {
+          "max_confidence": 0.8346157519862967,
+          "path_name": "M44",
+          "path_number": 44,
+          "t1_confidence": 0.8104244470596371,
+          "t2_confidence": 0.8346157519862967
+        },
+        {
+          "max_confidence": 0.834609001646818,
+          "path_name": "M12",
+          "path_number": 12,
+          "t1_confidence": 0,
+          "t2_confidence": 0.834609001646818
+        },
+        {
+          "max_confidence": 0.8338975409330418,
+          "path_name": "M59",
+          "path_number": 59,
+          "t1_confidence": 0.8338975409330418,
+          "t2_confidence": 0
+        }
+      ],
+      "total_detected": 10
+    },
+    "C": {
+      "method": "independent_llm",
+      "paths": [
+        {
+          "confidence": 0.85,
+          "description": "Personal synthesis revealing professional chaos - as internal harmony grew, workplace dysfunction became visible",
+          "family": "family_4",
+          "path_number": 16,
+          "reasoning": "Path 16 (M16): tension + integration → synthesis | Observation: harmony. The user describes achieving synthesis (integration of personal healing elements) which reveals harmony, creating coherence in self-understanding. This is Cognitive domain - resolving conceptual tension through integration. However, the transformation is somewhat implicit rather than explicitly detailed."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From protecting personal recovery to vulnerable leadership - sharing burnout journey transformed team dynamics",
+          "family": "family_2",
+          "path_number": 62,
+          "reasoning": "Path 62 (M62): resilience + vulnerability → openness | Observation: receptivity. The user demonstrates resilience (healing from burnout) encountering vulnerability (sharing struggles with team), transforming into openness. This openness revealed receptivity (team members immediately admitted their own struggles). The interaction manifests as transformation - the team dynamic profoundly changed through acceptance. Domain is Emotional (Heart), matching the affective nature of vulnerability and team connection."
+        },
+        {
+          "confidence": 0.85,
+          "description": "Team adaptation from rigid high-performance expectations to flexible capacity-based functioning",
+          "family": "family_4",
+          "path_number": 40,
+          "reasoning": "Path 40 (M40): relationship + tension → balance | Observation: equilibrium. The team relationship met tension (between recovery needs and work demands), transforming into balance - dynamic stability. This balance created equilibrium (sustainable positioning), producing homeostasis (self-regulating stability that adapts to change). Domain is Somatic (Body), fitting the embodied nervous system regulation aspect of daily capacity assessment."
+        },
+        {
+          "confidence": 0.85,
+          "description": "From seeking control and simple solutions to embracing complex, asynchronous multi-level transformation",
+          "family": "family_2",
+          "path_number": 61,
+          "reasoning": "Path 61 (M61): healing + challenge → resilience | Observation: strength. The user's healing (from burnout) faced challenge (simultaneous transformations at personal, team, and marriage levels), transforming into resilience. Within this resilience, strength developed - capacity to meet difficulty. The synergy produces empowerment - ability to effectively respond to life's demands without needing to control them. Domain is Volitional (Will), matching the discipline of holding complexity without forcing integration."
+        }
+      ],
+      "total_detected": 4
+    }
+  },
+  "token_usage": {
+    "C": {
+      "input_tokens": 8901,
+      "model_name": "claude_sonnet",
+      "output_tokens": 1058,
+      "total_tokens": 9959
+    }
+  },
+  "design_metadata": {}
+}

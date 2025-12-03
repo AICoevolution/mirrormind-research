@@ -1,0 +1,107 @@
+{
+  "version": "4.0",
+  "description": "S64 Validation Data - Standardized Structure",
+  "baseline_types": {
+    "synthetic": "Designed conversations with preset ground truth for validation",
+    "naturalistic": "Real conversations without preset targets, evaluated by consensus"
+  },
+  "embedding_backends": {
+    "ada002": "OpenAI text-embedding-ada-002 (1536 dims, general-purpose)",
+    "e5": "E5-large fine-tuned on S64 corpus (768 dims, structural matching)",
+    "cohere": "Cohere embed-english-v3.0 (1024 dims, phase-sensitive detection)"
+  },
+  "baselines": {
+    "B1": {
+      "type": "synthetic",
+      "name": "Surface Deception",
+      "slug": "surface_deception",
+      "ground_truth": [],
+      "design_intent": "Test false positive resistance (transformation-like language without depth)"
+    },
+    "B2": {
+      "type": "synthetic",
+      "name": "Implicit Transformation",
+      "slug": "implicit_transformation",
+      "ground_truth": [
+        "M10",
+        "M11",
+        "M55",
+        "M34"
+      ],
+      "design_intent": "Test detection of subtle, metaphorical changes"
+    },
+    "B3": {
+      "type": "synthetic",
+      "name": "Rapid Oscillation",
+      "slug": "rapid_oscillation",
+      "ground_truth": [
+        "M9",
+        "M33",
+        "M34"
+      ],
+      "design_intent": "Test detection of fast, explicit state changes"
+    },
+    "B4": {
+      "type": "synthetic",
+      "name": "Stuck States",
+      "slug": "stuck_states",
+      "ground_truth": [],
+      "design_intent": "Test detection of incomplete transformations (T1 without T2)"
+    },
+    "B5": {
+      "type": "synthetic",
+      "name": "Nested Complexity",
+      "slug": "nested_complexity",
+      "ground_truth": [
+        "M16",
+        "M27",
+        "M41",
+        "M59",
+        "M60",
+        "M61",
+        "M62"
+      ],
+      "design_intent": "Test detection of multi-level simultaneous transformations"
+    },
+    "B6": {
+      "type": "synthetic",
+      "name": "Outcome Ambiguity",
+      "slug": "outcome_ambiguity",
+      "ground_truth": [
+        "M12",
+        "M56"
+      ],
+      "design_intent": "Test process vs. outcome discrimination (domain disambiguation)"
+    },
+    "B7": {
+      "type": "synthetic",
+      "name": "Failed Transformation",
+      "slug": "failed_transformation",
+      "ground_truth": [],
+      "design_intent": "Test detection of temporary change with reversion"
+    },
+    "B8": {
+      "type": "synthetic",
+      "name": "False Completion",
+      "slug": "false_completion",
+      "ground_truth": [],
+      "design_intent": "Test detection of claimed transformation contradicted by evidence"
+    },
+    "B9": {
+      "type": "naturalistic",
+      "name": "Self-Discovery Conversation (JJJS)",
+      "slug": "self_discovery_jjjs",
+      "ground_truth": null,
+      "participant": "JJJS",
+      "session_count": 4,
+      "message_count": 227,
+      "domains_covered": [
+        "perception",
+        "relationships",
+        "values",
+        "growth"
+      ],
+      "description": "Authentic therapeutic self-discovery conversation across 4 thematic sessions"
+    }
+  }
+}

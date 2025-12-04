@@ -1,158 +1,118 @@
-# S64 Validation Analysis - V4 Structure
+---
+dataset_name: s64-validation-v4
+pretty_name: "S64 Validation Results (v4) – Symbolic 64 Transformation Framework"
+license: cc-by-4.0
+viewer: false
+language:
+  - en
+tags:
+  - symbolic-ai
+  - human-ai-interaction
+  - transformation-detection
+  - embeddings
+  - evaluation
+task_categories:
+  - other
+papers:
+  - title: "S64: A Symbolic Framework for Human-AI Meaning Negotiation"
+    url: https://www.aicoevolution.com/s64-paper
+    doi: 10.5281/zenodo.17784637
+repository: https://github.com/AICoevolution/mirrormind-research
+---
 
-## Overview
+# S64 Validation Dataset (v4)
 
-Comprehensive analysis and visualization tools for S64 validation results with support for:
-- **Synthetic baselines (B1-B8)**: Ground truth comparison with precision/recall/F1/TUS metrics
-- **Naturalistic baselines (B9+)**: Consensus analysis across models and embeddings
+This dataset contains the full **S64 v4 validation bundle** used in the paper *"S64: A Symbolic Framework for Human-AI Meaning Negotiation"*.
 
-## V3 Structure (Legacy - Channel C Only)
+- **Paper**: [aicoevolution.com/s64-paper](https://www.aicoevolution.com/s64-paper)
+- **Zenodo (archival)**: [10.5281/zenodo.17784637](https://doi.org/10.5281/zenodo.17784637)
+- **GitHub mirror**: [AICoevolution/mirrormind-research](https://github.com/AICoevolution/mirrormind-research)
 
-The `v3/` directory contains **Channel C results only**, generated before the adoption of the domain-tags approach. These files represent independent LLM reasoning and extraction without domain axis annotations.
+## What's Inside
 
+| Folder | Description |
+|--------|-------------|
+| `v4/` | All baseline data and detection results (JSON) |
+| `v3/` | Legacy Channel C results (pre-domain-tags) |
+| `analysis_output/` | Computed metrics and figures from the paper |
+| `scripts/` | Python tools for analysis and visualization |
+| `examples/` | Quickstart scripts to explore the dataset |
+| `s64-paper.pdf` | The full paper (also available on website/Zenodo) |
+
+---
+
+## Quick Start
+
+### Option 1: Run the example scripts
+
+```bash
+# Clone or download this dataset, then:
+cd examples
+python s64_quickstart.py
 ```
-v3/
-├── Baseline 01 - Surface Deception/
-│   ├── No Domains Axes/
-│   │   └── B1_{model}_E5_{uuid}.json
-│   └── ...
-├── Baseline 02 - Implicit Transformation/
-│   ├── No Domains Axes/
-│   │   └── ...
-│   └── ...
-└── ... (Baseline 03 - Baseline 08)
+
+This will:
+1. List all available baselines
+2. Inspect a sample result file
+3. (Optionally) run the full analysis pipeline
+
+### Option 2: Run the full analysis
+
+```bash
+cd scripts
+python analyze_results_v4.py   # Creates analysis_output/run_XXX/
+python visualize_results_v4.py # Generates all figures
 ```
 
-**Note:** Only the `No Domains Axes/` subfolders are included in this research bundle. These represent the raw Channel C outputs prior to the introduction of domain-tagged analysis in v4.
+---
 
-## V4 Structure
+## Dataset Structure
+
+### V4 Baselines
 
 ```
 v4/
 ├── baselines/
 │   ├── synthetic/
 │   │   ├── B1_surface_deception/
-│   │   │   ├── baseline.json
-│   │   │   ├── results_e5/
+│   │   │   ├── baseline.json          ← Ground truth spec
+│   │   │   ├── results_e5/            ← E5 embedding results
 │   │   │   │   └── B1_{model}_e5_{uuid}.json
-│   │   │   ├── results_ada02/
-│   │   │   │   └── B1_{model}_ada02_{uuid}.json
-│   │   │   └── results_cohere/
-│   │   │       └── B1_{model}_cohere_{uuid}.json
+│   │   │   ├── results_ada02/         ← Ada-002 embedding results
+│   │   │   └── results_cohere/        ← Cohere embedding results
 │   │   └── ... (B2-B8)
 │   │
 │   └── naturalistic/
 │       ├── B9_self_discovery_jjjs/
-│       │   ├── baseline.json
-│       │   ├── results_e5/
-│       │   ├── results_ada02/
-│       │   └── results_cohere/
 │       └── B10_self_discovery_AI/
-│           └── ...
 ```
 
-## File Naming Convention
+### V3 Legacy (Channel C Only)
+
+```
+v3/
+├── Baseline 01 - Surface Deception/
+│   └── No Domains Axes/
+│       └── B1_{model}_E5_{uuid}.json
+└── ... (Baseline 02 - 08)
+```
+
+### File Naming Convention
 
 **Format:** `B{N}_{model}_{embedding}_{uuid}.json`
 
-**Components:**
-- `B{N}`: Baseline ID (B1, B2, ..., B10)
-- `{model}`: Model code (dee, gem, gpt, haiku, sonnet, opus)
-- `{embedding}`: Embedding backend (e5, ada02, cohere)
-- `{uuid}`: 8-character unique identifier
+| Component | Values |
+|-----------|--------|
+| `B{N}` | Baseline ID (B1–B10) |
+| `{model}` | `dee` (DeepSeek), `gem` (Gemini), `gpt` (GPT-5.1), `haiku`, `sonnet`, `opus` |
+| `{embedding}` | `e5`, `ada02`, `cohere` |
+| `{uuid}` | 8-character unique ID |
 
 **Examples:**
-- `B1_dee_e5_a1b2c3d4.json` - Baseline 1, DeepSeek, E5 embeddings
-- `B5_gpt_ada02_8902e40b.json` - Baseline 5, GPT-5.1, Ada-002 embeddings
-- `B9_sonnet_cohere_badc113a.json` - Baseline 9, Sonnet, Cohere embeddings
+- `B1_dee_e5_a1b2c3d4.json` – Baseline 1, DeepSeek, E5 embeddings
+- `B6_sonnet_cohere_badc113a.json` – Baseline 6, Sonnet, Cohere embeddings
 
-## Scripts
-
-### 1. `analyze_results_v4.py`
-
-**Purpose:** Comprehensive analysis of all v4 results
-
-**Features:**
-- Automatic detection of synthetic vs. naturalistic baselines
-- Precision, Recall, F1, TUS calculation for synthetic baselines
-- Consensus analysis for naturalistic baselines
-- Cross-embedding agreement metrics
-- Model and embedding backend comparisons
-
-**Output:**
-- Creates incremental `run_XXX` directories (001, 002, 003...)
-- `ANALYSIS_SUMMARY.txt` - **Human-readable comprehensive summary**
-- `synthetic_baselines_analysis.csv` - Detailed metrics for each run
-- `model_summary_synthetic.csv` - Aggregated model performance
-- `naturalistic_baselines_analysis.json` - Consensus analysis
-
-**Usage:**
-```bash
-python analyze_results_v4.py
-# Creates: analysis_output/run_001/
-# Next run: analysis_output/run_002/
-# etc.
-```
-
-**Metrics Explained:**
-
-**Synthetic Baselines:**
-- **Precision**: What % of detections were correct
-- **Recall**: What % of ground truth was detected
-- **F1 Score**: Harmonic mean of precision and recall
-- **TUS (Transformation Understanding Score)**: Composite 0-100% metric measuring detection accuracy calibrated to baseline type:
-  - *Positive baselines (B2, B3, B5, B6):* TUS = F1 score, rewarding balanced precision and recall
-  - *Deception baselines (B1, B4, B7, B8):* TUS = 100% for correct rejection (zero paths detected), 0% for any false positives
-  - *Aggregate:* TUS = (1/N) × Σ TUS_i × 100%, where N = number of baselines evaluated
-  - Separate TUS scores are computed for Channel C (LLM reasoning) and Channels A/A+ (embedding detection)
-
-**Naturalistic Baselines:**
-- **High Consensus**: Paths detected by 75%+ methods
-- **Moderate Consensus**: 50-74% agreement
-- **Low Consensus**: 25-49% agreement
-- **Outliers**: <25% agreement
-- **Cross-Embedding Agreement**: Jaccard Index across embedding backends
-
-### 2. `visualize_results_v4.py`
-
-**Purpose:** Generate comprehensive visualizations
-
-**Synthetic Baseline Visualizations:**
-1. `llm_tus.png` - LLM Performance TUS ranking (Channel C)
-2. `embedding_tus.png` - Embedding TUS for Channel A and A+ (side-by-side)
-3. `llm_f1_heatmap.png` - LLM F1 scores by baseline (Model × Baseline heatmap)
-4. `channel_synergy.png` - LLM-Embedding agreement (for reference)
-5. `llm_precision_recall.png` - LLM precision-recall scatter (Channel C)
-6. `embedding_precision_recall.png` - Embedding precision-recall (Channel A and A+ side-by-side)
-
-**Naturalistic Baseline Visualizations (per baseline):**
-1. `{B}_consensus_distribution.png` - Consensus category distribution
-2. `{B}_high_consensus_paths.png` - Top agreed-upon paths
-3. `{B}_summary.png` - Overall analysis summary
-
-**Usage:**
-```bash
-# Visualize latest run (automatic)
-python visualize_results_v4.py
-
-# Visualize specific run
-python visualize_results_v4.py 001
-python visualize_results_v4.py run_005
-```
-
-**Note:** Visualizer automatically uses the latest analysis run if no run ID specified.
-
-### 3. `add_embedding_to_filenames.py`
-
-**Purpose:** Standardize v4 filenames to include embedding backend
-
-**Usage:**
-```bash
-python add_embedding_to_filenames.py
-```
-
-**Before:** `B1_deepseek_a1b2c3d4.json`  
-**After:** `B1_dee_e5_a1b2c3d4.json`
+---
 
 ## Ground Truth Definitions
 
@@ -176,166 +136,179 @@ python add_embedding_to_filenames.py
 | B9 | JJJS Self-Discovery | Consensus across models/embeddings |
 | B10 | AI Self-Discovery | Consensus across models/embeddings |
 
-## Workflow
+---
 
-### Full Analysis Pipeline
+## Examples Folder
+
+The `examples/` folder contains ready-to-run scripts:
+
+### `s64_quickstart.py`
+
+A comprehensive quickstart that:
+- Lists all synthetic and naturalistic baselines
+- Inspects a sample result file (shows LLM model, status, detected paths)
+- Can run the full analysis pipeline (uncomment the last line)
 
 ```bash
-# 1. Ensure v4 structure is correct
-ls -R ../v4/baselines/
-
-# 2. Run analysis (creates run_001, run_002, etc.)
-python analyze_results_v4.py
-# Output: "Run ID: 001"
-
-# 3. Generate visualizations (uses latest run automatically)
-python visualize_results_v4.py
-
-# 4. Review outputs
-ls analysis_output/run_001/
-
-# 5. Run again with new data (creates run_002)
-python analyze_results_v4.py
-python visualize_results_v4.py
-
-# 6. Visualize specific run
-python visualize_results_v4.py 001
+python examples/s64_quickstart.py
 ```
 
-### Output Directory Structure
+### `minimal_baseline_inspect.py`
 
-```
-analysis_output/
-├── run_001/
-│   ├── ANALYSIS_SUMMARY.txt              ← **Human-readable summary**
-│   ├── synthetic_baselines_analysis.csv
-│   ├── model_summary_synthetic.csv
-│   ├── naturalistic_baselines_analysis.json
-│   ├── llm_tus.png
-│   ├── embedding_tus.png
-│   ├── llm_f1_heatmap.png
-│   ├── channel_synergy.png
-│   ├── llm_precision_recall.png
-│   ├── embedding_precision_recall.png
-│   ├── B9_consensus_distribution.png
-│   ├── B9_high_consensus_paths.png
-│   ├── B9_summary.png
-│   └── ... (additional baseline visualizations)
-│
-├── run_002/
-│   └── ... (same structure)
-│
-└── run_003/
-    └── ... (same structure)
+A minimal script to peek at one baseline and one result file:
+
+```bash
+python examples/minimal_baseline_inspect.py
 ```
 
-**Run ID Features:**
-- Automatic incremental numbering (001, 002, 003...)
-- No overwriting of previous analyses
-- Easy comparison between runs
-- Visualizer auto-detects latest run
-- **ANALYSIS_SUMMARY.txt** - Quick overview without opening CSV/PNG files
+---
 
-## Interpreting Results
+## Analysis Scripts
 
-### For Synthetic Baselines
+### `analyze_results_v4.py`
 
-**High Performance:**
-- F1 > 0.8: Excellent detection
-- TUS > 70: Strong transformation understanding
-- Channel Synergy > 0.6: Good embedding-LLM agreement
+Comprehensive analysis of all v4 results.
 
-**Moderate Performance:**
-- F1 0.5-0.8: Decent detection with room for improvement
-- TUS 50-70: Acceptable understanding
-- Channel Synergy 0.4-0.6: Some disagreement
+**Features:**
+- Automatic detection of synthetic vs. naturalistic baselines
+- Precision, Recall, F1, TUS calculation for synthetic baselines
+- Consensus analysis for naturalistic baselines
+- Cross-embedding agreement metrics
 
-**Low Performance:**
-- F1 < 0.5: Poor detection
-- TUS < 50: Weak understanding
-- Channel Synergy < 0.4: Significant disagreement
+**Output:**
+- Creates incremental `run_XXX` directories (001, 002, 003...)
+- `ANALYSIS_SUMMARY.txt` – Human-readable comprehensive summary
+- `synthetic_baselines_analysis.csv` – Detailed metrics for each run
+- `model_summary_synthetic.csv` – Aggregated model performance
+- `naturalistic_baselines_analysis.json` – Consensus analysis
 
-### For Naturalistic Baselines
+### `visualize_results_v4.py`
 
-**Strong Signal:**
-- High consensus paths with 90%+ agreement
-- Cross-embedding agreement > 0.6
-- Multiple models converging on same paths
+Generates all figures used in the paper.
 
-**Moderate Signal:**
-- Moderate consensus (50-75% agreement)
-- Cross-embedding agreement 0.4-0.6
-- Some model variation
+**Synthetic Baseline Visualizations:**
+- `llm_tus.png` – LLM Performance TUS ranking (Channel C)
+- `embedding_tus.png` – Embedding TUS for Channel A and A+
+- `llm_f1_heatmap.png` – LLM F1 scores by baseline
+- `llm_precision_recall.png` – LLM precision-recall scatter
+- `embedding_precision_recall.png` – Embedding precision-recall
 
-**Weak/Noisy Signal:**
-- Mostly outliers (<25% agreement)
-- Cross-embedding agreement < 0.4
-- High model disagreement
+**Naturalistic Baseline Visualizations:**
+- `{B}_consensus_distribution.png` – Consensus category distribution
+- `{B}_high_consensus_paths.png` – Top agreed-upon paths
+- `{B}_summary.png` – Overall analysis summary
+
+---
+
+## Metrics Explained
+
+### Synthetic Baselines
+
+| Metric | Description |
+|--------|-------------|
+| **Precision** | What % of detections were correct |
+| **Recall** | What % of ground truth was detected |
+| **F1 Score** | Harmonic mean of precision and recall |
+| **TUS** | Transformation Understanding Score (0–100%) |
+
+**TUS Calculation:**
+- *Positive baselines (B2, B3, B5, B6):* TUS = F1 score
+- *Deception baselines (B1, B4, B7, B8):* TUS = 100% for correct rejection, 0% for any false positives
+
+### Naturalistic Baselines
+
+| Consensus Level | Agreement |
+|-----------------|-----------|
+| High | 75%+ |
+| Moderate | 50–74% |
+| Low | 25–49% |
+| Outliers | <25% |
+
+---
+
+## Detection Channels
+
+| Channel | Description |
+|---------|-------------|
+| **A** | Embedding-based detection (full transcript) |
+| **A+** | Embedding-based detection (assistant→user pairs) |
+| **B/B+** | LLM validation of A/A+ (disabled by default) |
+| **C** | Independent LLM reasoning and extraction |
+
+### Embedding Thresholds
+
+| Backend | T1 Threshold | T2 Threshold | Dimensions |
+|---------|--------------|--------------|------------|
+| E5-Large (fine-tuned) | > 0.72 | > 0.75 | 768 |
+| Ada-002 (OpenAI) | > 0.72 | > 0.75 | 1536 |
+| Cohere embed-v3.0 | > 0.50 | > 0.55 | 1024 |
+
+---
 
 ## Model Codes
 
 | Code | Full Name |
 |------|-----------|
-| dee | DeepSeek |
-| gem | Gemini 2.5 Pro |
-| gpt | ChatGPT 5.1 |
-| haiku | Claude Haiku 4.5 |
-| sonnet | Claude Sonnet 4.5 |
-| opus | Claude Opus 4.1 |
+| `dee` | DeepSeek |
+| `gem` | Gemini 2.5 Pro |
+| `gpt` | ChatGPT 5.1 |
+| `haiku` | Claude Haiku 4.5 |
+| `sonnet` | Claude Sonnet 4.5 |
+| `opus` | Claude Opus 4.1 |
 
-## Embedding Backends
+---
 
-| Code | Full Name | Dimensions |
-|------|-----------|------------|
-| e5 | E5-Large (Local fine-tuned) | 768 |
-| ada02 | Ada-002 (OpenAI) | 1536 |
-| cohere | Cohere embed-english-v3.0 | 1024 |
+## Interpreting Results
 
-## Notes
+### High Performance
+- F1 > 0.8: Excellent detection
+- TUS > 70: Strong transformation understanding
 
-### Channel Definitions
+### Moderate Performance
+- F1 0.5–0.8: Decent detection
+- TUS 50–70: Acceptable understanding
 
-- **Channel A**: Embedding-based detection (full transcript)
-- **Channel A+**: Embedding-based detection (assistant→user pairs)
-- **Channel B**: LLM validation of A (disabled by default)
-- **Channel B+**: LLM validation of A+ (disabled by default)
-- **Channel C**: Independent LLM reasoning and extraction
+### Low Performance
+- F1 < 0.5: Poor detection
+- TUS < 50: Weak understanding
 
-### Thresholds
+---
 
-**Embedding Detection (A/A+):**
-- E5/Ada-002: T1 > 0.72, T2 > 0.75
-- Cohere: T1 > 0.50, T2 > 0.55 (softer semantic space)
+## Requirements
 
-**Consensus Levels:**
-- High: 75%+ agreement
-- Moderate: 50-74% agreement
-- Low: 25-49% agreement
-- Outliers: <25% agreement
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
-## Troubleshooting
+---
 
-**Issue:** No results loaded  
-**Solution:** Check v4 directory structure, ensure files follow naming convention
+## Citation
 
-**Issue:** Missing baselines  
-**Solution:** Verify baseline.json exists in each baseline folder
+If you use this dataset, please cite:
 
-**Issue:** Visualization errors  
-**Solution:** Ensure matplotlib/seaborn installed: `pip install matplotlib seaborn pandas numpy`
+**Zenodo:**
+```
+Jimenez Sanchez, J. J. (2025). S64: A Symbolic Framework for Human-AI Meaning Negotiation.
+Zenodo. https://doi.org/10.5281/zenodo.17784637
+```
 
-**Issue:** Encoding errors  
-**Solution:** All scripts use UTF-8 encoding, Windows users should verify
+**BibTeX:**
+```bibtex
+@misc{jimenez2025s64,
+  author = {Jimenez Sanchez, Juan Jacobo},
+  title = {S64: A Symbolic Framework for Human-AI Meaning Negotiation},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.17784637},
+  url = {https://doi.org/10.5281/zenodo.17784637}
+}
+```
 
-## Future Enhancements
+---
 
-- [ ] Weighted scoring for secondary targets
-- [ ] Temporal cascade architecture analysis
-- [ ] T1-only vs T1+T2 detection comparison
-- [ ] Statistical significance testing
-- [ ] Interactive dashboards
-- [ ] Automated report generation
+## Links
 
-## Contact
-
-For questions or issues, refer to the main S64 validation documentation.
+- **Paper (HTML & PDF)**: [aicoevolution.com/s64-paper](https://www.aicoevolution.com/s64-paper)
+- **Zenodo (archival)**: [10.5281/zenodo.17784637](https://doi.org/10.5281/zenodo.17784637)
+- **GitHub**: [AICoevolution/mirrormind-research](https://github.com/AICoevolution/mirrormind-research)
+- **Author**: research@aicoevolution.com
